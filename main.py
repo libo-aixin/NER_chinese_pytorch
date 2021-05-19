@@ -13,9 +13,13 @@ import torch.optim as optim
 from data_manager import DataManager
 from model import BiLSTMCRF
 from utils import f1_score, get_tags, format_result
+import argparse
 
+parser = argparse.ArgumentParser(description='NER training ')
+parser.add_argument('--epochs',default=100,help='set epochs for training')
 
-epochs = 100
+args = parser.parse_args()
+epochs = args.epochs
 class ChineseNER(object):
     
     def __init__(self, entry="train"):
