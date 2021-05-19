@@ -5,7 +5,7 @@
 '''
 import pickle
 import sys
-
+import json
 import yaml
 
 import torch
@@ -172,13 +172,37 @@ class ChineseNER(object):
             tags = get_tags(paths[0], tag, self.tag_map)
             entities += format_result(tags, input_str, tag)
         return entities
-    def test(self,input_path = ""):
-        sentences, labels, length = zip(*self.test_batch.__next__())
-        _, paths = self.model(sentences)
-        entities = []
-        for tag in self.tags:
-            tags = get_tags(paths[0], tag, self.tag_map)
-            entities += format_result(tags, sentences, tag)
+    def test(self):
+        data=[]
+        with open(r'./data/test.json', 'r', encoding='utf8') as inp:
+            for line in inp.readlines():
+                data.append(json.loads(line.strip().split('\n')[0]))
+#        print(line.split('\n'))
+        data_all=[]
+        for i in range(len(data)):
+            dict={}
+            for key in data[i]['label']:
+                dict[key]=[]
+                for key1 in data[i]['label'][key]:
+                    dict[key].append(data[i]['label'][key][key1][0])
+        #stored is the location information of each name corresponding to each row
+            data_all.append(dict)
+        for i in range(len(data_all)):
+            sentence=data[i]['text']
+            label = data[i]['label']
+            print(f'----input text----\n {sentence}')
+            print(f'----ture label----\n {label}')
+            input_vec = [self.vocab.get(i, 0) for i in sentence]
+            s = torch.tensor(input_vec).view(1, -1)
+            _, paths = self.model(s)
+            entities = []
+            for tag in self.tags:
+                tags = get_tags(paths[0], tag, self.tag_map)
+                entitie = format_result(tags, sentence, tag)
+                if entitie:
+                    print(f'----predict label----\n {entitie}')
+                entities += entitie
+                
         self.test_evaluae()
         return entities
 

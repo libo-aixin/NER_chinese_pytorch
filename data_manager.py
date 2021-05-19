@@ -86,7 +86,7 @@ class DataManager():
                 if tag not in self.tag_map and self.data_type == "train" and tag in self.tags:
                     self.tag_map[tag] = len(self.tag_map.keys())
                 sentence.append(self.vocab.get(word, 0))
-                print(f'sentence is {self.vocab.get(word,0)}') 
+#                print(f'sentence is {self.vocab.get(word,0)}') 
                 target.append(self.tag_map.get(tag, 0))
         self.input_size = len(self.vocab.values())
         print("{} data: {}".format(self.data_type ,len(self.data)))
@@ -125,7 +125,7 @@ class DataManager():
     
     def pad_data(self, data):
         c_data = copy.deepcopy(data)
-        print(f'show me the {c_data}')
+#        print(f'show me the {c_data}')
         max_length = max([len(i[0]) for i in c_data])
         for i in c_data:
             i.append(len(i[0]))

@@ -6,14 +6,18 @@ created on 5/15 2021
 
 import json
 import pandas as pd
+import argparse
 
-
+parser = argparse.ArgumentParser(description='convert dataset to BIEO format')
+parser.add_argument('--input_json',default='./train.json',help = 'path to json file')
+parser.add_argument('--output',default='NER_train',help= 'output file name')
+args = parser.parse_args()
 #use the script to convert the original text into a dataset in BIEO format
 data=[]
-with open(r'/mnt/public/libo/github/rnn/chinese_NER_pytorch/data/test.json', 'r', encoding='utf8') as inp:
+with open(args.input_json, 'r', encoding='utf8') as inp:
     for line in inp.readlines():
         data.append(json.loads(line.strip().split('\n')[0]))
-        print(line.split('\n'))
+#        print(line.split('\n'))
 data_all=[]
 for i in range(len(data)):
     dict={}
@@ -26,6 +30,7 @@ for i in range(len(data)):
 index_all=[] #store the value of each sentence length
 for i in range(len(data_all)):
     d=data[i]['text']
+    print(f'text is :{d}')
     index_1=[]
     for j in range(len(d)):
         index_1.append(j)
@@ -89,6 +94,6 @@ for i in range(len(data)):
     for j in range(len(data_dic[i])):
         str1=str1+""+data_dic[i][j][1]
     data_f.append(str1)
-with open(r'NER_test', 'w', encoding='utf8') as f:
+with open(args.output, 'w', encoding='utf8') as f:
     for line in data_f:
         f.write(line+"end\n")
