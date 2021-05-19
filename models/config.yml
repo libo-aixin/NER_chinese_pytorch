@@ -1,8 +1,8 @@
-embedding_size: 100
+embedding_size: 500
 hidden_size: 128
 model_path: models/
 batch_size: 64
-dropout: 0.5
+dropout: 0.3
 tags:
   # - PER
   # - ORG
@@ -18,12 +18,3 @@ tags:
   - scene
   - chinese_political_party
 
-  # - BOOK
-  # - COMP
-  # - GAME
-  # - GOVE
-  # - MOVI
-  # - NAME
-  # - ORGA
-  # - POSI
-  # - SCEN
