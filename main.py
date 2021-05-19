@@ -202,6 +202,10 @@ class ChineseNER(object):
                 if entitie:
                     print(f'----predict label----\n {entitie}')
                 entities += entitie
+            with open('test_output','a+',encoding='utf-8') as f:
+                f.write('input text\n' +str(sentence) 
+                         +'\n'+'ture label \n'+str(label) +
+                         '\n' +'predict label\n'+str(entitie))
                 
         self.test_evaluae()
         return entities
