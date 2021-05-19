@@ -24,17 +24,17 @@ setp 1: edit **models/config.yml**
 
 step 2: train
 
-    python3 main.py train
+    python3 main.py --run_mode train
     
 
 ### predict
 
-    python3 main.py predict
+    python3 main.py --run_mode predict
     
     请输入文本: 中国农业发展银行近日联合下发通知，中国电竞运动中心自成立以来，在国家体育总局、北京市和石景山区相关部门的大力支持下
     [{'start': 39, 'stop': 42, 'word': '北京市', 'type': 'address'}, {'start': 43, 'stop': 51, 'word': '石景山区相关部门', 'type': 'address'}, {'start': 52, 'stop': 57, 'word': '大力支持下', 'type': 'address'}, {'start': 0, 'stop': 8, 'word': '中国农业发展银行', 'type': 'company'}, {'start': 32, 'stop': 38, 'word': '国家体育总局', 'type': 'government'}]
 ### test
-    python3 main.py test
+    python3 main.py --run_mode test
     
     show the predict label
     model restore success!

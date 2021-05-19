@@ -16,8 +16,8 @@ from utils import f1_score, get_tags, format_result
 import argparse
 
 parser = argparse.ArgumentParser(description='NER training ')
+parser.add_argument('--run_mode',default='train',help = 'set a run mode form [train,predict,test]')
 parser.add_argument('--epochs',default=100,help='set epochs for training')
-
 args = parser.parse_args()
 epochs = args.epochs
 class ChineseNER(object):
@@ -205,11 +205,12 @@ class ChineseNER(object):
                 entitie = format_result(tags, sentence, tag)
                 if entitie:
                     print(f'----predict label----\n {entitie}')
+                    with open('test_output','a+',encoding='utf-8') as f:
+                        f.write('input text\n' +str(sentence) 
+                                +'\n'+'ture label \n'+str(label) +
+                                '\n' +'predict label\n'+str(entitie)+'\n')
                 entities += entitie
-            with open('test_output','a+',encoding='utf-8') as f:
-                f.write('input text\n' +str(sentence) 
-                         +'\n'+'ture label \n'+str(label) +
-                         '\n' +'predict label\n'+str(entitie))
+            
                 
         self.test_evaluae()
         return entities
@@ -220,12 +221,12 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("menu:\n\ttrain\n\tpredict")
         exit()  
-    if sys.argv[1] == "train":
+    if args.run_mode == "train":
         cn = ChineseNER("train")
         cn.train()
-    elif sys.argv[1] == "predict":
+    elif args.run_mode == "predict":
         cn = ChineseNER("predict")
         print(cn.predict())
-    elif sys.argv[1] == 'test':
+    elif args.run_mode == 'test':
         cn = ChineseNER('test')
         print(cn.test())
