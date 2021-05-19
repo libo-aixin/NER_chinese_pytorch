@@ -58,6 +58,22 @@ class ChineseNER(object):
                 hidden_dim=self.hidden_size
             )
             self.restore_model()
+        elif entry == 'test':
+            test_manager = DataManager(batch_size=30, data_type="test")
+            self.test_batch = test_manager.iteration()
+            data_map = self.load_params()
+            input_size = data_map.get("input_size")
+            self.tag_map = data_map.get("tag_map")
+            self.vocab = data_map.get("vocab")
+
+            self.model = BiLSTMCRF(
+                tag_map=self.tag_map,
+                vocab_size=input_size,
+                embedding_dim=self.embedding_size,
+                hidden_dim=self.hidden_size
+            )
+            self.restore_model()
+
 
     def load_config(self):
         try:
@@ -127,6 +143,15 @@ class ChineseNER(object):
                 optimizer.step()
                 torch.save(self.model.state_dict(), self.model_path+'params.pkl')
 
+    def test_evaluae(self):
+        sentences, labels, length = zip(*self.test_batch.__next__())
+        _, paths = self.model(sentences)
+        print("\teval")
+        for tag in self.tags:
+            f1_score(labels, paths, tag, self.model.tag_map)
+        
+
+
     def evaluate(self):
         sentences, labels, length = zip(*self.dev_batch.__next__())
         _, paths = self.model(sentences)
@@ -147,6 +172,17 @@ class ChineseNER(object):
             tags = get_tags(paths[0], tag, self.tag_map)
             entities += format_result(tags, input_str, tag)
         return entities
+    def test(self,input_path = ""):
+        sentences, labels, length = zip(*self.test_batch.__next__())
+        _, paths = self.model(sentences)
+        entities = []
+        for tag in self.tags:
+            tags = get_tags(paths[0], tag, self.tag_map)
+            entities += format_result(tags, sentences, tag)
+        self.test_evaluae()
+        return entities
+
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -158,3 +194,6 @@ if __name__ == "__main__":
     elif sys.argv[1] == "predict":
         cn = ChineseNER("predict")
         print(cn.predict())
+    elif sys.argv[1] == 'test':
+        cn = ChineseNER('test')
+        print(cn.test())

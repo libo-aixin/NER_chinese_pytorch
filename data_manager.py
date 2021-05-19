@@ -41,7 +41,7 @@ class DataManager():
             self.data_path = "data/NER_dev"
             self.load_data_map()
         elif data_type == "test":
-            self.data_path = "data/test"
+            self.data_path = "data/NER_test"
             self.load_data_map()
 
         self.load_data()

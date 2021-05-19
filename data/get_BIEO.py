@@ -10,7 +10,7 @@ import pandas as pd
 
 #use the script to convert the original text into a dataset in BIEO format
 data=[]
-with open(r'/mnt/public/libo/github/rnn/chinese_NER_pytorch/data/train.json', 'r', encoding='utf8') as inp:
+with open(r'/mnt/public/libo/github/rnn/chinese_NER_pytorch/data/test.json', 'r', encoding='utf8') as inp:
     for line in inp.readlines():
         data.append(json.loads(line.strip().split('\n')[0]))
         print(line.split('\n'))
@@ -89,6 +89,6 @@ for i in range(len(data)):
     for j in range(len(data_dic[i])):
         str1=str1+""+data_dic[i][j][1]
     data_f.append(str1)
-with open(r'NER_train', 'w', encoding='utf8') as f:
+with open(r'NER_test', 'w', encoding='utf8') as f:
     for line in data_f:
         f.write(line+"end\n")
