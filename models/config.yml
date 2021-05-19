@@ -1,0 +1,29 @@
+embedding_size: 100
+hidden_size: 128
+model_path: models/
+batch_size: 64
+dropout: 0.5
+tags:
+  # - PER
+  # - ORG
+  - organization
+  - name
+  - address
+  - company
+  - government
+  - book
+  - game
+  - movie 
+  - position
+  - scene
+  - chinese_political_party
+
+  # - BOOK
+  # - COMP
+  # - GAME
+  # - GOVE
+  # - MOVI
+  # - NAME
+  # - ORGA
+  # - POSI
+  # - SCEN
