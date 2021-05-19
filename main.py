@@ -16,8 +16,8 @@ from utils import f1_score, get_tags, format_result
 import argparse
 
 parser = argparse.ArgumentParser(description='NER training ')
-parser.add_argument('--run_mode',default='train',help = 'set a run mode form [train,predict,test]')
-parser.add_argument('--epochs',default=100,help='set epochs for training')
+parser.add_argument('--run_mode',default='train',type = str,help = 'set a run mode form [train,predict,test]')
+parser.add_argument('--epochs',default=100,type =int,help='set epochs for training')
 args = parser.parse_args()
 epochs = args.epochs
 class ChineseNER(object):
