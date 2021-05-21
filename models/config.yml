@@ -1,11 +1,9 @@
-embedding_size: 500
-hidden_size: 128
+embedding_size: 1000
+hidden_size: 256
 model_path: models/
-batch_size: 64
-dropout: 0.3
+batch_size: 256
+dropout: 0.5
 tags:
-  # - PER
-  # - ORG
   - organization
   - name
   - address

@@ -4834,3 +4834,4719 @@ ture label
 {'address': {'卡帕莱': [[0, 2]]}}
 predict label
 [{'start': 23, 'stop': 26, 'word': '尼莫鱼', 'type': 'scene'}]
+input text
+中国国际数码互动娱乐展览会ChinaJoy于2010年7月29日在上海国际博览中心开幕，
+ture label 
+{'address': {'上海国际博览中心': [[33, 40]]}, 'organization': {'中国国际数码互动娱乐展览会ChinaJoy': [[0, 20]]}}
+predict label
+[{'start': 0, 'stop': 13, 'word': '中国国际数码互动娱乐展览会', 'type': 'organization'}]
+input text
+中国国际数码互动娱乐展览会ChinaJoy于2010年7月29日在上海国际博览中心开幕，
+ture label 
+{'address': {'上海国际博览中心': [[33, 40]]}, 'organization': {'中国国际数码互动娱乐展览会ChinaJoy': [[0, 20]]}}
+predict label
+[{'start': 13, 'stop': 21, 'word': 'ChinaJoy', 'type': 'name'}]
+input text
+中国国际数码互动娱乐展览会ChinaJoy于2010年7月29日在上海国际博览中心开幕，
+ture label 
+{'address': {'上海国际博览中心': [[33, 40]]}, 'organization': {'中国国际数码互动娱乐展览会ChinaJoy': [[0, 20]]}}
+predict label
+[{'start': 33, 'stop': 43, 'word': '上海国际博览中心开幕', 'type': 'address'}]
+input text
+当地时间周三花园球馆的发言人称他们得到了相关专业人员的保证，目前球馆已经没有什么问题。
+ture label 
+{'address': {'花园球馆': [[6, 9]]}}
+predict label
+[{'start': 6, 'stop': 10, 'word': '花园球馆', 'type': 'address'}]
+input text
+此罐目前在国内只发现几个，最著名的青花的收藏在北京故宫博物院，和该器题材一样，俗话说青花为贵，
+ture label 
+{'scene': {'北京故宫博物院': [[23, 29]]}}
+predict label
+[{'start': 23, 'stop': 27, 'word': '北京故宫', 'type': 'scene'}, {'start': 27, 'stop': 30, 'word': '博物院', 'type': 'scene'}]
+input text
+两队上季曾在足总杯中相遇，纽卡客场0比0，主场4比1过关。不过纽卡本季的表现实在糟糕，
+ture label 
+{'organization': {'足总杯': [[6, 8]], '纽卡': [[13, 14], [31, 32]]}}
+predict label
+[{'start': 13, 'stop': 15, 'word': '纽卡', 'type': 'organization'}, {'start': 31, 'stop': 33, 'word': '纽卡', 'type': 'organization'}]
+input text
+巨人网络董事会主席兼CEO史玉柱解释称，“在第三季度的7月，我们对《征途》
+ture label 
+{'game': {'《征途》': [[33, 36]]}, 'position': {'巨人网络董事会主席': [[0, 8]], 'CEO': [[10, 12]]}}
+predict label
+[{'start': 13, 'stop': 16, 'word': '史玉柱', 'type': 'name'}]
+input text
+巨人网络董事会主席兼CEO史玉柱解释称，“在第三季度的7月，我们对《征途》
+ture label 
+{'game': {'《征途》': [[33, 36]]}, 'position': {'巨人网络董事会主席': [[0, 8]], 'CEO': [[10, 12]]}}
+predict label
+[{'start': 33, 'stop': 37, 'word': '《征途》', 'type': 'book'}]
+input text
+巨人网络董事会主席兼CEO史玉柱解释称，“在第三季度的7月，我们对《征途》
+ture label 
+{'game': {'《征途》': [[33, 36]]}, 'position': {'巨人网络董事会主席': [[0, 8]], 'CEO': [[10, 12]]}}
+predict label
+[{'start': 7, 'stop': 9, 'word': '主席', 'type': 'position'}, {'start': 10, 'stop': 13, 'word': 'CEO', 'type': 'position'}]
+input text
+1989年我访问南美洲时，有人告诉我有些大河像密西西比河一样出现相同的问题。如今，
+ture label 
+{'address': {'南美洲': [[8, 10]]}, 'scene': {'密西西比河': [[23, 27]]}}
+predict label
+[{'start': 20, 'stop': 28, 'word': '大河像密西西比河', 'type': 'scene'}]
+input text
+我不是网吧，我enternet”为主题，生动说明了其经营特色。广州市绝顶高手网吧以良好的环境，
+ture label 
+{'address': {'广州市绝顶高手网吧': [[31, 39]]}}
+predict label
+[{'start': 31, 'stop': 40, 'word': '广州市绝顶高手网吧', 'type': 'address'}]
+input text
+盖茨13日在国会山与共和党国会议员就法案举行闭门会谈。
+ture label 
+{'address': {'国会山': [[6, 8]]}, 'name': {'盖茨': [[0, 1]]}, 'position': {'会议员': [[14, 16]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '盖茨', 'type': 'name'}]
+input text
+盖茨13日在国会山与共和党国会议员就法案举行闭门会谈。
+ture label 
+{'address': {'国会山': [[6, 8]]}, 'name': {'盖茨': [[0, 1]]}, 'position': {'会议员': [[14, 16]]}}
+predict label
+[{'start': 10, 'stop': 15, 'word': '共和党国会', 'type': 'government'}]
+input text
+盖茨13日在国会山与共和党国会议员就法案举行闭门会谈。
+ture label 
+{'address': {'国会山': [[6, 8]]}, 'name': {'盖茨': [[0, 1]]}, 'position': {'会议员': [[14, 16]]}}
+predict label
+[{'start': 6, 'stop': 9, 'word': '国会山', 'type': 'scene'}]
+input text
+六月底到七月中旬，香港中央图书馆举行“书香·港情”的文学节，而香港电影资料馆则在此之前举办“
+ture label 
+{'scene': {'香港中央图书馆': [[9, 15]]}}
+predict label
+[{'start': 9, 'stop': 16, 'word': '香港中央图书馆', 'type': 'address'}]
+input text
+六月底到七月中旬，香港中央图书馆举行“书香·港情”的文学节，而香港电影资料馆则在此之前举办“
+ture label 
+{'scene': {'香港中央图书馆': [[9, 15]]}}
+predict label
+[{'start': 31, 'stop': 38, 'word': '香港电影资料馆', 'type': 'scene'}]
+input text
+热刺还没有反弹的迹象，周中联盟杯好不容易拼了个平局，淘汰了波兰的克拉科夫队。主力中卫莱德利-
+ture label 
+{'organization': {'热刺': [[0, 1]], '联盟杯': [[13, 15]], '克拉科夫队': [[32, 36]]}, 'name': {'莱德利': [[42, 44]]}, 'position': {'中卫': [[40, 41]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '热刺', 'type': 'organization'}, {'start': 13, 'stop': 16, 'word': '联盟杯', 'type': 'organization'}, {'start': 32, 'stop': 37, 'word': '克拉科夫队', 'type': 'organization'}]
+input text
+热刺还没有反弹的迹象，周中联盟杯好不容易拼了个平局，淘汰了波兰的克拉科夫队。主力中卫莱德利-
+ture label 
+{'organization': {'热刺': [[0, 1]], '联盟杯': [[13, 15]], '克拉科夫队': [[32, 36]]}, 'name': {'莱德利': [[42, 44]]}, 'position': {'中卫': [[40, 41]]}}
+predict label
+[{'start': 40, 'stop': 42, 'word': '中卫', 'type': 'position'}]
+input text
+可能更多更优势的企业家会说，我到丽泽来，我会来建设，不仅仅这个企业来影响，
+ture label 
+{'address': {'丽泽': [[16, 17]]}, 'position': {'企业家': [[8, 10]]}}
+predict label
+[{'start': 16, 'stop': 19, 'word': '丽泽来', 'type': 'scene'}]
+input text
+嘉宾：中信地产营销管理部副经理梁丽红
+ture label 
+{'name': {'梁丽红': [[15, 17]]}, 'company': {'中信地产': [[3, 6]]}, 'position': {'副经理': [[12, 14]]}}
+predict label
+[{'start': 3, 'stop': 7, 'word': '中信地产', 'type': 'company'}]
+input text
+嘉宾：中信地产营销管理部副经理梁丽红
+ture label 
+{'name': {'梁丽红': [[15, 17]]}, 'company': {'中信地产': [[3, 6]]}, 'position': {'副经理': [[12, 14]]}}
+predict label
+[{'start': 12, 'stop': 15, 'word': '副经理', 'type': 'position'}]
+input text
+这是丰台区政府推动商务区建设非常重要的着力点，要通过规划引导，通过品牌的打造来形成个性比较鲜明，
+ture label 
+{'government': {'丰台区政府': [[2, 6]]}}
+predict label
+[{'start': 2, 'stop': 7, 'word': '丰台区政府', 'type': 'government'}]
+input text
+《但丁的地狱》将在PC和次世代主机平台发行，2010年上市。
+ture label 
+{'game': {'《但丁的地狱》': [[0, 6]]}}
+predict label
+[{'start': 0, 'stop': 7, 'word': '《但丁的地狱》', 'type': 'game'}]
+input text
+全省最重要的城市赛区长沙赛区在长沙博联网络天马店打响。来自全省各地各项目的知名选手都悉数到场参赛。
+ture label 
+{'address': {'长沙博联网络天马店': [[15, 23]]}}
+predict label
+[{'start': 15, 'stop': 24, 'word': '长沙博联网络天马店', 'type': 'address'}]
+input text
+全省最重要的城市赛区长沙赛区在长沙博联网络天马店打响。来自全省各地各项目的知名选手都悉数到场参赛。
+ture label 
+{'address': {'长沙博联网络天马店': [[15, 23]]}}
+predict label
+[{'start': 39, 'stop': 41, 'word': '选手', 'type': 'position'}]
+input text
+银行在高速增长时期发放的贷款将面临较大的信用风险等方面因素，李力预计，
+ture label 
+{'name': {'李力': [[30, 31]]}}
+predict label
+[{'start': 30, 'stop': 32, 'word': '李力', 'type': 'name'}]
+input text
+美国国务院上周表示，美军此次访问将加强两国人民及军队间的关系。
+ture label 
+{'government': {'美国国务院': [[0, 4]], '美军': [[10, 11]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '美国国务院', 'type': 'government'}, {'start': 10, 'stop': 12, 'word': '美军', 'type': 'government'}, {'start': 20, 'stop': 26, 'word': '国人民及军队', 'type': 'government'}]
+input text
+今年6月1日，北京市政府第10期《政府公报》发布了《关于已购经适房上市交易的有关通知》，
+ture label 
+{'government': {'北京市政府': [[7, 11]]}, 'book': {'《政府公报》': [[16, 21]], '《关于已购经适房上市交易的有关通知》': [[25, 42]]}}
+predict label
+[{'start': 7, 'stop': 12, 'word': '北京市政府', 'type': 'government'}]
+input text
+今年6月1日，北京市政府第10期《政府公报》发布了《关于已购经适房上市交易的有关通知》，
+ture label 
+{'government': {'北京市政府': [[7, 11]]}, 'book': {'《政府公报》': [[16, 21]], '《关于已购经适房上市交易的有关通知》': [[25, 42]]}}
+predict label
+[{'start': 16, 'stop': 22, 'word': '《政府公报》', 'type': 'book'}, {'start': 25, 'stop': 43, 'word': '《关于已购经适房上市交易的有关通知》', 'type': 'book'}]
+input text
+为了让读者更加了解这种方式该如何使用，本刊记者特别对几种常用的第三方支付还款，如“银联在线”、“
+ture label 
+{'company': {'银联': [[41, 42]]}, 'position': {'记者': [[21, 22]]}}
+predict label
+[{'start': 41, 'stop': 43, 'word': '银联', 'type': 'company'}]
+input text
+为了让读者更加了解这种方式该如何使用，本刊记者特别对几种常用的第三方支付还款，如“银联在线”、“
+ture label 
+{'company': {'银联': [[41, 42]]}, 'position': {'记者': [[21, 22]]}}
+predict label
+[{'start': 21, 'stop': 23, 'word': '记者', 'type': 'position'}]
+input text
+2015年浙江乌镇乌村旅游度假村民宿设计总负责人2016
+ture label 
+{'address': {'浙江乌镇乌村旅游度假村': [[5, 15]]}}
+predict label
+[{'start': 5, 'stop': 11, 'word': '浙江乌镇乌村', 'type': 'company'}]
+input text
+2015年浙江乌镇乌村旅游度假村民宿设计总负责人2016
+ture label 
+{'address': {'浙江乌镇乌村旅游度假村': [[5, 15]]}}
+predict label
+[{'start': 16, 'stop': 24, 'word': '民宿设计总负责人', 'type': 'position'}]
+input text
+也是北太平洋岛屿中最大最好的安全停泊港口之一，
+ture label 
+{'address': {'北太平洋': [[2, 5]]}}
+predict label
+[{'start': 2, 'stop': 7, 'word': '北太平洋岛', 'type': 'address'}]
+input text
+可以私下和黄设计师交流，上一场提供了免费看户型，现在我们抽取三个免费看户型的名额。
+ture label 
+{'position': {'设计师': [[6, 8]]}}
+predict label
+[{'start': 6, 'stop': 9, 'word': '设计师', 'type': 'position'}]
+input text
+km红旗区骆驼湾新村53号2.4竹馨居河南省新乡市红旗区荣km校东路599号1-1-
+ture label 
+{'address': {'红旗区骆驼湾新村53号2.4竹馨居': [[2, 18]], '河南省新乡市红旗区荣km校东路599号': [[19, 37]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': 'm红旗区', 'type': 'address'}]
+input text
+骑行于环海西路上，一边是蔚蓝的洱海，一边是广袤的田野，时而穿梭于白族渔村之中，
+ture label 
+{'address': {'环海西路': [[3, 6]], '白族渔村': [[32, 35]]}}
+predict label
+[{'start': 3, 'stop': 7, 'word': '环海西路', 'type': 'address'}]
+input text
+骑行于环海西路上，一边是蔚蓝的洱海，一边是广袤的田野，时而穿梭于白族渔村之中，
+ture label 
+{'address': {'环海西路': [[3, 6]], '白族渔村': [[32, 35]]}}
+predict label
+[{'start': 15, 'stop': 17, 'word': '洱海', 'type': 'scene'}]
+input text
+《冰与火之歌》在国内不是很有名，但在国外是可以与《指环王》小说媲美的史诗级奇幻巨著。
+ture label 
+{'book': {'《冰与火之歌》': [[0, 6]], '《指环王》': [[24, 28]]}}
+predict label
+[{'start': 0, 'stop': 7, 'word': '《冰与火之歌》', 'type': 'book'}]
+input text
+《冰与火之歌》在国内不是很有名，但在国外是可以与《指环王》小说媲美的史诗级奇幻巨著。
+ture label 
+{'book': {'《冰与火之歌》': [[0, 6]], '《指环王》': [[24, 28]]}}
+predict label
+[{'start': 24, 'stop': 29, 'word': '《指环王》', 'type': 'movie'}]
+input text
+并与世界各地的许多大型银行进行了会谈。但从未与中国工商银行进行过谈判。到目前为止，
+ture label 
+{'company': {'中国工商银行': [[23, 28]]}}
+predict label
+[{'start': 23, 'stop': 29, 'word': '中国工商银行', 'type': 'company'}]
+input text
+上海木材行业协会红木专业委员会副会长贾德界表示，目前红木家具价格不会大幅下跌，“
+ture label 
+{'name': {'贾德界': [[18, 20]]}, 'position': {'上海木材行业协会红木专业委员会副会长': [[0, 17]]}}
+predict label
+[{'start': 0, 'stop': 8, 'word': '上海木材行业协会', 'type': 'organization'}, {'start': 8, 'stop': 15, 'word': '红木专业委员会', 'type': 'organization'}]
+input text
+上海木材行业协会红木专业委员会副会长贾德界表示，目前红木家具价格不会大幅下跌，“
+ture label 
+{'name': {'贾德界': [[18, 20]]}, 'position': {'上海木材行业协会红木专业委员会副会长': [[0, 17]]}}
+predict label
+[{'start': 18, 'stop': 20, 'word': '贾德', 'type': 'name'}]
+input text
+上海木材行业协会红木专业委员会副会长贾德界表示，目前红木家具价格不会大幅下跌，“
+ture label 
+{'name': {'贾德界': [[18, 20]]}, 'position': {'上海木材行业协会红木专业委员会副会长': [[0, 17]]}}
+predict label
+[{'start': 15, 'stop': 18, 'word': '副会长', 'type': 'position'}]
+input text
+夏威夷当然不止火山，除了火山，你还可以从空中俯看热带雨林和美丽的瀑布，这里是好莱坞大片的拍摄地，
+ture label 
+{'address': {'夏威夷': [[0, 2]]}, 'scene': {'火山': [[7, 8]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '威夷', 'type': 'name'}]
+input text
+夏威夷当然不止火山，除了火山，你还可以从空中俯看热带雨林和美丽的瀑布，这里是好莱坞大片的拍摄地，
+ture label 
+{'address': {'夏威夷': [[0, 2]]}, 'scene': {'火山': [[7, 8]]}}
+predict label
+[{'start': 38, 'stop': 41, 'word': '好莱坞', 'type': 'address'}]
+input text
+中山市红木家具发展研究开发中心总工程师曹新民表示，行业最不景气的时间应该为2008年。据他介绍，
+ture label 
+{'name': {'曹新民': [[19, 21]]}, 'company': {'中山市红木家具发展研究开发中心': [[0, 14]]}, 'position': {'工程师': [[16, 18]]}}
+predict label
+[{'start': 0, 'stop': 15, 'word': '中山市红木家具发展研究开发中心', 'type': 'organization'}]
+input text
+中山市红木家具发展研究开发中心总工程师曹新民表示，行业最不景气的时间应该为2008年。据他介绍，
+ture label 
+{'name': {'曹新民': [[19, 21]]}, 'company': {'中山市红木家具发展研究开发中心': [[0, 14]]}, 'position': {'工程师': [[16, 18]]}}
+predict label
+[{'start': 19, 'stop': 22, 'word': '曹新民', 'type': 'name'}]
+input text
+中山市红木家具发展研究开发中心总工程师曹新民表示，行业最不景气的时间应该为2008年。据他介绍，
+ture label 
+{'name': {'曹新民': [[19, 21]]}, 'company': {'中山市红木家具发展研究开发中心': [[0, 14]]}, 'position': {'工程师': [[16, 18]]}}
+predict label
+[{'start': 15, 'stop': 19, 'word': '总工程师', 'type': 'position'}]
+input text
+据当地业主的调查数据以及本刊记者走访发现，距离安苑小区仅300米的丽日青城商品房小区，
+ture label 
+{'address': {'安苑小区': [[23, 26]], '丽日青城商品房小区': [[33, 41]]}, 'position': {'记者': [[14, 15]]}}
+predict label
+[{'start': 24, 'stop': 27, 'word': '苑小区', 'type': 'address'}, {'start': 33, 'stop': 42, 'word': '丽日青城商品房小区', 'type': 'address'}]
+input text
+据当地业主的调查数据以及本刊记者走访发现，距离安苑小区仅300米的丽日青城商品房小区，
+ture label 
+{'address': {'安苑小区': [[23, 26]], '丽日青城商品房小区': [[33, 41]]}, 'position': {'记者': [[14, 15]]}}
+predict label
+[{'start': 14, 'stop': 16, 'word': '记者', 'type': 'position'}]
+input text
+2公里，建议从斗兽场到西班牙广场步行，回来的时候，坐马车游览入乡随俗，在千年左右的街道，坐着马车，
+ture label 
+{'scene': {'斗兽场': [[7, 9]], '西班牙广场': [[11, 15]]}}
+predict label
+[{'start': 11, 'stop': 16, 'word': '西班牙广场', 'type': 'address'}]
+input text
+图为parkviewgreen芳草地执行董事黄培修介绍项目的绿色环保特色及理念
+ture label 
+{'address': {'parkviewgreen': [[2, 14]], '芳草地': [[15, 17]]}, 'name': {'黄培修': [[22, 24]]}, 'position': {'执行董事': [[18, 21]]}}
+predict label
+[{'start': 22, 'stop': 25, 'word': '黄培修', 'type': 'name'}]
+input text
+图为parkviewgreen芳草地执行董事黄培修介绍项目的绿色环保特色及理念
+ture label 
+{'address': {'parkviewgreen': [[2, 14]], '芳草地': [[15, 17]]}, 'name': {'黄培修': [[22, 24]]}, 'position': {'执行董事': [[18, 21]]}}
+predict label
+[{'start': 2, 'stop': 18, 'word': 'parkviewgreen芳草地', 'type': 'address'}]
+input text
+图为parkviewgreen芳草地执行董事黄培修介绍项目的绿色环保特色及理念
+ture label 
+{'address': {'parkviewgreen': [[2, 14]], '芳草地': [[15, 17]]}, 'name': {'黄培修': [[22, 24]]}, 'position': {'执行董事': [[18, 21]]}}
+predict label
+[{'start': 18, 'stop': 22, 'word': '执行董事', 'type': 'position'}]
+input text
+前几天中午11点多，家住浙江海宁市区的张奶奶在女儿的搀扶下，捂着肚子，弓着身子，
+ture label 
+{'address': {'浙江海宁市区': [[12, 17]]}}
+predict label
+[{'start': 12, 'stop': 18, 'word': '浙江海宁市区', 'type': 'address'}]
+input text
+本作作为所有MOD游戏的鼻祖，源自具有多项意义的《半条命》游戏，
+ture label 
+{'game': {'《半条命》': [[24, 28]]}}
+predict label
+[{'start': 24, 'stop': 29, 'word': '《半条命》', 'type': 'game'}]
+input text
+在这里，你可以找寻《庙街十二少》里的古惑仔，在人流里找寻《新不了情》里庙街街头艺人的女儿阿敏，
+ture label 
+{'movie': {'《庙街十二少》': [[9, 15]], '《新不了情》': [[28, 33]]}, 'position': {'街头艺人': [[37, 40]]}}
+predict label
+[{'start': 9, 'stop': 16, 'word': '《庙街十二少》', 'type': 'movie'}, {'start': 18, 'stop': 21, 'word': '古惑仔', 'type': 'movie'}]
+input text
+甚至朱自清都对西山有过描述。另外就是山林的感觉。
+ture label 
+{'address': {'西山': [[7, 8]]}, 'name': {'朱自清': [[2, 4]]}}
+predict label
+[{'start': 2, 'stop': 5, 'word': '朱自清', 'type': 'name'}]
+input text
+甚至朱自清都对西山有过描述。另外就是山林的感觉。
+ture label 
+{'address': {'西山': [[7, 8]]}, 'name': {'朱自清': [[2, 4]]}}
+predict label
+[{'start': 7, 'stop': 9, 'word': '西山', 'type': 'address'}]
+input text
+《龙与地下城》影响业界
+ture label 
+{'game': {'《龙与地下城》': [[0, 6]]}}
+predict label
+[{'start': 0, 'stop': 7, 'word': '《龙与地下城》', 'type': 'game'}]
+input text
+新华网圣地亚哥10月5日电（记者赵燕燕）智利《信使报》5日报道称，智利比索近一周贬值幅度达2.
+ture label 
+{'address': {'圣地亚哥': [[3, 6]], '智利': [[20, 21], [33, 34]]}, 'book': {'《信使报》': [[22, 26]]}, 'name': {'赵燕燕': [[16, 18]]}, 'company': {'新华网': [[0, 2]]}, 'position': {'记者': [[14, 15]]}}
+predict label
+[{'start': 16, 'stop': 19, 'word': '赵燕燕', 'type': 'name'}]
+input text
+新华网圣地亚哥10月5日电（记者赵燕燕）智利《信使报》5日报道称，智利比索近一周贬值幅度达2.
+ture label 
+{'address': {'圣地亚哥': [[3, 6]], '智利': [[20, 21], [33, 34]]}, 'book': {'《信使报》': [[22, 26]]}, 'name': {'赵燕燕': [[16, 18]]}, 'company': {'新华网': [[0, 2]]}, 'position': {'记者': [[14, 15]]}}
+predict label
+[{'start': 3, 'stop': 7, 'word': '圣地亚哥', 'type': 'address'}]
+input text
+新华网圣地亚哥10月5日电（记者赵燕燕）智利《信使报》5日报道称，智利比索近一周贬值幅度达2.
+ture label 
+{'address': {'圣地亚哥': [[3, 6]], '智利': [[20, 21], [33, 34]]}, 'book': {'《信使报》': [[22, 26]]}, 'name': {'赵燕燕': [[16, 18]]}, 'company': {'新华网': [[0, 2]]}, 'position': {'记者': [[14, 15]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '华网', 'type': 'company'}]
+input text
+新华网圣地亚哥10月5日电（记者赵燕燕）智利《信使报》5日报道称，智利比索近一周贬值幅度达2.
+ture label 
+{'address': {'圣地亚哥': [[3, 6]], '智利': [[20, 21], [33, 34]]}, 'book': {'《信使报》': [[22, 26]]}, 'name': {'赵燕燕': [[16, 18]]}, 'company': {'新华网': [[0, 2]]}, 'position': {'记者': [[14, 15]]}}
+predict label
+[{'start': 22, 'stop': 27, 'word': '《信使报》', 'type': 'book'}]
+input text
+新华网圣地亚哥10月5日电（记者赵燕燕）智利《信使报》5日报道称，智利比索近一周贬值幅度达2.
+ture label 
+{'address': {'圣地亚哥': [[3, 6]], '智利': [[20, 21], [33, 34]]}, 'book': {'《信使报》': [[22, 26]]}, 'name': {'赵燕燕': [[16, 18]]}, 'company': {'新华网': [[0, 2]]}, 'position': {'记者': [[14, 15]]}}
+predict label
+[{'start': 14, 'stop': 16, 'word': '记者', 'type': 'position'}]
+input text
+以阴阳平衡概念调和室内生态。一是以苏州园林和京城民宅的黑、白、灰色为基调;二是在黑、白、
+ture label 
+{'scene': {'苏州园林': [[17, 20]], '京城民宅': [[22, 25]]}}
+predict label
+[{'start': 22, 'stop': 26, 'word': '京城民宅', 'type': 'company'}]
+input text
+以阴阳平衡概念调和室内生态。一是以苏州园林和京城民宅的黑、白、灰色为基调;二是在黑、白、
+ture label 
+{'scene': {'苏州园林': [[17, 20]], '京城民宅': [[22, 25]]}}
+predict label
+[{'start': 17, 'stop': 21, 'word': '苏州园林', 'type': 'scene'}]
+input text
+夏马兰导演的悬疑惊悚片《灭顶之灾》（thehappening）呢？阿木/文
+ture label 
+{'movie': {'《灭顶之灾》': [[11, 16]], 'thehappening': [[18, 29]]}, 'name': {'夏马兰': [[0, 2]]}, 'position': {'导演': [[3, 4]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '马兰', 'type': 'name'}]
+input text
+夏马兰导演的悬疑惊悚片《灭顶之灾》（thehappening）呢？阿木/文
+ture label 
+{'movie': {'《灭顶之灾》': [[11, 16]], 'thehappening': [[18, 29]]}, 'name': {'夏马兰': [[0, 2]]}, 'position': {'导演': [[3, 4]]}}
+predict label
+[{'start': 11, 'stop': 17, 'word': '《灭顶之灾》', 'type': 'movie'}]
+input text
+夏马兰导演的悬疑惊悚片《灭顶之灾》（thehappening）呢？阿木/文
+ture label 
+{'movie': {'《灭顶之灾》': [[11, 16]], 'thehappening': [[18, 29]]}, 'name': {'夏马兰': [[0, 2]]}, 'position': {'导演': [[3, 4]]}}
+predict label
+[{'start': 3, 'stop': 5, 'word': '导演', 'type': 'position'}]
+input text
+◆每经记者马骏?发自上海
+ture label 
+{'address': {'上海': [[10, 11]]}, 'book': {'每经': [[1, 2]]}, 'name': {'马骏': [[5, 6]]}, 'position': {'记者': [[3, 4]]}}
+predict label
+[{'start': 5, 'stop': 7, 'word': '马骏', 'type': 'name'}]
+input text
+◆每经记者马骏?发自上海
+ture label 
+{'address': {'上海': [[10, 11]]}, 'book': {'每经': [[1, 2]]}, 'name': {'马骏': [[5, 6]]}, 'position': {'记者': [[3, 4]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '每经', 'type': 'book'}]
+input text
+◆每经记者马骏?发自上海
+ture label 
+{'address': {'上海': [[10, 11]]}, 'book': {'每经': [[1, 2]]}, 'name': {'马骏': [[5, 6]]}, 'position': {'记者': [[3, 4]]}}
+predict label
+[{'start': 3, 'stop': 5, 'word': '记者', 'type': 'position'}]
+input text
+这让花旗集团管理层意识到安抚人心的重要性。
+ture label 
+{'company': {'花旗集团': [[2, 5]]}}
+predict label
+[{'start': 2, 'stop': 6, 'word': '花旗集团', 'type': 'company'}]
+input text
+iG的目标之一是打造全球顶级电竞俱乐部。目前iG已整合前CCM电竞俱乐部DotA、
+ture label 
+{'game': {'DotA': [[36, 39]]}, 'organization': {'iG': [[0, 1], [22, 23]], 'CCM电竞俱乐部': [[28, 35]]}}
+predict label
+[{'start': 28, 'stop': 36, 'word': 'CCM电竞俱乐部', 'type': 'organization'}]
+input text
+iG的目标之一是打造全球顶级电竞俱乐部。目前iG已整合前CCM电竞俱乐部DotA、
+ture label 
+{'game': {'DotA': [[36, 39]]}, 'organization': {'iG': [[0, 1], [22, 23]], 'CCM电竞俱乐部': [[28, 35]]}}
+predict label
+[{'start': 36, 'stop': 40, 'word': 'DotA', 'type': 'game'}]
+input text
+而加拉塔萨雷则在一球落后的情况下未能扳回比分，错失提前出线机会。总的看来，6分球队追求不高，
+ture label 
+{'organization': {'加拉塔萨雷': [[1, 5]]}}
+predict label
+[{'start': 1, 'stop': 6, 'word': '加拉塔萨雷', 'type': 'organization'}]
+input text
+与此同时，过去一年房市的低迷也尽显于此。央行上海总部的数据显示，中资金融机构个人房贷增加57.
+ture label 
+{'government': {'央行': [[20, 21]]}}
+predict label
+[{'start': 20, 'stop': 26, 'word': '央行上海总部', 'type': 'government'}]
+input text
+在韩亚银行之前，韩国友利银行（中国）有限公司在今年5月也发行了人民币借记卡。与韩亚银行的借记卡相同，
+ture label 
+{'company': {'韩亚银行': [[1, 4], [39, 42]], '韩国友利银行（中国）有限公司': [[8, 21]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': '韩亚银行', 'type': 'company'}, {'start': 8, 'stop': 22, 'word': '韩国友利银行（中国）有限公司', 'type': 'company'}, {'start': 39, 'stop': 43, 'word': '韩亚银行', 'type': 'company'}]
+input text
+日本海上自卫队拥有超过90架p－3c巡逻机。
+ture label 
+{'government': {'日本海上自卫队': [[0, 6]]}}
+predict label
+[{'start': 0, 'stop': 7, 'word': '日本海上自卫队', 'type': 'government'}]
+input text
+陈水扁牢号2630受宠博彩创台湾最快封牌纪录（图）
+ture label 
+{'address': {'台湾': [[14, 15]]}, 'name': {'陈水扁': [[0, 2]]}}
+predict label
+[{'start': 14, 'stop': 16, 'word': '台湾', 'type': 'address'}]
+input text
+于是他们将梅森发配到前苏联的沃尔库塔劳工集中营。刊登于《电脑游戏攻略》
+ture label 
+{'address': {'沃尔库塔劳工集中营': [[14, 22]]}, 'book': {'《电脑游戏攻略》': [[27, 34]]}, 'name': {'梅森': [[5, 6]]}}
+predict label
+[{'start': 5, 'stop': 7, 'word': '梅森', 'type': 'name'}]
+input text
+于是他们将梅森发配到前苏联的沃尔库塔劳工集中营。刊登于《电脑游戏攻略》
+ture label 
+{'address': {'沃尔库塔劳工集中营': [[14, 22]]}, 'book': {'《电脑游戏攻略》': [[27, 34]]}, 'name': {'梅森': [[5, 6]]}}
+predict label
+[{'start': 14, 'stop': 21, 'word': '沃尔库塔劳工集', 'type': 'address'}]
+input text
+于是他们将梅森发配到前苏联的沃尔库塔劳工集中营。刊登于《电脑游戏攻略》
+ture label 
+{'address': {'沃尔库塔劳工集中营': [[14, 22]]}, 'book': {'《电脑游戏攻略》': [[27, 34]]}, 'name': {'梅森': [[5, 6]]}}
+predict label
+[{'start': 27, 'stop': 35, 'word': '《电脑游戏攻略》', 'type': 'book'}]
+input text
+re活动加入成功通知恒晟超市16:05恒晟超市【福建区10月31日】周三遇…许11:59【视频通话】
+ture label 
+{'address': {'恒晟超市': [[19, 22]], '福建区': [[24, 26]]}}
+predict label
+[{'start': 10, 'stop': 14, 'word': '恒晟超市', 'type': 'address'}, {'start': 19, 'stop': 27, 'word': '恒晟超市【福建区', 'type': 'address'}]
+input text
+保证捕捉的效率和准确性。war3是放弃了的。所以war3无法捕捉攻击。
+ture label 
+{'game': {'war3': [[12, 15], [24, 27]]}}
+predict label
+[{'start': 12, 'stop': 16, 'word': 'war3', 'type': 'game'}, {'start': 24, 'stop': 28, 'word': 'war3', 'type': 'game'}]
+input text
+吕正操上世纪初出生在辽宁省海城唐王山后村，“家里穷得叮当响”。由于痛恨日本侵略者，
+ture label 
+{'address': {'辽宁省海城唐王山后村': [[10, 19]]}, 'name': {'吕正操': [[0, 2]]}}
+predict label
+[{'start': 10, 'stop': 20, 'word': '辽宁省海城唐王山后村', 'type': 'address'}]
+input text
+香格里拉岛位于南半球坐飞机的时候还会获得穿过赤道证书，所有水屋都可以看到印度洋的落日美景，
+ture label 
+{'address': {'印度洋': [[36, 38]], '赤道证书': [[22, 25]]}, 'scene': {'香格里拉岛': [[0, 4]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '香格里拉岛', 'type': 'scene'}]
+input text
+春节前期,财政部向各相关单位印发了一份名为《
+ture label 
+{'government': {'财政部': [[5, 7]]}}
+predict label
+[{'start': 5, 'stop': 8, 'word': '财政部', 'type': 'government'}]
+input text
+朋友圈子里不乏张大千等老一辈画家，那时的氛围让张兰渐渐懂得欣赏艺术之美。不过，
+ture label 
+{'name': {'张大千': [[7, 9]], '张兰': [[23, 24]]}, 'position': {'画家': [[14, 15]]}}
+predict label
+[{'start': 7, 'stop': 10, 'word': '张大千', 'type': 'name'}, {'start': 23, 'stop': 25, 'word': '张兰', 'type': 'name'}]
+input text
+朋友圈子里不乏张大千等老一辈画家，那时的氛围让张兰渐渐懂得欣赏艺术之美。不过，
+ture label 
+{'name': {'张大千': [[7, 9]], '张兰': [[23, 24]]}, 'position': {'画家': [[14, 15]]}}
+predict label
+[{'start': 14, 'stop': 16, 'word': '画家', 'type': 'position'}]
+input text
+、莫奈的《拉维格塞纳河畔》等亦属市场难得一见的西方当代大师作品。
+ture label 
+{'book': {'《拉维格塞纳河畔》': [[4, 12]]}, 'name': {'莫奈': [[1, 2]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '莫奈', 'type': 'name'}]
+input text
+、莫奈的《拉维格塞纳河畔》等亦属市场难得一见的西方当代大师作品。
+ture label 
+{'book': {'《拉维格塞纳河畔》': [[4, 12]]}, 'name': {'莫奈': [[1, 2]]}}
+predict label
+[{'start': 4, 'stop': 13, 'word': '《拉维格塞纳河畔》', 'type': 'movie'}]
+input text
+、莫奈的《拉维格塞纳河畔》等亦属市场难得一见的西方当代大师作品。
+ture label 
+{'book': {'《拉维格塞纳河畔》': [[4, 12]]}, 'name': {'莫奈': [[1, 2]]}}
+predict label
+[{'start': 27, 'stop': 29, 'word': '大师', 'type': 'position'}]
+input text
+现在的dota地图7.90M,基本已经到达war3的极限。
+ture label 
+{'game': {'dota': [[3, 6]], 'war3': [[21, 24]]}}
+predict label
+[{'start': 3, 'stop': 7, 'word': 'dota', 'type': 'game'}, {'start': 21, 'stop': 25, 'word': 'war3', 'type': 'game'}]
+input text
+昨天，巴南区法院公布了这起案例。“台湾富商”因诈骗罪和盗窃罪数罪并罚判刑7年6个月。
+ture label 
+{'address': {'台湾': [[17, 18]]}, 'government': {'巴南区法院': [[3, 7]]}}
+predict label
+[{'start': 3, 'stop': 8, 'word': '巴南区法院', 'type': 'government'}]
+input text
+→《四十岁老处男》、《塔拉迪加之夜：瑞奇·鲍比的情歌》、《超级坏》连续三年在8月中期跃上龙门，
+ture label 
+{'movie': {'《四十岁老处男》': [[1, 8]], '《塔拉迪加之夜：瑞奇·鲍比的情歌》': [[10, 26]], '《超级坏》': [[28, 32]]}}
+predict label
+[{'start': 1, 'stop': 9, 'word': '《四十岁老处男》', 'type': 'book'}, {'start': 10, 'stop': 27, 'word': '《塔拉迪加之夜：瑞奇·鲍比的情歌》', 'type': 'book'}]
+input text
+→《四十岁老处男》、《塔拉迪加之夜：瑞奇·鲍比的情歌》、《超级坏》连续三年在8月中期跃上龙门，
+ture label 
+{'movie': {'《四十岁老处男》': [[1, 8]], '《塔拉迪加之夜：瑞奇·鲍比的情歌》': [[10, 26]], '《超级坏》': [[28, 32]]}}
+predict label
+[{'start': 28, 'stop': 33, 'word': '《超级坏》', 'type': 'movie'}]
+input text
+六，求学不择人，忌论资排辈、忌迷信和崇拜某一位专家；
+ture label 
+{'position': {'专家': [[23, 24]]}}
+predict label
+[{'start': 23, 'stop': 25, 'word': '专家', 'type': 'position'}]
+input text
+六，求学不择人，忌论资排辈、忌迷信和崇拜某一位专家；
+ture label 
+{'position': {'专家': [[23, 24]]}}
+predict label
+[{'start': 18, 'stop': 20, 'word': '崇拜', 'type': 'scene'}]
+input text
+我们荣幸地邀请索维娅国际艺术村的艺术总监许俊杰先生为大家解答一下。
+ture label 
+{'address': {'维娅国际艺术村': [[8, 14]]}, 'name': {'许俊杰': [[20, 22]]}, 'position': {'总监': [[18, 19]]}}
+predict label
+[{'start': 20, 'stop': 23, 'word': '许俊杰', 'type': 'name'}]
+input text
+我们荣幸地邀请索维娅国际艺术村的艺术总监许俊杰先生为大家解答一下。
+ture label 
+{'address': {'维娅国际艺术村': [[8, 14]]}, 'name': {'许俊杰': [[20, 22]]}, 'position': {'总监': [[18, 19]]}}
+predict label
+[{'start': 7, 'stop': 15, 'word': '索维娅国际艺术村', 'type': 'address'}]
+input text
+我们荣幸地邀请索维娅国际艺术村的艺术总监许俊杰先生为大家解答一下。
+ture label 
+{'address': {'维娅国际艺术村': [[8, 14]]}, 'name': {'许俊杰': [[20, 22]]}, 'position': {'总监': [[18, 19]]}}
+predict label
+[{'start': 16, 'stop': 20, 'word': '艺术总监', 'type': 'position'}]
+input text
+你觉得魔兽争霸31.25的补丁如何？我觉得这些改变是认真思考过的，
+ture label 
+{'game': {'魔兽争霸3': [[3, 7]]}}
+predict label
+[{'start': 3, 'stop': 7, 'word': '魔兽争霸', 'type': 'game'}]
+input text
+我们组织了国内城镇人居环境领域的权威专家对人居环境评估体系进行编制，并与内蒙古乌审旗政府、
+ture label 
+{'government': {'内蒙古乌审旗政府': [[36, 43]]}, 'position': {'权威专家': [[16, 19]]}}
+predict label
+[{'start': 36, 'stop': 44, 'word': '内蒙古乌审旗政府', 'type': 'government'}]
+input text
+我们组织了国内城镇人居环境领域的权威专家对人居环境评估体系进行编制，并与内蒙古乌审旗政府、
+ture label 
+{'government': {'内蒙古乌审旗政府': [[36, 43]]}, 'position': {'权威专家': [[16, 19]]}}
+predict label
+[{'start': 18, 'stop': 20, 'word': '专家', 'type': 'position'}]
+input text
+这个呼吁自从11月13日发出后，公众开始踊跃募捐，12月17日，卢浮宫宣布，
+ture label 
+{'scene': {'卢浮宫': [[32, 34]]}}
+predict label
+[{'start': 32, 'stop': 35, 'word': '卢浮宫', 'type': 'scene'}]
+input text
+MassEffect2）也将会这段时间发售。《战地：叛逆连队2》
+ture label 
+{'game': {'MassEffect2': [[0, 10]], '《战地：叛逆连队2》': [[22, 31]]}}
+predict label
+[{'start': 2, 'stop': 11, 'word': 'ssEffect2', 'type': 'game'}, {'start': 22, 'stop': 32, 'word': '《战地：叛逆连队2》', 'type': 'game'}]
+input text
+其中主要的功能就是驾驶员能看到投币人所投的币种，防止假币进入。“
+ture label 
+{'position': {'驾驶员': [[9, 11]]}}
+predict label
+[{'start': 9, 'stop': 12, 'word': '驾驶员', 'type': 'position'}]
+input text
+一改本岛电影在票房上持续低迷的成绩，而与此同时的几部“台湾制造”《?男孩》、《花吃了那女孩》
+ture label 
+{'address': {'台湾': [[27, 28]]}, 'movie': {'《?男孩》': [[32, 36]], '《花吃了那女孩》': [[38, 45]]}}
+predict label
+[{'start': 32, 'stop': 37, 'word': '《?男孩》', 'type': 'movie'}, {'start': 38, 'stop': 46, 'word': '《花吃了那女孩》', 'type': 'movie'}]
+input text
+游康几年前就已经是银行的贵宾客户。
+ture label 
+{'name': {'游康': [[0, 1]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '游康', 'type': 'name'}]
+input text
+除上述巡逻机外，第二批部队还有约150名自卫队员，分别来自海上自卫队和陆上自卫队。部队抵达目的地后，
+ture label 
+{'government': {'部队': [[11, 12], [41, 42]], '海上自卫队': [[29, 33]], '陆上自卫队': [[35, 39]]}, 'position': {'自卫队员': [[20, 23]]}}
+predict label
+[{'start': 29, 'stop': 40, 'word': '海上自卫队和陆上自卫队', 'type': 'government'}]
+input text
+进一步加强香港人民币市场平台的地位和作用。香港金管局指出，这是香港发展离岸人民币业务一个新的里程碑。
+ture label 
+{'address': {'香港': [[5, 6], [31, 32]]}, 'government': {'香港金管局': [[21, 25]]}}
+predict label
+[{'start': 21, 'stop': 26, 'word': '香港金管局', 'type': 'government'}]
+input text
+进一步加强香港人民币市场平台的地位和作用。香港金管局指出，这是香港发展离岸人民币业务一个新的里程碑。
+ture label 
+{'address': {'香港': [[5, 6], [31, 32]]}, 'government': {'香港金管局': [[21, 25]]}}
+predict label
+[{'start': 46, 'stop': 49, 'word': '里程碑', 'type': 'scene'}]
+input text
+已于上周经银监会主席办公会原则通过，但部分内容可能还要进行修改。
+ture label 
+{'government': {'银监会': [[5, 7]]}, 'position': {'主席': [[8, 9]]}}
+predict label
+[{'start': 5, 'stop': 8, 'word': '银监会', 'type': 'government'}]
+input text
+已于上周经银监会主席办公会原则通过，但部分内容可能还要进行修改。
+ture label 
+{'government': {'银监会': [[5, 7]]}, 'position': {'主席': [[8, 9]]}}
+predict label
+[{'start': 8, 'stop': 10, 'word': '主席', 'type': 'position'}]
+input text
+纹身文化是西方舶来品。其实早在三四千年前，纹身文化在中国南方已经相当普及。《周礼》上就有记载“
+ture label 
+{'book': {'《周礼》': [[37, 40]]}}
+predict label
+[{'start': 32, 'stop': 35, 'word': '相当普', 'type': 'name'}]
+input text
+纹身文化是西方舶来品。其实早在三四千年前，纹身文化在中国南方已经相当普及。《周礼》上就有记载“
+ture label 
+{'book': {'《周礼》': [[37, 40]]}}
+predict label
+[{'start': 37, 'stop': 41, 'word': '《周礼》', 'type': 'book'}]
+input text
+《但丁的地狱》是EA根据世界名著《神曲》改编的一款3D恐怖游戏，刚刚制作了《死亡空间》
+ture label 
+{'game': {'《但丁的地狱》': [[0, 6]], '《死亡空间》': [[37, 42]]}, 'book': {'《神曲》': [[16, 19]]}, 'company': {'EA': [[8, 9]]}}
+predict label
+[{'start': 8, 'stop': 10, 'word': 'EA', 'type': 'company'}]
+input text
+《但丁的地狱》是EA根据世界名著《神曲》改编的一款3D恐怖游戏，刚刚制作了《死亡空间》
+ture label 
+{'game': {'《但丁的地狱》': [[0, 6]], '《死亡空间》': [[37, 42]]}, 'book': {'《神曲》': [[16, 19]]}, 'company': {'EA': [[8, 9]]}}
+predict label
+[{'start': 16, 'stop': 20, 'word': '《神曲》', 'type': 'book'}]
+input text
+《但丁的地狱》是EA根据世界名著《神曲》改编的一款3D恐怖游戏，刚刚制作了《死亡空间》
+ture label 
+{'game': {'《但丁的地狱》': [[0, 6]], '《死亡空间》': [[37, 42]]}, 'book': {'《神曲》': [[16, 19]]}, 'company': {'EA': [[8, 9]]}}
+predict label
+[{'start': 0, 'stop': 7, 'word': '《但丁的地狱》', 'type': 'game'}, {'start': 37, 'stop': 43, 'word': '《死亡空间》', 'type': 'game'}]
+input text
+《电子竞技》杂志pgl第四季增刊上市
+ture label 
+{'book': {'《电子竞技》': [[0, 5]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': '《电子竞技》', 'type': 'book'}]
+input text
+要涨到4个点商户也没法不同意。”该人士指出，正是由于visa太过强大的商户资源，
+ture label 
+{'company': {'visa': [[26, 29]]}}
+predict label
+[{'start': 26, 'stop': 30, 'word': 'visa', 'type': 'company'}]
+input text
+游戏叫做《CallofPripyat（普里皮亚季的召唤）》，本作计划在秋季发售。
+ture label 
+{'game': {'《CallofPripyat（普里皮亚季的召唤）》': [[4, 28]]}}
+predict label
+[{'start': 4, 'stop': 29, 'word': '《CallofPripyat（普里皮亚季的召唤）》', 'type': 'movie'}]
+input text
+原作品：《魔兽争霸3》
+ture label 
+{'game': {'《魔兽争霸3》': [[4, 10]]}}
+predict label
+[{'start': 4, 'stop': 11, 'word': '《魔兽争霸3》', 'type': 'game'}]
+input text
+吕正操回忆录》等。
+ture label 
+{'book': {'吕正操回忆录》': [[0, 6]]}}
+predict label
+[{'start': 2, 'stop': 7, 'word': '操回忆录》', 'type': 'movie'}]
+input text
+维拉公园的优势较大。博彩公司的平均赔率1.613.515.61无疑是对维拉青睐有加，
+ture label 
+{'address': {'维拉公园': [[0, 3]]}, 'organization': {'维拉': [[35, 36]]}}
+predict label
+[{'start': 35, 'stop': 37, 'word': '维拉', 'type': 'organization'}]
+input text
+维拉公园的优势较大。博彩公司的平均赔率1.613.515.61无疑是对维拉青睐有加，
+ture label 
+{'address': {'维拉公园': [[0, 3]]}, 'organization': {'维拉': [[35, 36]]}}
+predict label
+[{'start': 1, 'stop': 4, 'word': '拉公园', 'type': 'scene'}]
+input text
+王朗自然保护区从一开始就选择的小众的生态旅游方式对外开放，保护区内有大熊猫、白唇鹿、
+ture label 
+{'address': {'王朗自然保护区': [[0, 6]]}}
+predict label
+[{'start': 1, 'stop': 7, 'word': '朗自然保护区', 'type': 'scene'}]
+input text
+dota2相对dota我们该关注的看点
+ture label 
+{'game': {'dota2': [[0, 4]], 'dota': [[7, 10]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': 'dota2', 'type': 'game'}, {'start': 7, 'stop': 11, 'word': 'dota', 'type': 'game'}]
+input text
+马老师为什么不打高端局?#LOL#你精力跟不上皮皮虾291585空白757210同步不?#
+ture label 
+{'game': {'LOL': [[13, 15]]}, 'position': {'老师': [[1, 2]]}}
+predict label
+[{'start': 13, 'stop': 16, 'word': 'LOL', 'type': 'game'}]
+input text
+马老师为什么不打高端局?#LOL#你精力跟不上皮皮虾291585空白757210同步不?#
+ture label 
+{'game': {'LOL': [[13, 15]]}, 'position': {'老师': [[1, 2]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '老师', 'type': 'position'}]
+input text
+interwetten相同赔率下近3个赛季意甲主队6胜3平。
+ture label 
+{'organization': {'意甲': [[21, 22]]}, 'company': {'interwetten': [[0, 10]]}}
+predict label
+[{'start': 21, 'stop': 23, 'word': '意甲', 'type': 'organization'}]
+input text
+要选择有中国银联标识的atm机进行取款，取款时会涉及到一定的手续费。
+ture label 
+{'company': {'中国银联': [[4, 7]]}}
+predict label
+[{'start': 4, 'stop': 8, 'word': '中国银联', 'type': 'company'}]
+input text
+这件作品的售价是400万欧元，卢浮宫之前已经募集到了300万欧元，
+ture label 
+{'scene': {'卢浮宫': [[15, 17]]}}
+predict label
+[{'start': 15, 'stop': 18, 'word': '卢浮宫', 'type': 'scene'}]
+input text
+关于鲁迅及其著作》，这同时也是国内第一本评价鲁迅先生的书籍。“我从24岁起就迷上了鲁迅，
+ture label 
+{'name': {'鲁迅': [[2, 3], [22, 23], [41, 42]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '鲁迅', 'type': 'name'}, {'start': 22, 'stop': 24, 'word': '鲁迅', 'type': 'name'}, {'start': 41, 'stop': 43, 'word': '鲁迅', 'type': 'name'}]
+input text
+关于鲁迅及其著作》，这同时也是国内第一本评价鲁迅先生的书籍。“我从24岁起就迷上了鲁迅，
+ture label 
+{'name': {'鲁迅': [[2, 3], [22, 23], [41, 42]]}}
+predict label
+[{'start': 7, 'stop': 9, 'word': '作》', 'type': 'position'}]
+input text
+4月10日，游戏杂志《GameInformer》公布了将于4月发行的第五期杂志的封面，
+ture label 
+{'book': {'《GameInformer》': [[10, 23]]}}
+predict label
+[{'start': 10, 'stop': 24, 'word': '《GameInformer》', 'type': 'book'}]
+input text
+主持人：这样高水准的国际会议，我们也知道很多媒体都会争着来报道它。对于中国房地产协会，
+ture label 
+{'government': {'中国房地产协会': [[35, 41]]}, 'position': {'主持人': [[0, 2]]}}
+predict label
+[{'start': 35, 'stop': 42, 'word': '中国房地产协会', 'type': 'organization'}]
+input text
+主持人：这样高水准的国际会议，我们也知道很多媒体都会争着来报道它。对于中国房地产协会，
+ture label 
+{'government': {'中国房地产协会': [[35, 41]]}, 'position': {'主持人': [[0, 2]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '主持人', 'type': 'position'}]
+input text
+金色琴弦》的柚木梓马）；首要男主角设乐优的诠释人斋贺みつき（《梦幻奇缘2》的尤尼希思）
+ture label 
+{'movie': {'金色琴弦》': [[0, 4]], '《梦幻奇缘2》': [[30, 36]]}, 'name': {'柚木梓马': [[6, 9]], '斋贺みつき': [[24, 28]], '尤尼希思': [[38, 41]]}}
+predict label
+[{'start': 30, 'stop': 37, 'word': '《梦幻奇缘2》', 'type': 'game'}]
+input text
+金色琴弦》的柚木梓马）；首要男主角设乐优的诠释人斋贺みつき（《梦幻奇缘2》的尤尼希思）
+ture label 
+{'movie': {'金色琴弦》': [[0, 4]], '《梦幻奇缘2》': [[30, 36]]}, 'name': {'柚木梓马': [[6, 9]], '斋贺みつき': [[24, 28]], '尤尼希思': [[38, 41]]}}
+predict label
+[{'start': 38, 'stop': 43, 'word': '尤尼希思）', 'type': 'movie'}]
+input text
+6月7日，中博传媒董事长陈伟明与韩国著名导演许秦豪共同出席了新加坡媒体发展管理局主办的“
+ture label 
+{'government': {'新加坡媒体发展管理局': [[30, 39]]}, 'name': {'陈伟明': [[12, 14]], '许秦豪': [[22, 24]]}, 'company': {'中博传媒': [[5, 8]]}, 'position': {'董事长': [[9, 11]], '导演': [[20, 21]]}}
+predict label
+[{'start': 12, 'stop': 15, 'word': '陈伟明', 'type': 'name'}, {'start': 22, 'stop': 25, 'word': '许秦豪', 'type': 'name'}]
+input text
+6月7日，中博传媒董事长陈伟明与韩国著名导演许秦豪共同出席了新加坡媒体发展管理局主办的“
+ture label 
+{'government': {'新加坡媒体发展管理局': [[30, 39]]}, 'name': {'陈伟明': [[12, 14]], '许秦豪': [[22, 24]]}, 'company': {'中博传媒': [[5, 8]]}, 'position': {'董事长': [[9, 11]], '导演': [[20, 21]]}}
+predict label
+[{'start': 5, 'stop': 9, 'word': '中博传媒', 'type': 'company'}]
+input text
+6月7日，中博传媒董事长陈伟明与韩国著名导演许秦豪共同出席了新加坡媒体发展管理局主办的“
+ture label 
+{'government': {'新加坡媒体发展管理局': [[30, 39]]}, 'name': {'陈伟明': [[12, 14]], '许秦豪': [[22, 24]]}, 'company': {'中博传媒': [[5, 8]]}, 'position': {'董事长': [[9, 11]], '导演': [[20, 21]]}}
+predict label
+[{'start': 30, 'stop': 40, 'word': '新加坡媒体发展管理局', 'type': 'government'}]
+input text
+6月7日，中博传媒董事长陈伟明与韩国著名导演许秦豪共同出席了新加坡媒体发展管理局主办的“
+ture label 
+{'government': {'新加坡媒体发展管理局': [[30, 39]]}, 'name': {'陈伟明': [[12, 14]], '许秦豪': [[22, 24]]}, 'company': {'中博传媒': [[5, 8]]}, 'position': {'董事长': [[9, 11]], '导演': [[20, 21]]}}
+predict label
+[{'start': 9, 'stop': 12, 'word': '董事长', 'type': 'position'}, {'start': 20, 'stop': 22, 'word': '导演', 'type': 'position'}]
+input text
+平手初盘下，本赛季3场德甲都是客队获胜，足彩0不可少。bwin早早降低了主胜赔，同赔率下，
+ture label 
+{'organization': {'德甲': [[11, 12]], '足彩': [[20, 21]]}, 'company': {'bwin': [[27, 30]]}}
+predict label
+[{'start': 11, 'stop': 13, 'word': '德甲', 'type': 'organization'}]
+input text
+平手初盘下，本赛季3场德甲都是客队获胜，足彩0不可少。bwin早早降低了主胜赔，同赔率下，
+ture label 
+{'organization': {'德甲': [[11, 12]], '足彩': [[20, 21]]}, 'company': {'bwin': [[27, 30]]}}
+predict label
+[{'start': 27, 'stop': 31, 'word': 'bwin', 'type': 'company'}]
+input text
+微软公司不久前曾在宣布将在结束《光环战争》的开发后，关闭开发小组Ensemble
+ture label 
+{'game': {'《光环战争》': [[15, 20]]}, 'company': {'微软公司': [[0, 3]], 'Ensemble': [[32, 39]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '微软公司', 'type': 'company'}]
+input text
+微软公司不久前曾在宣布将在结束《光环战争》的开发后，关闭开发小组Ensemble
+ture label 
+{'game': {'《光环战争》': [[15, 20]]}, 'company': {'微软公司': [[0, 3]], 'Ensemble': [[32, 39]]}}
+predict label
+[{'start': 15, 'stop': 21, 'word': '《光环战争》', 'type': 'game'}]
+input text
+我最近给《新民周刊》写了一篇社论，他们想让我评价一下“城市让生活更美好”这个主题，
+ture label 
+{'book': {'《新民周刊》': [[4, 9]]}}
+predict label
+[{'start': 4, 'stop': 10, 'word': '《新民周刊》', 'type': 'book'}]
+input text
+这块我们自己也很好奇，这个问题问的很好，到底能够接受的速度跟持久性是什么样的，我现在就住在moma，
+ture label 
+{'scene': {'moma': [[45, 48]]}}
+predict label
+[{'start': 45, 'stop': 49, 'word': 'moma', 'type': 'scene'}]
+input text
+DptA在冰蛙接手后开始走向辉煌，期间他对DOTA的改动无数，根本无法细数，
+ture label 
+{'game': {'DOTA': [[21, 24]]}, 'name': {'冰蛙': [[5, 6]]}}
+predict label
+[{'start': 1, 'stop': 4, 'word': 'ptA', 'type': 'organization'}]
+input text
+DptA在冰蛙接手后开始走向辉煌，期间他对DOTA的改动无数，根本无法细数，
+ture label 
+{'game': {'DOTA': [[21, 24]]}, 'name': {'冰蛙': [[5, 6]]}}
+predict label
+[{'start': 21, 'stop': 25, 'word': 'DOTA', 'type': 'game'}]
+input text
+你根本没有挑别人的权利，现在就改变了，现在变成画廊太多了，艺术家更多，变成画廊不珍惜艺术家，
+ture label 
+{'position': {'艺术家': [[29, 31]]}}
+predict label
+[{'start': 42, 'stop': 45, 'word': '艺术家', 'type': 'position'}]
+input text
+而Scrabulous开发者本身则并未采取行动。
+ture label 
+{'company': {'Scrabulous开发者': [[1, 13]]}}
+predict label
+[{'start': 1, 'stop': 11, 'word': 'Scrabulous', 'type': 'game'}]
+input text
+ReMinD暴冷在八强不敌Hawk，而已经转星际2的哈撒克斯坦人族
+ture label 
+{'game': {'星际2': [[22, 24]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': 'ReMinD', 'type': 'name'}, {'start': 9, 'stop': 11, 'word': '八强', 'type': 'name'}, {'start': 13, 'stop': 17, 'word': 'Hawk', 'type': 'name'}]
+input text
+ReMinD暴冷在八强不敌Hawk，而已经转星际2的哈撒克斯坦人族
+ture label 
+{'game': {'星际2': [[22, 24]]}}
+predict label
+[{'start': 22, 'stop': 25, 'word': '星际2', 'type': 'game'}]
+input text
+发布于2010年《大众软件》4月上
+ture label 
+{'book': {'《大众软件》': [[8, 13]]}}
+predict label
+[{'start': 8, 'stop': 14, 'word': '《大众软件》', 'type': 'book'}]
+input text
+《救赎之路》媒体综评46分（yahoo方面为c、烂番茄网站新鲜度38%），充分证明凭《卢旺达旅店》
+ture label 
+{'game': {'《救赎之路》': [[0, 5]]}, 'movie': {'《卢旺达旅店》': [[42, 48]]}, 'company': {'yahoo': [[14, 18]], '烂番茄网站': [[24, 28]]}}
+predict label
+[{'start': 14, 'stop': 19, 'word': 'yahoo', 'type': 'company'}, {'start': 24, 'stop': 27, 'word': '烂番茄', 'type': 'company'}]
+input text
+《救赎之路》媒体综评46分（yahoo方面为c、烂番茄网站新鲜度38%），充分证明凭《卢旺达旅店》
+ture label 
+{'game': {'《救赎之路》': [[0, 5]]}, 'movie': {'《卢旺达旅店》': [[42, 48]]}, 'company': {'yahoo': [[14, 18]], '烂番茄网站': [[24, 28]]}}
+predict label
+[{'start': 42, 'stop': 49, 'word': '《卢旺达旅店》', 'type': 'book'}]
+input text
+《救赎之路》媒体综评46分（yahoo方面为c、烂番茄网站新鲜度38%），充分证明凭《卢旺达旅店》
+ture label 
+{'game': {'《救赎之路》': [[0, 5]]}, 'movie': {'《卢旺达旅店》': [[42, 48]]}, 'company': {'yahoo': [[14, 18]], '烂番茄网站': [[24, 28]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': '《救赎之路》', 'type': 'movie'}]
+input text
+区信访办的负责同志及区人大代表、区政协委员、社会两员和申请家庭共同参与，公证部门进行了全程公证。
+ture label 
+{'organization': {'区信访办': [[0, 3]]}, 'position': {'区人大代表': [[10, 14]], '区政协委员': [[16, 20]]}}
+predict label
+[{'start': 10, 'stop': 14, 'word': '区人大代', 'type': 'government'}, {'start': 16, 'stop': 19, 'word': '区政协', 'type': 'government'}]
+input text
+80%客户亏损：银监会全面叫停外汇保证金业务
+ture label 
+{'government': {'银监会': [[8, 10]]}}
+predict label
+[{'start': 8, 'stop': 11, 'word': '银监会', 'type': 'government'}]
+input text
+上海经贸学院）已经提交资料，包括首批未提交的校方评估资料。教育评估院已经开始审核第二批学校资质，
+ture label 
+{'organization': {'上海经贸学院': [[0, 5]], '教育评估院': [[29, 33]]}}
+predict label
+[{'start': 1, 'stop': 6, 'word': '海经贸学院', 'type': 'organization'}]
+input text
+上海经贸学院）已经提交资料，包括首批未提交的校方评估资料。教育评估院已经开始审核第二批学校资质，
+ture label 
+{'organization': {'上海经贸学院': [[0, 5]], '教育评估院': [[29, 33]]}}
+predict label
+[{'start': 29, 'stop': 34, 'word': '教育评估院', 'type': 'government'}]
+input text
+梁洛施据说暂停了与英皇公司相关的公司，其中首当其冲的受害者则是《深海寻人》这部作品，
+ture label 
+{'movie': {'《深海寻人》': [[31, 36]]}, 'name': {'梁洛施': [[0, 2]]}, 'company': {'英皇公司': [[9, 12]]}}
+predict label
+[{'start': 9, 'stop': 13, 'word': '英皇公司', 'type': 'company'}]
+input text
+梁洛施据说暂停了与英皇公司相关的公司，其中首当其冲的受害者则是《深海寻人》这部作品，
+ture label 
+{'movie': {'《深海寻人》': [[31, 36]]}, 'name': {'梁洛施': [[0, 2]]}, 'company': {'英皇公司': [[9, 12]]}}
+predict label
+[{'start': 31, 'stop': 37, 'word': '《深海寻人》', 'type': 'movie'}]
+input text
+漏交几元就跌入陷阱招行等继续全额罚息
+ture label 
+{'company': {'招行': [[9, 10]]}}
+predict label
+[{'start': 9, 'stop': 11, 'word': '招行', 'type': 'company'}]
+input text
+早报记者朱楠实习生王昭
+ture label 
+{'name': {'朱楠': [[4, 5]], '王昭': [[9, 10]]}, 'position': {'记者': [[2, 3]], '实习生': [[6, 8]]}}
+predict label
+[{'start': 4, 'stop': 6, 'word': '朱楠', 'type': 'name'}]
+input text
+早报记者朱楠实习生王昭
+ture label 
+{'name': {'朱楠': [[4, 5]], '王昭': [[9, 10]]}, 'position': {'记者': [[2, 3]], '实习生': [[6, 8]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '早报', 'type': 'book'}]
+input text
+早报记者朱楠实习生王昭
+ture label 
+{'name': {'朱楠': [[4, 5]], '王昭': [[9, 10]]}, 'position': {'记者': [[2, 3]], '实习生': [[6, 8]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '记者', 'type': 'position'}, {'start': 6, 'stop': 9, 'word': '实习生', 'type': 'position'}]
+input text
+国内顶级配音组担纲制作，无论是近期热播的《一起又看流星雨》，还是昔日经典《泰坦尼克号》，
+ture label 
+{'movie': {'《一起又看流星雨》': [[20, 28]], '《泰坦尼克号》': [[36, 42]]}}
+predict label
+[{'start': 20, 'stop': 29, 'word': '《一起又看流星雨》', 'type': 'movie'}, {'start': 36, 'stop': 43, 'word': '《泰坦尼克号》', 'type': 'movie'}]
+input text
+2003年10月，中共中央政治局常委李长春，视察河南博物馆时，停在“张衡地动仪”的面前。他很是疑惑，
+ture label 
+{'address': {'河南博物馆': [[24, 28]]}, 'name': {'李长春': [[18, 20]]}, 'position': {'中共中央政治局常委': [[9, 17]]}}
+predict label
+[{'start': 18, 'stop': 21, 'word': '李长春', 'type': 'name'}]
+input text
+2003年10月，中共中央政治局常委李长春，视察河南博物馆时，停在“张衡地动仪”的面前。他很是疑惑，
+ture label 
+{'address': {'河南博物馆': [[24, 28]]}, 'name': {'李长春': [[18, 20]]}, 'position': {'中共中央政治局常委': [[9, 17]]}}
+predict label
+[{'start': 9, 'stop': 16, 'word': '中共中央政治局', 'type': 'government'}]
+input text
+2003年10月，中共中央政治局常委李长春，视察河南博物馆时，停在“张衡地动仪”的面前。他很是疑惑，
+ture label 
+{'address': {'河南博物馆': [[24, 28]]}, 'name': {'李长春': [[18, 20]]}, 'position': {'中共中央政治局常委': [[9, 17]]}}
+predict label
+[{'start': 16, 'stop': 18, 'word': '常委', 'type': 'position'}]
+input text
+2003年10月，中共中央政治局常委李长春，视察河南博物馆时，停在“张衡地动仪”的面前。他很是疑惑，
+ture label 
+{'address': {'河南博物馆': [[24, 28]]}, 'name': {'李长春': [[18, 20]]}, 'position': {'中共中央政治局常委': [[9, 17]]}}
+predict label
+[{'start': 22, 'stop': 29, 'word': '视察河南博物馆', 'type': 'scene'}]
+input text
+一些收藏家的藏品不及学问家的藏品市场号召力高，就可以援引为此方实证。
+ture label 
+{'position': {'收藏家': [[2, 4]], '学问家': [[10, 12]]}}
+predict label
+[{'start': 2, 'stop': 5, 'word': '收藏家', 'type': 'position'}]
+input text
+谭雅玲说。从自身角度看，股改后中行针对自己的品牌和不足之处都做出比较有针对性地规划，重新组合、
+ture label 
+{'name': {'谭雅玲': [[0, 2]]}, 'company': {'中行': [[15, 16]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '谭雅玲', 'type': 'name'}]
+input text
+谭雅玲说。从自身角度看，股改后中行针对自己的品牌和不足之处都做出比较有针对性地规划，重新组合、
+ture label 
+{'name': {'谭雅玲': [[0, 2]]}, 'company': {'中行': [[15, 16]]}}
+predict label
+[{'start': 15, 'stop': 17, 'word': '中行', 'type': 'company'}]
+input text
+澳门博物馆等非常多的旅游景点和水坑尾购物一条街。
+ture label 
+{'address': {'水坑尾购物一条街': [[15, 22]]}, 'scene': {'澳门博物馆': [[0, 4]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '澳门博物馆', 'type': 'scene'}]
+input text
+我们一直去带动起来了，“全北京向上看”的世贸天街，整体的招商方案，整体的形成了一个生命。
+ture label 
+{'address': {'世贸天街': [[20, 23]], '北京': [[13, 14]]}}
+predict label
+[{'start': 20, 'stop': 24, 'word': '世贸天街', 'type': 'scene'}]
+input text
+merchantsbank等为首的金融机构，以及来自全国各地的媒体记者的强烈关注。
+ture label 
+{'company': {'merchantsbank': [[0, 12]]}, 'position': {'记者': [[33, 34]]}}
+predict label
+[{'start': 33, 'stop': 35, 'word': '记者', 'type': 'position'}]
+input text
+merchantsbank等为首的金融机构，以及来自全国各地的媒体记者的强烈关注。
+ture label 
+{'company': {'merchantsbank': [[0, 12]]}, 'position': {'记者': [[33, 34]]}}
+predict label
+[{'start': 0, 'stop': 13, 'word': 'merchantsbank', 'type': 'scene'}]
+input text
+以来，该银行的股价至今已出现大幅下挫。挤兑风波发生当日，东亚银行股价大幅震荡，并曾一度急挫11%。
+ture label 
+{'company': {'东亚银行': [[28, 31]]}}
+predict label
+[{'start': 21, 'stop': 23, 'word': '风波', 'type': 'company'}, {'start': 28, 'stop': 32, 'word': '东亚银行', 'type': 'company'}]
+input text
+美军f-15e战机在阿富汗坠毁2人死亡（图）
+ture label 
+{'address': {'阿富汗': [[10, 12]]}, 'government': {'美军': [[0, 1]]}}
+predict label
+[{'start': 10, 'stop': 13, 'word': '阿富汗', 'type': 'address'}]
+input text
+美军f-15e战机在阿富汗坠毁2人死亡（图）
+ture label 
+{'address': {'阿富汗': [[10, 12]]}, 'government': {'美军': [[0, 1]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '美军', 'type': 'government'}]
+input text
+发言人表示，德国北部的一名收藏家买下了这半枚保存良好的邮票。邮票最初来源地是德国北部城镇syke。
+ture label 
+{'address': {'德国北部': [[6, 9]], '德国北部城镇syke': [[38, 47]]}, 'position': {'收藏家': [[13, 15]]}}
+predict label
+[{'start': 6, 'stop': 10, 'word': '德国北部', 'type': 'address'}]
+input text
+发言人表示，德国北部的一名收藏家买下了这半枚保存良好的邮票。邮票最初来源地是德国北部城镇syke。
+ture label 
+{'address': {'德国北部': [[6, 9]], '德国北部城镇syke': [[38, 47]]}, 'position': {'收藏家': [[13, 15]]}}
+predict label
+[{'start': 13, 'stop': 16, 'word': '收藏家', 'type': 'position'}]
+input text
+图为润泽地产常务副总封屹
+ture label 
+{'name': {'封屹': [[10, 11]]}, 'company': {'润泽地产': [[2, 5]]}, 'position': {'常务副总': [[6, 9]]}}
+predict label
+[{'start': 10, 'stop': 12, 'word': '封屹', 'type': 'name'}]
+input text
+图为润泽地产常务副总封屹
+ture label 
+{'name': {'封屹': [[10, 11]]}, 'company': {'润泽地产': [[2, 5]]}, 'position': {'常务副总': [[6, 9]]}}
+predict label
+[{'start': 2, 'stop': 10, 'word': '润泽地产常务副总', 'type': 'position'}]
+input text
+金石开：其实意甲周中客胜也比较稀少，上赛季4轮周中比赛也总共只有4场客胜而已，
+ture label 
+{'organization': {'意甲': [[6, 7]]}, 'name': {'金石开': [[0, 2]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '意甲', 'type': 'organization'}]
+input text
+金石开：其实意甲周中客胜也比较稀少，上赛季4轮周中比赛也总共只有4场客胜而已，
+ture label 
+{'organization': {'意甲': [[6, 7]]}, 'name': {'金石开': [[0, 2]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '金石开', 'type': 'name'}]
+input text
+招行银行储户一次性还房贷被索违约金
+ture label 
+{'company': {'招行': [[0, 1]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '招行', 'type': 'company'}, {'start': 13, 'stop': 17, 'word': '索违约金', 'type': 'company'}]
+input text
+开始阅读抗日之铁血兵魂作者痴冬书亦来源阅文集团军事战争幻想谍战特工穿越完结约291万字0.
+ture label 
+{'book': {'抗日之铁血兵魂': [[4, 10]]}, 'name': {'痴冬书亦': [[13, 16]]}, 'company': {'阅文集团': [[19, 22]]}, 'position': {'作者': [[11, 12]], '特工': [[31, 32]]}}
+predict label
+[{'start': 19, 'stop': 26, 'word': '阅文集团军事战', 'type': 'company'}]
+input text
+开始阅读抗日之铁血兵魂作者痴冬书亦来源阅文集团军事战争幻想谍战特工穿越完结约291万字0.
+ture label 
+{'book': {'抗日之铁血兵魂': [[4, 10]]}, 'name': {'痴冬书亦': [[13, 16]]}, 'company': {'阅文集团': [[19, 22]]}, 'position': {'作者': [[11, 12]], '特工': [[31, 32]]}}
+predict label
+[{'start': 4, 'stop': 11, 'word': '抗日之铁血兵魂', 'type': 'book'}]
+input text
+开始阅读抗日之铁血兵魂作者痴冬书亦来源阅文集团军事战争幻想谍战特工穿越完结约291万字0.
+ture label 
+{'book': {'抗日之铁血兵魂': [[4, 10]]}, 'name': {'痴冬书亦': [[13, 16]]}, 'company': {'阅文集团': [[19, 22]]}, 'position': {'作者': [[11, 12]], '特工': [[31, 32]]}}
+predict label
+[{'start': 11, 'stop': 13, 'word': '作者', 'type': 'position'}, {'start': 14, 'stop': 16, 'word': '冬书', 'type': 'position'}]
+input text
+切尔西本赛季主场迄今全胜，曼联新赛季只在朴茨茅斯身上取胜过，主队队长特里在上轮吃到的红牌被取消，
+ture label 
+{'organization': {'切尔西': [[0, 2]], '曼联': [[13, 14]], '朴茨茅斯': [[20, 23]]}, 'name': {'特里': [[34, 35]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '切尔西', 'type': 'organization'}, {'start': 13, 'stop': 15, 'word': '曼联', 'type': 'organization'}, {'start': 20, 'stop': 24, 'word': '朴茨茅斯', 'type': 'organization'}]
+input text
+切尔西本赛季主场迄今全胜，曼联新赛季只在朴茨茅斯身上取胜过，主队队长特里在上轮吃到的红牌被取消，
+ture label 
+{'organization': {'切尔西': [[0, 2]], '曼联': [[13, 14]], '朴茨茅斯': [[20, 23]]}, 'name': {'特里': [[34, 35]]}}
+predict label
+[{'start': 34, 'stop': 36, 'word': '特里', 'type': 'name'}]
+input text
+切尔西本赛季主场迄今全胜，曼联新赛季只在朴茨茅斯身上取胜过，主队队长特里在上轮吃到的红牌被取消，
+ture label 
+{'organization': {'切尔西': [[0, 2]], '曼联': [[13, 14]], '朴茨茅斯': [[20, 23]]}, 'name': {'特里': [[34, 35]]}}
+predict label
+[{'start': 32, 'stop': 34, 'word': '队长', 'type': 'position'}]
+input text
+4.邱礼涛新片《我不卖身，只卖子宫》开镜
+ture label 
+{'movie': {'《我不卖身，只卖子宫》': [[7, 17]]}, 'name': {'邱礼涛': [[2, 4]]}}
+predict label
+[{'start': 2, 'stop': 5, 'word': '邱礼涛', 'type': 'name'}]
+input text
+4.邱礼涛新片《我不卖身，只卖子宫》开镜
+ture label 
+{'movie': {'《我不卖身，只卖子宫》': [[7, 17]]}, 'name': {'邱礼涛': [[2, 4]]}}
+predict label
+[{'start': 7, 'stop': 18, 'word': '《我不卖身，只卖子宫》', 'type': 'movie'}]
+input text
+最近一直在看孙子兵法和汉语言相关的书籍。中文很难，不过我已经可以基本不依赖翻译，
+ture label 
+{'book': {'孙子兵法': [[6, 9]]}}
+predict label
+[{'start': 6, 'stop': 9, 'word': '孙子兵', 'type': 'name'}]
+input text
+阿凡达
+ture label 
+{'movie': {'阿凡达': [[0, 2]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '阿凡达', 'type': 'game'}]
+input text
+半球高水盘于客军不利。本场澳彩标盘的平局赔率低于切沃vs罗马一战，足彩推荐平胆，单选1。
+ture label 
+{'organization': {'切沃': [[24, 25]], '罗马': [[28, 29]]}}
+predict label
+[{'start': 24, 'stop': 26, 'word': '切沃', 'type': 'organization'}, {'start': 28, 'stop': 30, 'word': '罗马', 'type': 'organization'}]
+input text
+我们今天也请到三位来宾来到了现场，我们请的三位朋友朋友是k2地产设计总监姚建刚先生，
+ture label 
+{'name': {'姚建刚': [[36, 38]]}, 'company': {'k2地产': [[28, 31]]}, 'position': {'设计总监': [[32, 35]]}}
+predict label
+[{'start': 36, 'stop': 39, 'word': '姚建刚', 'type': 'name'}]
+input text
+我们今天也请到三位来宾来到了现场，我们请的三位朋友朋友是k2地产设计总监姚建刚先生，
+ture label 
+{'name': {'姚建刚': [[36, 38]]}, 'company': {'k2地产': [[28, 31]]}, 'position': {'设计总监': [[32, 35]]}}
+predict label
+[{'start': 28, 'stop': 36, 'word': 'k2地产设计总监', 'type': 'position'}]
+input text
+央行个人征信报告中并没有所谓的“黑名单”，也没有诸如“不良记录”这类字眼出现。
+ture label 
+{'government': {'央行': [[0, 1]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '央行', 'type': 'government'}]
+input text
+图为泰禾红御总裁助理沈力男
+ture label 
+{'name': {'沈力男': [[10, 12]]}, 'company': {'泰禾红御': [[2, 5]]}, 'position': {'总裁助理': [[6, 9]]}}
+predict label
+[{'start': 10, 'stop': 13, 'word': '沈力男', 'type': 'name'}]
+input text
+图为泰禾红御总裁助理沈力男
+ture label 
+{'name': {'沈力男': [[10, 12]]}, 'company': {'泰禾红御': [[2, 5]]}, 'position': {'总裁助理': [[6, 9]]}}
+predict label
+[{'start': 2, 'stop': 6, 'word': '泰禾红御', 'type': 'company'}]
+input text
+图为泰禾红御总裁助理沈力男
+ture label 
+{'name': {'沈力男': [[10, 12]]}, 'company': {'泰禾红御': [[2, 5]]}, 'position': {'总裁助理': [[6, 9]]}}
+predict label
+[{'start': 6, 'stop': 10, 'word': '总裁助理', 'type': 'position'}]
+input text
+5家国有银行中只有交通银行暂时不收这笔费用，其余银行每年都收取12元。中国银行还特别规定，
+ture label 
+{'company': {'国有银行': [[2, 5]], '交通银行': [[9, 12]], '中国银行': [[35, 38]]}}
+predict label
+[{'start': 9, 'stop': 13, 'word': '交通银行', 'type': 'company'}, {'start': 35, 'stop': 39, 'word': '中国银行', 'type': 'company'}]
+input text
+昨天，该事件有了最新进展，“上海经贸学院”的注册管理部门虹口区教育局宣布，这一事件定性为“
+ture label 
+{'government': {'虹口区教育局': [[28, 33]]}, 'organization': {'上海经贸学院': [[14, 19]]}}
+predict label
+[{'start': 14, 'stop': 20, 'word': '上海经贸学院', 'type': 'organization'}]
+input text
+昨天，该事件有了最新进展，“上海经贸学院”的注册管理部门虹口区教育局宣布，这一事件定性为“
+ture label 
+{'government': {'虹口区教育局': [[28, 33]]}, 'organization': {'上海经贸学院': [[14, 19]]}}
+predict label
+[{'start': 31, 'stop': 34, 'word': '教育局', 'type': 'government'}]
+input text
+另一个关卡，将开始于直升飞机坠毁在胡耶河(越南)，你将利用潜水和游泳技术来执行任务。
+ture label 
+{'address': {'胡耶河(越南)': [[17, 23]]}}
+predict label
+[{'start': 17, 'stop': 20, 'word': '胡耶河', 'type': 'address'}, {'start': 21, 'stop': 24, 'word': '越南)', 'type': 'address'}]
+input text
+勾上之后，你可以用dota1中英雄技能的快捷键，否则--
+ture label 
+{'game': {'dota1': [[9, 13]]}}
+predict label
+[{'start': 9, 'stop': 14, 'word': 'dota1', 'type': 'game'}]
+input text
+昨日下午，陕西省安康市旬阳县人民法院办公室王主任向记者透露，周正龙案开庭审理的公告已经向社会公布，
+ture label 
+{'government': {'陕西省安康市旬阳县人民法院办公室': [[5, 20]]}, 'name': {'周正龙': [[30, 32]]}, 'position': {'主任': [[22, 23]], '记者': [[25, 26]]}}
+predict label
+[{'start': 30, 'stop': 33, 'word': '周正龙', 'type': 'name'}]
+input text
+昨日下午，陕西省安康市旬阳县人民法院办公室王主任向记者透露，周正龙案开庭审理的公告已经向社会公布，
+ture label 
+{'government': {'陕西省安康市旬阳县人民法院办公室': [[5, 20]]}, 'name': {'周正龙': [[30, 32]]}, 'position': {'主任': [[22, 23]], '记者': [[25, 26]]}}
+predict label
+[{'start': 5, 'stop': 21, 'word': '陕西省安康市旬阳县人民法院办公室', 'type': 'government'}]
+input text
+昨日下午，陕西省安康市旬阳县人民法院办公室王主任向记者透露，周正龙案开庭审理的公告已经向社会公布，
+ture label 
+{'government': {'陕西省安康市旬阳县人民法院办公室': [[5, 20]]}, 'name': {'周正龙': [[30, 32]]}, 'position': {'主任': [[22, 23]], '记者': [[25, 26]]}}
+predict label
+[{'start': 22, 'stop': 24, 'word': '主任', 'type': 'position'}, {'start': 25, 'stop': 27, 'word': '记者', 'type': 'position'}]
+input text
+开发建设单位预售经济适用房应当到市国土资源和房屋管理局办理《北京市经济适用住房销售许可证》，
+ture label 
+{'government': {'市国土资源和房屋管理局': [[16, 26]]}, 'book': {'《北京市经济适用住房销售许可证》': [[29, 44]]}}
+predict label
+[{'start': 16, 'stop': 27, 'word': '市国土资源和房屋管理局', 'type': 'government'}]
+input text
+开发建设单位预售经济适用房应当到市国土资源和房屋管理局办理《北京市经济适用住房销售许可证》，
+ture label 
+{'government': {'市国土资源和房屋管理局': [[16, 26]]}, 'book': {'《北京市经济适用住房销售许可证》': [[29, 44]]}}
+predict label
+[{'start': 29, 'stop': 45, 'word': '《北京市经济适用住房销售许可证》', 'type': 'book'}]
+input text
+杂志社和新浪网联合主办，新浪乐居承办，《中国摄影报》协办的我的城市我的家”全国摄影大展活动启幕。
+ture label 
+{'book': {'《中国摄影报》': [[19, 25]]}, 'company': {'新浪乐居': [[12, 15]], '新浪网联': [[4, 7]]}}
+predict label
+[{'start': 4, 'stop': 7, 'word': '新浪网', 'type': 'company'}, {'start': 12, 'stop': 16, 'word': '新浪乐居', 'type': 'company'}]
+input text
+杂志社和新浪网联合主办，新浪乐居承办，《中国摄影报》协办的我的城市我的家”全国摄影大展活动启幕。
+ture label 
+{'book': {'《中国摄影报》': [[19, 25]]}, 'company': {'新浪乐居': [[12, 15]], '新浪网联': [[4, 7]]}}
+predict label
+[{'start': 19, 'stop': 26, 'word': '《中国摄影报》', 'type': 'book'}]
+input text
+武汉市国土资源和房产管理局官方网站公示的武昌区余家头小区三期b座申购房型确定名单，
+ture label 
+{'address': {'武昌区余家头小区三期b座': [[20, 31]]}, 'government': {'武汉市国土资源': [[0, 6]], '房产管理局': [[8, 12]]}}
+predict label
+[{'start': 20, 'stop': 32, 'word': '武昌区余家头小区三期b座', 'type': 'address'}]
+input text
+武汉市国土资源和房产管理局官方网站公示的武昌区余家头小区三期b座申购房型确定名单，
+ture label 
+{'address': {'武昌区余家头小区三期b座': [[20, 31]]}, 'government': {'武汉市国土资源': [[0, 6]], '房产管理局': [[8, 12]]}}
+predict label
+[{'start': 0, 'stop': 7, 'word': '武汉市国土资源', 'type': 'government'}, {'start': 8, 'stop': 13, 'word': '房产管理局', 'type': 'government'}]
+input text
+但最后在办公室的交战中，太阳神还是全军覆没，橘子熊不但以7：4拿下SF的胜利，
+ture label 
+{'address': {'办公室': [[4, 6]]}, 'organization': {'橘子熊': [[22, 24]], '太阳神': [[12, 14]]}}
+predict label
+[{'start': 22, 'stop': 25, 'word': '橘子熊', 'type': 'organization'}]
+input text
+PC/PS3/Xbox360《终结者：救世主》5月19日上市。
+ture label 
+{'game': {'《终结者：救世主》': [[14, 22]]}}
+predict label
+[{'start': 14, 'stop': 23, 'word': '《终结者：救世主》', 'type': 'movie'}]
+input text
+终于到了《黑暗物质：黄金罗盘》（thegoldencompass）的首映周，也许是因为涉嫌“
+ture label 
+{'movie': {'《黑暗物质：黄金罗盘》': [[4, 14]], '（thegoldencompass）': [[15, 32]]}}
+predict label
+[{'start': 4, 'stop': 15, 'word': '《黑暗物质：黄金罗盘》', 'type': 'movie'}, {'start': 16, 'stop': 32, 'word': 'thegoldencompass', 'type': 'movie'}]
+input text
+影片上映后大获成功，斯图尔特塑造的慈祥刚毅的老年女性形象征服了观众，获得奥斯卡最佳女配角奖提名，
+ture label 
+{'name': {'斯图尔特': [[10, 13]]}}
+predict label
+[{'start': 10, 'stop': 14, 'word': '斯图尔特', 'type': 'name'}, {'start': 17, 'stop': 21, 'word': '慈祥刚毅', 'type': 'name'}]
+input text
+ECL的事情，并且也谈了对于转型星际争霸2的情况，本文为上篇。
+ture label 
+{'game': {'星际争霸2': [[16, 20]]}, 'organization': {'ECL': [[0, 2]]}}
+predict label
+[{'start': 16, 'stop': 21, 'word': '星际争霸2', 'type': 'game'}]
+input text
+将参与制作，剧本则请到了《超人归来》(SupermanReturns)和《X战警2》(
+ture label 
+{'movie': {'《超人归来》(SupermanReturns)': [[12, 34]], '《X战警2》(': [[36, 42]]}}
+predict label
+[{'start': 19, 'stop': 35, 'word': 'SupermanReturns)', 'type': 'name'}]
+input text
+将参与制作，剧本则请到了《超人归来》(SupermanReturns)和《X战警2》(
+ture label 
+{'movie': {'《超人归来》(SupermanReturns)': [[12, 34]], '《X战警2》(': [[36, 42]]}}
+predict label
+[{'start': 12, 'stop': 18, 'word': '《超人归来》', 'type': 'movie'}, {'start': 36, 'stop': 42, 'word': '《X战警2》', 'type': 'movie'}]
+input text
+曾将惊奇公司旗下漫画《蜘蛛侠》系列和《X战警》《绿巨人》
+ture label 
+{'book': {'《蜘蛛侠》': [[10, 14]], '《X战警》': [[18, 22]], '《绿巨人》': [[23, 27]]}, 'company': {'惊奇公司': [[2, 5]]}}
+predict label
+[{'start': 18, 'stop': 23, 'word': '《X战警》', 'type': 'game'}]
+input text
+曾将惊奇公司旗下漫画《蜘蛛侠》系列和《X战警》《绿巨人》
+ture label 
+{'book': {'《蜘蛛侠》': [[10, 14]], '《X战警》': [[18, 22]], '《绿巨人》': [[23, 27]]}, 'company': {'惊奇公司': [[2, 5]]}}
+predict label
+[{'start': 10, 'stop': 15, 'word': '《蜘蛛侠》', 'type': 'movie'}, {'start': 23, 'stop': 28, 'word': '《绿巨人》', 'type': 'movie'}]
+input text
+联盟杯积分榜：四支球队已出线热刺维拉形势大好
+ture label 
+{'organization': {'热刺': [[14, 15]], '维拉': [[16, 17]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '联盟杯', 'type': 'organization'}, {'start': 14, 'stop': 16, 'word': '热刺', 'type': 'organization'}, {'start': 16, 'stop': 18, 'word': '维拉', 'type': 'organization'}]
+input text
+更需要后天的学习与修养。因此，一个收藏者要成为收藏家，要在文物与艺术品市场如鱼得水，
+ture label 
+{'position': {'藏家': [[24, 25]]}}
+predict label
+[{'start': 23, 'stop': 26, 'word': '收藏家', 'type': 'position'}]
+input text
+想要在人仙魔三界混杂的西游世界里，构筑属于自己的温馨小窝吗？《逍遥传说》
+ture label 
+{'game': {'《逍遥传说》': [[30, 35]]}}
+predict label
+[{'start': 3, 'stop': 6, 'word': '人仙魔', 'type': 'organization'}]
+input text
+最多的一家将三居室隔成9个房间分别出租。3户涉嫌群租的业主名单已交市住房保障办和海淀区有关部门，
+ture label 
+{'government': {'市住房保障办': [[33, 38]]}}
+predict label
+[{'start': 40, 'stop': 43, 'word': '海淀区', 'type': 'address'}]
+input text
+最多的一家将三居室隔成9个房间分别出租。3户涉嫌群租的业主名单已交市住房保障办和海淀区有关部门，
+ture label 
+{'government': {'市住房保障办': [[33, 38]]}}
+predict label
+[{'start': 33, 'stop': 39, 'word': '市住房保障办', 'type': 'government'}]
+input text
+那么何妨不去看看这几场演出，去现场感受下黄山的壮丽、徽州的文化，感受一场视听盛宴。
+ture label 
+{'scene': {'黄山': [[20, 21]], '徽州': [[26, 27]]}}
+predict label
+[{'start': 20, 'stop': 22, 'word': '黄山', 'type': 'scene'}, {'start': 26, 'stop': 28, 'word': '徽州', 'type': 'scene'}]
+input text
+统计学专家谈武汉经适房六连号事件：概率极小
+ture label 
+{'position': {'统计学专家': [[0, 4]]}}
+predict label
+[{'start': 3, 'stop': 5, 'word': '专家', 'type': 'position'}]
+input text
+俄太平洋舰队主力“维诺格拉多夫海军上将”和“沙波什尼科夫元帅”
+ture label 
+{'government': {'俄太平洋舰队': [[0, 5]], '海军': [[15, 16]]}, 'name': {'维诺格拉多夫': [[9, 14]], '沙波什尼科夫': [[22, 27]]}, 'position': {'上将': [[17, 18]], '元帅': [[28, 29]]}}
+predict label
+[{'start': 23, 'stop': 31, 'word': '波什尼科夫元帅”', 'type': 'address'}]
+input text
+俄太平洋舰队主力“维诺格拉多夫海军上将”和“沙波什尼科夫元帅”
+ture label 
+{'government': {'俄太平洋舰队': [[0, 5]], '海军': [[15, 16]]}, 'name': {'维诺格拉多夫': [[9, 14]], '沙波什尼科夫': [[22, 27]]}, 'position': {'上将': [[17, 18]], '元帅': [[28, 29]]}}
+predict label
+[{'start': 1, 'stop': 6, 'word': '太平洋舰队', 'type': 'government'}, {'start': 9, 'stop': 17, 'word': '维诺格拉多夫海军', 'type': 'government'}]
+input text
+晨报讯沪上某银行员工成钢（化名）为从事非法买卖外汇的黄牛介绍客户而被辞退，
+ture label 
+{'name': {'成钢': [[10, 11]]}}
+predict label
+[{'start': 9, 'stop': 12, 'word': '工成钢', 'type': 'name'}]
+input text
+晨报讯沪上某银行员工成钢（化名）为从事非法买卖外汇的黄牛介绍客户而被辞退，
+ture label 
+{'name': {'成钢': [[10, 11]]}}
+predict label
+[{'start': 3, 'stop': 9, 'word': '沪上某银行员', 'type': 'position'}]
+input text
+合理简化业务处理流程”，因而对此次调整不采取客户到工行网点逐一申请办理的方式，
+ture label 
+{'company': {'工行': [[25, 26]]}}
+predict label
+[{'start': 25, 'stop': 27, 'word': '工行', 'type': 'company'}]
+input text
+威廉希尔凯比值错位排列，立博凯比值顺列看好主队，snai凯比值顺列排列，toto凯比值错位排列，
+ture label 
+{'company': {'威廉希尔': [[0, 3]], '立博': [[12, 13]], 'toto': [[36, 39]], 'snai': [[24, 27]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '威廉希尔', 'type': 'company'}, {'start': 12, 'stop': 14, 'word': '立博', 'type': 'company'}, {'start': 24, 'stop': 28, 'word': 'snai', 'type': 'company'}, {'start': 36, 'stop': 40, 'word': 'toto', 'type': 'company'}]
+input text
+通州区住保办回应廉租申请人“0”号身份证
+ture label 
+{'government': {'通州区住保办': [[0, 5]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '通州区住保', 'type': 'government'}]
+input text
+得经验升级，拿一把钓竿，在《梦幻红楼Flash》中站着也能升级！
+ture label 
+{'game': {'《梦幻红楼Flash》': [[13, 23]]}}
+predict label
+[{'start': 13, 'stop': 24, 'word': '《梦幻红楼Flash》', 'type': 'game'}]
+input text
+据福州市公安局统计，仅2008年上半年，福州市发生“克隆”银行卡并窃取卡内资金的案件33起。
+ture label 
+{'address': {'福州市': [[20, 22]]}, 'government': {'福州市公安局': [[1, 6]]}}
+predict label
+[{'start': 20, 'stop': 23, 'word': '福州市', 'type': 'address'}]
+input text
+据福州市公安局统计，仅2008年上半年，福州市发生“克隆”银行卡并窃取卡内资金的案件33起。
+ture label 
+{'address': {'福州市': [[20, 22]]}, 'government': {'福州市公安局': [[1, 6]]}}
+predict label
+[{'start': 1, 'stop': 7, 'word': '福州市公安局', 'type': 'government'}]
+input text
+你必须得到美国国土安全部的工作许可。
+ture label 
+{'government': {'美国国土安全部': [[5, 11]]}}
+predict label
+[{'start': 5, 'stop': 12, 'word': '美国国土安全部', 'type': 'government'}]
+input text
+第二阶段目前已进入白热化阶段，今晚将决出DOTA以及WAR3两个项目的16强。
+ture label 
+{'game': {'DOTA': [[20, 23]], 'WAR3': [[26, 29]]}}
+predict label
+[{'start': 20, 'stop': 24, 'word': 'DOTA', 'type': 'game'}, {'start': 26, 'stop': 30, 'word': 'WAR3', 'type': 'game'}]
+input text
+每经记者郑步春
+ture label 
+{'book': {'每经': [[0, 1]]}, 'name': {'郑步春': [[4, 6]]}, 'position': {'记者': [[2, 3]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '记者', 'type': 'position'}]
+input text
+不朽的园丁》的费尔南多·梅里尔斯，但明显比《引渡疑云》的加文·胡德高出数段，
+ture label 
+{'movie': {'不朽的园丁》': [[0, 5]], '《引渡疑云》': [[21, 26]]}, 'name': {'费尔南多·梅里尔斯': [[7, 15]], '加文·胡德高': [[28, 33]]}}
+predict label
+[{'start': 7, 'stop': 16, 'word': '费尔南多·梅里尔斯', 'type': 'name'}]
+input text
+不朽的园丁》的费尔南多·梅里尔斯，但明显比《引渡疑云》的加文·胡德高出数段，
+ture label 
+{'movie': {'不朽的园丁》': [[0, 5]], '《引渡疑云》': [[21, 26]]}, 'name': {'费尔南多·梅里尔斯': [[7, 15]], '加文·胡德高': [[28, 33]]}}
+predict label
+[{'start': 21, 'stop': 27, 'word': '《引渡疑云》', 'type': 'movie'}]
+input text
+不朽的园丁》的费尔南多·梅里尔斯，但明显比《引渡疑云》的加文·胡德高出数段，
+ture label 
+{'movie': {'不朽的园丁》': [[0, 5]], '《引渡疑云》': [[21, 26]]}, 'name': {'费尔南多·梅里尔斯': [[7, 15]], '加文·胡德高': [[28, 33]]}}
+predict label
+[{'start': 3, 'stop': 6, 'word': '园丁》', 'type': 'scene'}]
+input text
+本轮拿下暴发户曼城即可锁定出线。赛程上看首战获胜的曼城只要在下个主场击败巴黎圣日耳曼，也可以出线。
+ture label 
+{'organization': {'曼城': [[7, 8], [25, 26]]}}
+predict label
+[{'start': 7, 'stop': 9, 'word': '曼城', 'type': 'organization'}, {'start': 25, 'stop': 27, 'word': '曼城', 'type': 'organization'}, {'start': 36, 'stop': 42, 'word': '巴黎圣日耳曼', 'type': 'organization'}]
+input text
+每个岛的侧重点不同，比如库拉玛蒂、可可亚岛cocoa、微拉瓦鲁岛av岛、大小四季等等，
+ture label 
+{'scene': {'库拉玛蒂': [[12, 15]], '可可亚岛cocoa': [[17, 25]], '微拉瓦鲁岛av岛': [[27, 34]], '大小四季': [[36, 39]]}}
+predict label
+[{'start': 12, 'stop': 16, 'word': '库拉玛蒂', 'type': 'name'}]
+input text
+每个岛的侧重点不同，比如库拉玛蒂、可可亚岛cocoa、微拉瓦鲁岛av岛、大小四季等等，
+ture label 
+{'scene': {'库拉玛蒂': [[12, 15]], '可可亚岛cocoa': [[17, 25]], '微拉瓦鲁岛av岛': [[27, 34]], '大小四季': [[36, 39]]}}
+predict label
+[{'start': 19, 'stop': 26, 'word': '亚岛cocoa', 'type': 'scene'}, {'start': 28, 'stop': 32, 'word': '拉瓦鲁岛', 'type': 'scene'}, {'start': 32, 'stop': 35, 'word': 'av岛', 'type': 'scene'}]
+input text
+玩dota，你会发现破一路都是崩盘的表现玩imba，
+ture label 
+{'game': {'dota': [[1, 4]], 'imba': [[21, 24]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': 'dota', 'type': 'game'}]
+input text
+民生、工行、中心、浦发、中行、交行、农行等13家银行发行了白金卡，民生和建行发行了钻石卡。
+ture label 
+{'company': {'民生': [[0, 1], [33, 34]], '工行': [[3, 4]], '中心': [[6, 7]], '浦发': [[9, 10]], '中行': [[12, 13]], '交行': [[15, 16]], '农行': [[18, 19]], '建行': [[36, 37]]}}
+predict label
+[{'start': 3, 'stop': 5, 'word': '工行', 'type': 'company'}, {'start': 6, 'stop': 8, 'word': '中心', 'type': 'company'}, {'start': 9, 'stop': 11, 'word': '浦发', 'type': 'company'}, {'start': 12, 'stop': 14, 'word': '中行', 'type': 'company'}, {'start': 15, 'stop': 17, 'word': '交行', 'type': 'company'}, {'start': 18, 'stop': 20, 'word': '农行', 'type': 'company'}, {'start': 33, 'stop': 35, 'word': '民生', 'type': 'company'}, {'start': 36, 'stop': 38, 'word': '建行', 'type': 'company'}]
+input text
+工行目前已实现持卡人在本地工行使用信用卡预借现金不收取手续费。此外，
+ture label 
+{'company': {'工行': [[0, 1], [13, 14]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '工行', 'type': 'company'}, {'start': 13, 'stop': 15, 'word': '工行', 'type': 'company'}]
+input text
+近期在伦敦举行的苏富比拍卖会上，盖蒂博物馆以近4631万美金的成交价得到了一副约瑟夫•马洛德•威廉•
+ture label 
+{'address': {'伦敦': [[3, 4]]}, 'organization': {'盖蒂博物馆': [[16, 20]]}, 'name': {'约瑟夫•马洛德•威廉': [[39, 48]]}, 'company': {'苏富比': [[8, 10]]}}
+predict label
+[{'start': 40, 'stop': 48, 'word': '瑟夫•马洛德•威', 'type': 'name'}]
+input text
+近期在伦敦举行的苏富比拍卖会上，盖蒂博物馆以近4631万美金的成交价得到了一副约瑟夫•马洛德•威廉•
+ture label 
+{'address': {'伦敦': [[3, 4]]}, 'organization': {'盖蒂博物馆': [[16, 20]]}, 'name': {'约瑟夫•马洛德•威廉': [[39, 48]]}, 'company': {'苏富比': [[8, 10]]}}
+predict label
+[{'start': 3, 'stop': 5, 'word': '伦敦', 'type': 'address'}]
+input text
+近期在伦敦举行的苏富比拍卖会上，盖蒂博物馆以近4631万美金的成交价得到了一副约瑟夫•马洛德•威廉•
+ture label 
+{'address': {'伦敦': [[3, 4]]}, 'organization': {'盖蒂博物馆': [[16, 20]]}, 'name': {'约瑟夫•马洛德•威廉': [[39, 48]]}, 'company': {'苏富比': [[8, 10]]}}
+predict label
+[{'start': 16, 'stop': 21, 'word': '盖蒂博物馆', 'type': 'scene'}]
+input text
+其质量肯定与真的硬币存在差异，这个差异就是犯罪分子赚钱的空间。”朱博士说。
+ture label 
+{'position': {'博士': [[33, 34]]}}
+predict label
+[{'start': 33, 'stop': 35, 'word': '博士', 'type': 'position'}]
+input text
+南岸区以南滨路喜来登双子塔附近的夜景极为壮观，在长江之南，南滨路上高楼的灯光与长江相得益彰，
+ture label 
+{'address': {'南滨路': [[4, 6]]}, 'scene': {'喜来登双子塔': [[7, 12]]}}
+predict label
+[{'start': 24, 'stop': 35, 'word': '长江之南，南滨路上高楼', 'type': 'address'}]
+input text
+南岸区以南滨路喜来登双子塔附近的夜景极为壮观，在长江之南，南滨路上高楼的灯光与长江相得益彰，
+ture label 
+{'address': {'南滨路': [[4, 6]]}, 'scene': {'喜来登双子塔': [[7, 12]]}}
+predict label
+[{'start': 7, 'stop': 13, 'word': '喜来登双子塔', 'type': 'scene'}]
+input text
+在3月24日的法国文化开放日活动的留学专题讲座中，法驻穗总领事馆文化处文化教育领事穆沙琳、
+ture label 
+{'government': {'法驻穗总领事馆文化处': [[25, 34]]}, 'name': {'穆沙琳': [[41, 43]]}, 'position': {'领事': [[39, 40]]}}
+predict label
+[{'start': 41, 'stop': 44, 'word': '穆沙琳', 'type': 'name'}]
+input text
+在3月24日的法国文化开放日活动的留学专题讲座中，法驻穗总领事馆文化处文化教育领事穆沙琳、
+ture label 
+{'government': {'法驻穗总领事馆文化处': [[25, 34]]}, 'name': {'穆沙琳': [[41, 43]]}, 'position': {'领事': [[39, 40]]}}
+predict label
+[{'start': 7, 'stop': 9, 'word': '法国', 'type': 'address'}]
+input text
+在3月24日的法国文化开放日活动的留学专题讲座中，法驻穗总领事馆文化处文化教育领事穆沙琳、
+ture label 
+{'government': {'法驻穗总领事馆文化处': [[25, 34]]}, 'name': {'穆沙琳': [[41, 43]]}, 'position': {'领事': [[39, 40]]}}
+predict label
+[{'start': 25, 'stop': 32, 'word': '法驻穗总领事馆', 'type': 'government'}]
+input text
+在3月24日的法国文化开放日活动的留学专题讲座中，法驻穗总领事馆文化处文化教育领事穆沙琳、
+ture label 
+{'government': {'法驻穗总领事馆文化处': [[25, 34]]}, 'name': {'穆沙琳': [[41, 43]]}, 'position': {'领事': [[39, 40]]}}
+predict label
+[{'start': 39, 'stop': 41, 'word': '领事', 'type': 'position'}]
+input text
+一部自称”中国版《阿甘正传》”的电影《硬汉》，试图甩开那些”中性美男”、”花样美男”的标签，
+ture label 
+{'movie': {'《阿甘正传》': [[8, 13]], '《硬汉》': [[18, 21]]}}
+predict label
+[{'start': 8, 'stop': 14, 'word': '《阿甘正传》', 'type': 'movie'}, {'start': 18, 'stop': 22, 'word': '《硬汉》', 'type': 'movie'}]
+input text
+连保加利亚的贝尔巴托夫都说，意大利没有布丰实在是保加利亚的机会，他有信心带队击败意大利！本场做客，
+ture label 
+{'organization': {'保加利亚': [[1, 4], [24, 27]], '意大利': [[14, 16], [40, 42]]}, 'name': {'贝尔巴托夫': [[6, 10]], '布丰': [[19, 20]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': '保加利亚', 'type': 'organization'}]
+input text
+连保加利亚的贝尔巴托夫都说，意大利没有布丰实在是保加利亚的机会，他有信心带队击败意大利！本场做客，
+ture label 
+{'organization': {'保加利亚': [[1, 4], [24, 27]], '意大利': [[14, 16], [40, 42]]}, 'name': {'贝尔巴托夫': [[6, 10]], '布丰': [[19, 20]]}}
+predict label
+[{'start': 6, 'stop': 11, 'word': '贝尔巴托夫', 'type': 'name'}]
+input text
+连保加利亚的贝尔巴托夫都说，意大利没有布丰实在是保加利亚的机会，他有信心带队击败意大利！本场做客，
+ture label 
+{'organization': {'保加利亚': [[1, 4], [24, 27]], '意大利': [[14, 16], [40, 42]]}, 'name': {'贝尔巴托夫': [[6, 10]], '布丰': [[19, 20]]}}
+predict label
+[{'start': 24, 'stop': 28, 'word': '保加利亚', 'type': 'address'}]
+input text
+中新网12月24日电据法新社报道，俄罗斯国防部24日表示，在该国远东地区成功试射一枚rs-
+ture label 
+{'address': {'远东地区': [[32, 35]]}, 'government': {'俄罗斯国防部': [[17, 22]]}, 'organization': {'法新社': [[11, 13]]}, 'company': {'中新网': [[0, 2]]}}
+predict label
+[{'start': 31, 'stop': 36, 'word': '国远东地区', 'type': 'address'}]
+input text
+中新网12月24日电据法新社报道，俄罗斯国防部24日表示，在该国远东地区成功试射一枚rs-
+ture label 
+{'address': {'远东地区': [[32, 35]]}, 'government': {'俄罗斯国防部': [[17, 22]]}, 'organization': {'法新社': [[11, 13]]}, 'company': {'中新网': [[0, 2]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '新网', 'type': 'company'}]
+input text
+中新网12月24日电据法新社报道，俄罗斯国防部24日表示，在该国远东地区成功试射一枚rs-
+ture label 
+{'address': {'远东地区': [[32, 35]]}, 'government': {'俄罗斯国防部': [[17, 22]]}, 'organization': {'法新社': [[11, 13]]}, 'company': {'中新网': [[0, 2]]}}
+predict label
+[{'start': 17, 'stop': 23, 'word': '俄罗斯国防部', 'type': 'government'}]
+input text
+中新网12月24日电据法新社报道，俄罗斯国防部24日表示，在该国远东地区成功试射一枚rs-
+ture label 
+{'address': {'远东地区': [[32, 35]]}, 'government': {'俄罗斯国防部': [[17, 22]]}, 'organization': {'法新社': [[11, 13]]}, 'company': {'中新网': [[0, 2]]}}
+predict label
+[{'start': 11, 'stop': 14, 'word': '法新社', 'type': 'book'}]
+input text
+1。没有正规“身份”。这些学校大多只在美国某地区登记注册，其办学资质和文凭未经美国教育部备案核准。
+ture label 
+{'government': {'美国教育部': [[39, 43]]}}
+predict label
+[{'start': 39, 'stop': 44, 'word': '美国教育部', 'type': 'government'}]
+input text
+16古耽《青龙图腾》《帝王攻略》《权宦》《妻为上》《相见欢》《鹰奴》《十大酷刑》《乱世为王》《
+ture label 
+{'book': {'《青龙图腾》': [[4, 9]], '《帝王攻略》': [[10, 15]], '《权宦》': [[16, 19]], '《妻为上》': [[20, 24]], '《相见欢》': [[25, 29]], '《鹰奴》': [[30, 33]], '《十大酷刑》': [[34, 39]], '《乱世为王》': [[40, 45]]}}
+predict label
+[{'start': 4, 'stop': 10, 'word': '《青龙图腾》', 'type': 'book'}, {'start': 10, 'stop': 16, 'word': '《帝王攻略》', 'type': 'book'}, {'start': 16, 'stop': 20, 'word': '《权宦》', 'type': 'book'}, {'start': 40, 'stop': 46, 'word': '《乱世为王》', 'type': 'book'}]
+input text
+16古耽《青龙图腾》《帝王攻略》《权宦》《妻为上》《相见欢》《鹰奴》《十大酷刑》《乱世为王》《
+ture label 
+{'book': {'《青龙图腾》': [[4, 9]], '《帝王攻略》': [[10, 15]], '《权宦》': [[16, 19]], '《妻为上》': [[20, 24]], '《相见欢》': [[25, 29]], '《鹰奴》': [[30, 33]], '《十大酷刑》': [[34, 39]], '《乱世为王》': [[40, 45]]}}
+predict label
+[{'start': 20, 'stop': 25, 'word': '《妻为上》', 'type': 'movie'}, {'start': 25, 'stop': 30, 'word': '《相见欢》', 'type': 'movie'}, {'start': 30, 'stop': 34, 'word': '《鹰奴》', 'type': 'movie'}, {'start': 34, 'stop': 40, 'word': '《十大酷刑》', 'type': 'movie'}]
+input text
+GL在WCG2007亚洲锦标赛上夺得中国首个DotA项目的世界冠军。而FIFA选手杨正(
+ture label 
+{'game': {'DotA': [[22, 25]]}, 'organization': {'GL': [[0, 1]], 'WCG2007亚洲锦标赛': [[3, 14]], 'FIFA': [[35, 38]]}, 'name': {'杨正': [[41, 42]]}, 'position': {'选手': [[39, 40]]}}
+predict label
+[{'start': 3, 'stop': 11, 'word': 'WCG2007亚', 'type': 'organization'}]
+input text
+GL在WCG2007亚洲锦标赛上夺得中国首个DotA项目的世界冠军。而FIFA选手杨正(
+ture label 
+{'game': {'DotA': [[22, 25]]}, 'organization': {'GL': [[0, 1]], 'WCG2007亚洲锦标赛': [[3, 14]], 'FIFA': [[35, 38]]}, 'name': {'杨正': [[41, 42]]}, 'position': {'选手': [[39, 40]]}}
+predict label
+[{'start': 22, 'stop': 26, 'word': 'DotA', 'type': 'game'}]
+input text
+武汉市国土房产局官方网站公示的武昌区余家头小区三期b座申购房型确定名单，
+ture label 
+{'address': {'武昌区余家头小区三期b座': [[15, 26]]}, 'government': {'武汉市国土房产局': [[0, 7]]}}
+predict label
+[{'start': 15, 'stop': 27, 'word': '武昌区余家头小区三期b座', 'type': 'address'}]
+input text
+武汉市国土房产局官方网站公示的武昌区余家头小区三期b座申购房型确定名单，
+ture label 
+{'address': {'武昌区余家头小区三期b座': [[15, 26]]}, 'government': {'武汉市国土房产局': [[0, 7]]}}
+predict label
+[{'start': 0, 'stop': 8, 'word': '武汉市国土房产局', 'type': 'government'}]
+input text
+两家公司将会合作开发一款科幻战争动作游戏《黑光》(Blacklight)，游戏将会有PC/
+ture label 
+{'game': {'《黑光》(Blacklight)': [[20, 35]]}}
+predict label
+[{'start': 20, 'stop': 24, 'word': '《黑光》', 'type': 'game'}]
+input text
+两家公司将会合作开发一款科幻战争动作游戏《黑光》(Blacklight)，游戏将会有PC/
+ture label 
+{'game': {'《黑光》(Blacklight)': [[20, 35]]}}
+predict label
+[{'start': 25, 'stop': 35, 'word': 'Blacklight', 'type': 'movie'}]
+input text
+作者徐宗威先生。建设部政策研究中心城乡规划建设处处长翟宝辉先生。
+ture label 
+{'government': {'建设部政策研究中心城乡规划建设处': [[8, 23]]}, 'name': {'徐宗威': [[2, 4]], '翟宝辉': [[26, 28]]}, 'position': {'作者': [[0, 1]], '处长': [[24, 25]]}}
+predict label
+[{'start': 2, 'stop': 5, 'word': '徐宗威', 'type': 'name'}, {'start': 26, 'stop': 29, 'word': '翟宝辉', 'type': 'name'}]
+input text
+作者徐宗威先生。建设部政策研究中心城乡规划建设处处长翟宝辉先生。
+ture label 
+{'government': {'建设部政策研究中心城乡规划建设处': [[8, 23]]}, 'name': {'徐宗威': [[2, 4]], '翟宝辉': [[26, 28]]}, 'position': {'作者': [[0, 1]], '处长': [[24, 25]]}}
+predict label
+[{'start': 8, 'stop': 24, 'word': '建设部政策研究中心城乡规划建设处', 'type': 'government'}]
+input text
+作者徐宗威先生。建设部政策研究中心城乡规划建设处处长翟宝辉先生。
+ture label 
+{'government': {'建设部政策研究中心城乡规划建设处': [[8, 23]]}, 'name': {'徐宗威': [[2, 4]], '翟宝辉': [[26, 28]]}, 'position': {'作者': [[0, 1]], '处长': [[24, 25]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '作者', 'type': 'position'}, {'start': 24, 'stop': 26, 'word': '处长', 'type': 'position'}]
+input text
+【赛迪网讯】7月1日，据悉，网易于昨日发内部邮件，邀请全体员工测试《魔兽世界》(下称“
+ture label 
+{'game': {'《魔兽世界》': [[33, 38]]}, 'company': {'网易': [[14, 15]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '迪网', 'type': 'company'}, {'start': 14, 'stop': 16, 'word': '网易', 'type': 'company'}]
+input text
+【赛迪网讯】7月1日，据悉，网易于昨日发内部邮件，邀请全体员工测试《魔兽世界》(下称“
+ture label 
+{'game': {'《魔兽世界》': [[33, 38]]}, 'company': {'网易': [[14, 15]]}}
+predict label
+[{'start': 33, 'stop': 39, 'word': '《魔兽世界》', 'type': 'game'}]
+input text
+因此《三国群英传Ⅶ》在豪华版中，特别将岳飞版的《出师表》收录其中，供玩家收藏。
+ture label 
+{'game': {'《三国群英传Ⅶ》': [[2, 9]]}, 'book': {'《出师表》': [[23, 27]]}, 'name': {'岳飞': [[19, 20]]}}
+predict label
+[{'start': 19, 'stop': 21, 'word': '岳飞', 'type': 'name'}]
+input text
+因此《三国群英传Ⅶ》在豪华版中，特别将岳飞版的《出师表》收录其中，供玩家收藏。
+ture label 
+{'game': {'《三国群英传Ⅶ》': [[2, 9]]}, 'book': {'《出师表》': [[23, 27]]}, 'name': {'岳飞': [[19, 20]]}}
+predict label
+[{'start': 23, 'stop': 28, 'word': '《出师表》', 'type': 'book'}]
+input text
+因此《三国群英传Ⅶ》在豪华版中，特别将岳飞版的《出师表》收录其中，供玩家收藏。
+ture label 
+{'game': {'《三国群英传Ⅶ》': [[2, 9]]}, 'book': {'《出师表》': [[23, 27]]}, 'name': {'岳飞': [[19, 20]]}}
+predict label
+[{'start': 2, 'stop': 10, 'word': '《三国群英传Ⅶ》', 'type': 'game'}]
+input text
+分别在新疆和四川灾区对种子教师进行班级辅导方案实施能力培训，掌握《班级团体辅导手册》的应用（
+ture label 
+{'address': {'新疆': [[3, 4]], '四川': [[6, 7]]}, 'book': {'《班级团体辅导手册》': [[32, 41]]}, 'position': {'教师': [[13, 14]]}}
+predict label
+[{'start': 3, 'stop': 5, 'word': '新疆', 'type': 'address'}, {'start': 6, 'stop': 8, 'word': '四川', 'type': 'address'}]
+input text
+分别在新疆和四川灾区对种子教师进行班级辅导方案实施能力培训，掌握《班级团体辅导手册》的应用（
+ture label 
+{'address': {'新疆': [[3, 4]], '四川': [[6, 7]]}, 'book': {'《班级团体辅导手册》': [[32, 41]]}, 'position': {'教师': [[13, 14]]}}
+predict label
+[{'start': 32, 'stop': 42, 'word': '《班级团体辅导手册》', 'type': 'book'}]
+input text
+分别在新疆和四川灾区对种子教师进行班级辅导方案实施能力培训，掌握《班级团体辅导手册》的应用（
+ture label 
+{'address': {'新疆': [[3, 4]], '四川': [[6, 7]]}, 'book': {'《班级团体辅导手册》': [[32, 41]]}, 'position': {'教师': [[13, 14]]}}
+predict label
+[{'start': 13, 'stop': 15, 'word': '教师', 'type': 'position'}]
+input text
+纽卡斯尔队vs斯托克城队两队在英超联赛近18个赛季中无交锋战绩。
+ture label 
+{'organization': {'纽卡斯尔队': [[0, 4]], '斯托克城队': [[7, 11]], '英超联赛': [[15, 18]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': '卡斯尔队', 'type': 'organization'}, {'start': 7, 'stop': 12, 'word': '斯托克城队', 'type': 'organization'}, {'start': 15, 'stop': 19, 'word': '英超联赛', 'type': 'organization'}]
+input text
+在《南京！南京！》片场，有五位操着标准南京方言的女性始终活跃在群众演员的最前方，尤其是一位面容清瘦，
+ture label 
+{'address': {'南京': [[19, 20]]}, 'movie': {'《南京！南京！》': [[1, 8]]}}
+predict label
+[{'start': 1, 'stop': 9, 'word': '《南京！南京！》', 'type': 'movie'}]
+input text
+在《南京！南京！》片场，有五位操着标准南京方言的女性始终活跃在群众演员的最前方，尤其是一位面容清瘦，
+ture label 
+{'address': {'南京': [[19, 20]]}, 'movie': {'《南京！南京！》': [[1, 8]]}}
+predict label
+[{'start': 31, 'stop': 35, 'word': '群众演员', 'type': 'position'}]
+input text
+联盟很可能会在下一季举办CS1.6或者CSOnline的职业联赛，也许Boxer、
+ture label 
+{'game': {'CSOnline': [[19, 26]], 'CS': [[12, 13]]}}
+predict label
+[{'start': 19, 'stop': 27, 'word': 'CSOnline', 'type': 'game'}]
+input text
+老挝家具协会会长育亭·维沙蓬先生介绍说：“很多人说，老挝现在没木头了，事实上，
+ture label 
+{'organization': {'老挝家具协会': [[0, 5]]}, 'name': {'育亭·维沙蓬': [[8, 13]]}, 'position': {'会长': [[6, 7]]}}
+predict label
+[{'start': 1, 'stop': 6, 'word': '挝家具协会', 'type': 'organization'}]
+input text
+老挝家具协会会长育亭·维沙蓬先生介绍说：“很多人说，老挝现在没木头了，事实上，
+ture label 
+{'organization': {'老挝家具协会': [[0, 5]]}, 'name': {'育亭·维沙蓬': [[8, 13]]}, 'position': {'会长': [[6, 7]]}}
+predict label
+[{'start': 8, 'stop': 14, 'word': '育亭·维沙蓬', 'type': 'name'}]
+input text
+老挝家具协会会长育亭·维沙蓬先生介绍说：“很多人说，老挝现在没木头了，事实上，
+ture label 
+{'organization': {'老挝家具协会': [[0, 5]]}, 'name': {'育亭·维沙蓬': [[8, 13]]}, 'position': {'会长': [[6, 7]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '会长', 'type': 'position'}]
+input text
+由西伯利亚军区参谋部和军事检察院人员组成的调查委员会正在现场进行调查。
+ture label 
+{'government': {'西伯利亚军区参谋部': [[1, 9]], '军事检察院': [[11, 15]]}}
+predict label
+[{'start': 21, 'stop': 26, 'word': '调查委员会', 'type': 'organization'}]
+input text
+由西伯利亚军区参谋部和军事检察院人员组成的调查委员会正在现场进行调查。
+ture label 
+{'government': {'西伯利亚军区参谋部': [[1, 9]], '军事检察院': [[11, 15]]}}
+predict label
+[{'start': 1, 'stop': 16, 'word': '西伯利亚军区参谋部和军事检察院', 'type': 'government'}]
+input text
+NASA拟开发火星版《第二人生》为宇航员解闷
+ture label 
+{'game': {'《第二人生》': [[10, 15]]}, 'government': {'NASA': [[0, 3]]}, 'position': {'宇航员': [[17, 19]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': 'NASA', 'type': 'government'}]
+input text
+NASA拟开发火星版《第二人生》为宇航员解闷
+ture label 
+{'game': {'《第二人生》': [[10, 15]]}, 'government': {'NASA': [[0, 3]]}, 'position': {'宇航员': [[17, 19]]}}
+predict label
+[{'start': 10, 'stop': 16, 'word': '《第二人生》', 'type': 'game'}]
+input text
+中国房地产及住宅研究会副会长顾云昌认为，经济适用房建设进度主要取决于三个因素：
+ture label 
+{'organization': {'中国房地产及住宅研究会': [[0, 10]]}, 'name': {'顾云昌': [[14, 16]]}, 'position': {'副会长': [[11, 13]]}}
+predict label
+[{'start': 14, 'stop': 17, 'word': '顾云昌', 'type': 'name'}]
+input text
+中国房地产及住宅研究会副会长顾云昌认为，经济适用房建设进度主要取决于三个因素：
+ture label 
+{'organization': {'中国房地产及住宅研究会': [[0, 10]]}, 'name': {'顾云昌': [[14, 16]]}, 'position': {'副会长': [[11, 13]]}}
+predict label
+[{'start': 0, 'stop': 14, 'word': '中国房地产及住宅研究会副会长', 'type': 'position'}]
+input text
+张连志说他建造瓷房子的灵感，就来自于他的华蕴博物馆的一面古瓷碎片镶嵌的墙。2005年，
+ture label 
+{'name': {'张连志': [[0, 2]]}, 'scene': {'瓷房子': [[7, 9]], '华蕴博物馆': [[20, 24]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '张连志', 'type': 'name'}]
+input text
+张连志说他建造瓷房子的灵感，就来自于他的华蕴博物馆的一面古瓷碎片镶嵌的墙。2005年，
+ture label 
+{'name': {'张连志': [[0, 2]]}, 'scene': {'瓷房子': [[7, 9]], '华蕴博物馆': [[20, 24]]}}
+predict label
+[{'start': 7, 'stop': 10, 'word': '瓷房子', 'type': 'scene'}, {'start': 20, 'stop': 25, 'word': '华蕴博物馆', 'type': 'scene'}]
+input text
+拉科鲁尼亚队vs马拉加队两队在西甲联赛近15个赛季中只交战过14场，
+ture label 
+{'organization': {'拉科鲁尼亚队': [[0, 5]], '马拉加队': [[8, 11]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': '拉科鲁尼亚队', 'type': 'organization'}, {'start': 8, 'stop': 12, 'word': '马拉加队', 'type': 'organization'}, {'start': 15, 'stop': 17, 'word': '西甲', 'type': 'organization'}]
+input text
+刺杀卡斯特罗的638种方法》的原著者。正是这位将军，从上个世纪70年代到90年代，
+ture label 
+{'book': {'刺杀卡斯特罗的638种方法》': [[0, 13]]}, 'position': {'将军': [[23, 24]]}}
+predict label
+[{'start': 2, 'stop': 6, 'word': '卡斯特罗', 'type': 'name'}]
+input text
+刺杀卡斯特罗的638种方法》的原著者。正是这位将军，从上个世纪70年代到90年代，
+ture label 
+{'book': {'刺杀卡斯特罗的638种方法》': [[0, 13]]}, 'position': {'将军': [[23, 24]]}}
+predict label
+[{'start': 9, 'stop': 14, 'word': '8种方法》', 'type': 'book'}]
+input text
+早报讯（记者孟梅实习生夏冬梅）央行有关负责人近日表示，要加快制定“放贷人条例”，
+ture label 
+{'government': {'央行': [[15, 16]]}, 'name': {'孟梅': [[6, 7]], '夏冬梅': [[11, 13]]}, 'position': {'记者': [[4, 5]], '实习生': [[8, 10]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '孟梅', 'type': 'name'}, {'start': 11, 'stop': 14, 'word': '夏冬梅', 'type': 'name'}]
+input text
+早报讯（记者孟梅实习生夏冬梅）央行有关负责人近日表示，要加快制定“放贷人条例”，
+ture label 
+{'government': {'央行': [[15, 16]]}, 'name': {'孟梅': [[6, 7]], '夏冬梅': [[11, 13]]}, 'position': {'记者': [[4, 5]], '实习生': [[8, 10]]}}
+predict label
+[{'start': 15, 'stop': 17, 'word': '央行', 'type': 'government'}]
+input text
+早报讯（记者孟梅实习生夏冬梅）央行有关负责人近日表示，要加快制定“放贷人条例”，
+ture label 
+{'government': {'央行': [[15, 16]]}, 'name': {'孟梅': [[6, 7]], '夏冬梅': [[11, 13]]}, 'position': {'记者': [[4, 5]], '实习生': [[8, 10]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '早报', 'type': 'book'}]
+input text
+早报讯（记者孟梅实习生夏冬梅）央行有关负责人近日表示，要加快制定“放贷人条例”，
+ture label 
+{'government': {'央行': [[15, 16]]}, 'name': {'孟梅': [[6, 7]], '夏冬梅': [[11, 13]]}, 'position': {'记者': [[4, 5]], '实习生': [[8, 10]]}}
+predict label
+[{'start': 4, 'stop': 6, 'word': '记者', 'type': 'position'}, {'start': 8, 'stop': 11, 'word': '实习生', 'type': 'position'}]
+input text
+信托机构决定通过增加新的机构组织与发展扩充博物馆来达到为视觉艺术做出更大贡献的目的，
+ture label 
+{'organization': {'信托机构': [[0, 3]]}, 'scene': {'博物馆': [[21, 23]]}}
+predict label
+[{'start': 21, 'stop': 24, 'word': '博物馆', 'type': 'scene'}]
+input text
+用脚步去探索最原始的长滩岛，用眼睛去认知最传统的菲律宾风俗文化，
+ture label 
+{'address': {'菲律宾': [[24, 26]]}, 'scene': {'长滩岛': [[10, 12]]}}
+predict label
+[{'start': 10, 'stop': 13, 'word': '长滩岛', 'type': 'scene'}]
+input text
+徐悲鸿夫人廖静文、南师大副校长陈凌孚、江苏省文联党组书记王慧芬等出席大会。
+ture label 
+{'organization': {'南师大': [[9, 11]], '江苏省文联党组': [[19, 25]]}, 'name': {'徐悲鸿': [[0, 2]], '廖静文': [[5, 7]], '陈凌孚': [[15, 17]], '王慧芬': [[28, 30]]}, 'position': {'副校长': [[12, 14]], '书记': [[26, 27]]}}
+predict label
+[{'start': 19, 'stop': 25, 'word': '江苏省文联党', 'type': 'organization'}]
+input text
+徐悲鸿夫人廖静文、南师大副校长陈凌孚、江苏省文联党组书记王慧芬等出席大会。
+ture label 
+{'organization': {'南师大': [[9, 11]], '江苏省文联党组': [[19, 25]]}, 'name': {'徐悲鸿': [[0, 2]], '廖静文': [[5, 7]], '陈凌孚': [[15, 17]], '王慧芬': [[28, 30]]}, 'position': {'副校长': [[12, 14]], '书记': [[26, 27]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '徐悲鸿', 'type': 'name'}, {'start': 5, 'stop': 8, 'word': '廖静文', 'type': 'name'}, {'start': 9, 'stop': 12, 'word': '南师大', 'type': 'name'}, {'start': 15, 'stop': 18, 'word': '陈凌孚', 'type': 'name'}, {'start': 28, 'stop': 31, 'word': '王慧芬', 'type': 'name'}]
+input text
+徐悲鸿夫人廖静文、南师大副校长陈凌孚、江苏省文联党组书记王慧芬等出席大会。
+ture label 
+{'organization': {'南师大': [[9, 11]], '江苏省文联党组': [[19, 25]]}, 'name': {'徐悲鸿': [[0, 2]], '廖静文': [[5, 7]], '陈凌孚': [[15, 17]], '王慧芬': [[28, 30]]}, 'position': {'副校长': [[12, 14]], '书记': [[26, 27]]}}
+predict label
+[{'start': 12, 'stop': 15, 'word': '副校长', 'type': 'position'}, {'start': 26, 'stop': 28, 'word': '书记', 'type': 'position'}]
+input text
+DotA2是否免费尚未得知。Valve公司开发的游戏军团要塞2一直都是免费，
+ture label 
+{'game': {'DotA2': [[0, 4]], '游戏军团要塞2': [[24, 30]]}, 'company': {'Valve公司': [[14, 20]]}}
+predict label
+[{'start': 14, 'stop': 21, 'word': 'Valve公司', 'type': 'company'}]
+input text
+DotA2是否免费尚未得知。Valve公司开发的游戏军团要塞2一直都是免费，
+ture label 
+{'game': {'DotA2': [[0, 4]], '游戏军团要塞2': [[24, 30]]}, 'company': {'Valve公司': [[14, 20]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': 'DotA2', 'type': 'game'}]
+input text
+Q：社交属性、社交游戏是最近的热门话题，请问你们是否认为《魔兽世界》
+ture label 
+{'game': {'《魔兽世界》': [[28, 33]]}}
+predict label
+[{'start': 28, 'stop': 34, 'word': '《魔兽世界》', 'type': 'game'}]
+input text
+本报讯（记者李蕾张羽飞）有媒体昨日报道称，重庆“两会”期间，重庆市第三届人大代表、重庆同创置业（
+ture label 
+{'name': {'李蕾': [[6, 7]], '张羽飞': [[8, 10]]}, 'company': {'重庆同创置业': [[41, 46]]}, 'position': {'记者': [[4, 5]], '重庆市第三届人大代表': [[30, 39]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '李蕾', 'type': 'name'}, {'start': 8, 'stop': 11, 'word': '张羽飞', 'type': 'name'}]
+input text
+本报讯（记者李蕾张羽飞）有媒体昨日报道称，重庆“两会”期间，重庆市第三届人大代表、重庆同创置业（
+ture label 
+{'name': {'李蕾': [[6, 7]], '张羽飞': [[8, 10]]}, 'company': {'重庆同创置业': [[41, 46]]}, 'position': {'记者': [[4, 5]], '重庆市第三届人大代表': [[30, 39]]}}
+predict label
+[{'start': 4, 'stop': 6, 'word': '记者', 'type': 'position'}, {'start': 30, 'stop': 40, 'word': '重庆市第三届人大代表', 'type': 'position'}]
+input text
+安博塞利国家公园amboselipark位于肯尼亚边境地区，amboseli翻译过来就是“
+ture label 
+{'address': {'肯尼亚': [[22, 24]]}, 'scene': {'安博塞利国家公园amboselipark': [[0, 19]]}}
+predict label
+[{'start': 22, 'stop': 25, 'word': '肯尼亚', 'type': 'address'}]
+input text
+安博塞利国家公园amboselipark位于肯尼亚边境地区，amboseli翻译过来就是“
+ture label 
+{'address': {'肯尼亚': [[22, 24]]}, 'scene': {'安博塞利国家公园amboselipark': [[0, 19]]}}
+predict label
+[{'start': 1, 'stop': 20, 'word': '博塞利国家公园amboselipark', 'type': 'scene'}]
+input text
+在现场抽奖可以拿到整个10天的埃及旅游和来回机票以及十天的住宿费用。所有费用都由埃及政府来给。
+ture label 
+{'address': {'埃及': [[15, 16]]}, 'government': {'埃及政府': [[40, 43]]}}
+predict label
+[{'start': 40, 'stop': 44, 'word': '埃及政府', 'type': 'government'}]
+input text
+这位WCG魔兽世界冠军表示自己将和TH000一同参加WCG广州站的星际2比赛。而在访谈中，
+ture label 
+{'game': {'魔兽世界': [[5, 8]], '星际2': [[33, 35]]}, 'name': {'TH000': [[17, 21]]}}
+predict label
+[{'start': 26, 'stop': 32, 'word': 'WCG广州站', 'type': 'organization'}]
+input text
+这位WCG魔兽世界冠军表示自己将和TH000一同参加WCG广州站的星际2比赛。而在访谈中，
+ture label 
+{'game': {'魔兽世界': [[5, 8]], '星际2': [[33, 35]]}, 'name': {'TH000': [[17, 21]]}}
+predict label
+[{'start': 17, 'stop': 22, 'word': 'TH000', 'type': 'name'}]
+input text
+这位WCG魔兽世界冠军表示自己将和TH000一同参加WCG广州站的星际2比赛。而在访谈中，
+ture label 
+{'game': {'魔兽世界': [[5, 8]], '星际2': [[33, 35]]}, 'name': {'TH000': [[17, 21]]}}
+predict label
+[{'start': 2, 'stop': 5, 'word': 'WCG', 'type': 'game'}, {'start': 5, 'stop': 9, 'word': '魔兽世界', 'type': 'game'}, {'start': 33, 'stop': 36, 'word': '星际2', 'type': 'game'}]
+input text
+这两处开放性的博物馆每年会迎送近180万的游客，也就是说，每天它们都会接纳差不多5000人次的参观。
+ture label 
+{'scene': {'博物馆': [[7, 9]]}}
+predict label
+[{'start': 7, 'stop': 10, 'word': '博物馆', 'type': 'scene'}]
+input text
+倚天屠龙记新修版套装共4本作者:金庸简介:本书为金庸长篇小说。\
+ture label 
+{'book': {'倚天屠龙记': [[0, 4]]}, 'name': {'金庸': [[16, 17]]}}
+predict label
+[{'start': 1, 'stop': 4, 'word': '天屠龙', 'type': 'name'}, {'start': 16, 'stop': 18, 'word': '金庸', 'type': 'name'}]
+input text
+目前关于《英雄无敌》电影的各种细节，这位高管只透露了以下四点：
+ture label 
+{'movie': {'《英雄无敌》': [[4, 9]]}}
+predict label
+[{'start': 4, 'stop': 10, 'word': '《英雄无敌》', 'type': 'movie'}]
+input text
+TeamWE电视台6月第1周具体安排如下：魔兽争霸3直播地址：http://kan.
+ture label 
+{'game': {'魔兽争霸3': [[21, 25]]}, 'organization': {'TeamWE电视台': [[0, 8]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': 'TeamWE', 'type': 'company'}]
+input text
+TeamWE电视台6月第1周具体安排如下：魔兽争霸3直播地址：http://kan.
+ture label 
+{'game': {'魔兽争霸3': [[21, 25]]}, 'organization': {'TeamWE电视台': [[0, 8]]}}
+predict label
+[{'start': 21, 'stop': 26, 'word': '魔兽争霸3', 'type': 'game'}]
+input text
+但刘中山同时证实，目前负责审批的国家体育总局还较为谨慎，还没有明确态度。尽管如此，刘中山表示，
+ture label 
+{'government': {'国家体育总局': [[16, 21]]}, 'name': {'刘中山': [[1, 3], [41, 43]]}}
+predict label
+[{'start': 1, 'stop': 4, 'word': '刘中山', 'type': 'name'}, {'start': 41, 'stop': 44, 'word': '刘中山', 'type': 'name'}]
+input text
+但刘中山同时证实，目前负责审批的国家体育总局还较为谨慎，还没有明确态度。尽管如此，刘中山表示，
+ture label 
+{'government': {'国家体育总局': [[16, 21]]}, 'name': {'刘中山': [[1, 3], [41, 43]]}}
+predict label
+[{'start': 16, 'stop': 22, 'word': '国家体育总局', 'type': 'government'}]
+input text
+摩根大通在改制后派遣亚太区的首席行政官和首席运营官分别担任子行董事会的非执行董事和监事，
+ture label 
+{'company': {'摩根大通': [[0, 3]]}, 'position': {'首席行政官': [[14, 18]], '首席运营官': [[20, 24]], '非执行董事': [[35, 39]], '监事': [[41, 42]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '摩根大通', 'type': 'company'}]
+input text
+摩根大通在改制后派遣亚太区的首席行政官和首席运营官分别担任子行董事会的非执行董事和监事，
+ture label 
+{'company': {'摩根大通': [[0, 3]]}, 'position': {'首席行政官': [[14, 18]], '首席运营官': [[20, 24]], '非执行董事': [[35, 39]], '监事': [[41, 42]]}}
+predict label
+[{'start': 14, 'stop': 19, 'word': '首席行政官', 'type': 'position'}, {'start': 36, 'stop': 40, 'word': '执行董事', 'type': 'position'}, {'start': 41, 'stop': 43, 'word': '监事', 'type': 'position'}]
+input text
+摩根大通在改制后派遣亚太区的首席行政官和首席运营官分别担任子行董事会的非执行董事和监事，
+ture label 
+{'company': {'摩根大通': [[0, 3]]}, 'position': {'首席行政官': [[14, 18]], '首席运营官': [[20, 24]], '非执行董事': [[35, 39]], '监事': [[41, 42]]}}
+predict label
+[{'start': 10, 'stop': 13, 'word': '亚太区', 'type': 'scene'}]
+input text
+后经医院诊断为右手臂粉碎性骨折。随后，朝天门派出所民警赶到现场。陈玉华的妻子说，
+ture label 
+{'government': {'朝天门派出所': [[19, 24]]}, 'name': {'陈玉华': [[32, 34]]}, 'position': {'民警': [[25, 26]]}}
+predict label
+[{'start': 32, 'stop': 35, 'word': '陈玉华', 'type': 'name'}]
+input text
+后经医院诊断为右手臂粉碎性骨折。随后，朝天门派出所民警赶到现场。陈玉华的妻子说，
+ture label 
+{'government': {'朝天门派出所': [[19, 24]]}, 'name': {'陈玉华': [[32, 34]]}, 'position': {'民警': [[25, 26]]}}
+predict label
+[{'start': 19, 'stop': 25, 'word': '朝天门派出所', 'type': 'government'}]
+input text
+后经医院诊断为右手臂粉碎性骨折。随后，朝天门派出所民警赶到现场。陈玉华的妻子说，
+ture label 
+{'government': {'朝天门派出所': [[19, 24]]}, 'name': {'陈玉华': [[32, 34]]}, 'position': {'民警': [[25, 26]]}}
+predict label
+[{'start': 25, 'stop': 27, 'word': '民警', 'type': 'position'}]
+input text
+日前，菲律宾的卡加延德奥罗市发生了一起越狱事件，5位犯人逃出监狱。他们可没有像《越狱》
+ture label 
+{'address': {'卡加延德奥罗市': [[7, 13]]}, 'movie': {'《越狱》': [[39, 42]]}}
+predict label
+[{'start': 7, 'stop': 14, 'word': '卡加延德奥罗市', 'type': 'address'}]
+input text
+日前，菲律宾的卡加延德奥罗市发生了一起越狱事件，5位犯人逃出监狱。他们可没有像《越狱》
+ture label 
+{'address': {'卡加延德奥罗市': [[7, 13]]}, 'movie': {'《越狱》': [[39, 42]]}}
+predict label
+[{'start': 39, 'stop': 43, 'word': '《越狱》', 'type': 'movie'}]
+input text
+赛前准备出征北京赛区的WE战队只出现了零星的几名SC2选手。
+ture label 
+{'game': {'SC2': [[24, 26]]}, 'address': {'北京赛区': [[6, 9]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '北京', 'type': 'address'}]
+input text
+赛前准备出征北京赛区的WE战队只出现了零星的几名SC2选手。
+ture label 
+{'game': {'SC2': [[24, 26]]}, 'address': {'北京赛区': [[6, 9]]}}
+predict label
+[{'start': 27, 'stop': 29, 'word': '选手', 'type': 'position'}]
+input text
+现在看来粉丝们无法再屏息等待一部精彩的电影版《战争机器》了。洛杉矶时报称，
+ture label 
+{'movie': {'《战争机器》': [[22, 27]]}, 'book': {'洛杉矶时报': [[30, 34]]}}
+predict label
+[{'start': 22, 'stop': 28, 'word': '《战争机器》', 'type': 'game'}]
+input text
+住房和城乡建设部部长姜伟新近日在接受中央电视台采访时表示，对于住有所居的理解，
+ture label 
+{'government': {'住房和城乡建设部': [[0, 7]], '中央电视台': [[18, 22]]}, 'name': {'姜伟': [[10, 11]]}, 'position': {'部长': [[8, 9]]}}
+predict label
+[{'start': 10, 'stop': 12, 'word': '姜伟', 'type': 'name'}]
+input text
+住房和城乡建设部部长姜伟新近日在接受中央电视台采访时表示，对于住有所居的理解，
+ture label 
+{'government': {'住房和城乡建设部': [[0, 7]], '中央电视台': [[18, 22]]}, 'name': {'姜伟': [[10, 11]]}, 'position': {'部长': [[8, 9]]}}
+predict label
+[{'start': 0, 'stop': 8, 'word': '住房和城乡建设部', 'type': 'government'}]
+input text
+住房和城乡建设部部长姜伟新近日在接受中央电视台采访时表示，对于住有所居的理解，
+ture label 
+{'government': {'住房和城乡建设部': [[0, 7]], '中央电视台': [[18, 22]]}, 'name': {'姜伟': [[10, 11]]}, 'position': {'部长': [[8, 9]]}}
+predict label
+[{'start': 8, 'stop': 10, 'word': '部长', 'type': 'position'}]
+input text
+住房和城乡建设部部长姜伟新近日在接受中央电视台采访时表示，对于住有所居的理解，
+ture label 
+{'government': {'住房和城乡建设部': [[0, 7]], '中央电视台': [[18, 22]]}, 'name': {'姜伟': [[10, 11]]}, 'position': {'部长': [[8, 9]]}}
+predict label
+[{'start': 18, 'stop': 23, 'word': '中央电视台', 'type': 'scene'}]
+input text
+soho中国董事长潘石屹演讲时更是直接呼吁：“取消第二套房限制，让房子流通起来。”
+ture label 
+{'name': {'潘石屹': [[9, 11]]}, 'company': {'soho中国': [[0, 5]]}, 'position': {'董事长': [[6, 8]]}}
+predict label
+[{'start': 9, 'stop': 12, 'word': '潘石屹', 'type': 'name'}]
+input text
+soho中国董事长潘石屹演讲时更是直接呼吁：“取消第二套房限制，让房子流通起来。”
+ture label 
+{'name': {'潘石屹': [[9, 11]]}, 'company': {'soho中国': [[0, 5]]}, 'position': {'董事长': [[6, 8]]}}
+predict label
+[{'start': 6, 'stop': 9, 'word': '董事长', 'type': 'position'}]
+input text
+SoZ与原始版最大的不同就是故事剧情采用开放式的结果，
+ture label 
+{'game': {'SoZ': [[0, 2]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': 'SoZ', 'type': 'game'}]
+input text
+雅鲁藏布江干流中下游地区，平均海拔与拉萨差不多，但是特殊的地理位置，让这个地区的气候比拉萨湿润，
+ture label 
+{'address': {'雅鲁藏布江': [[0, 4]], '拉萨': [[18, 19], [43, 44]]}}
+predict label
+[{'start': 43, 'stop': 45, 'word': '拉萨', 'type': 'organization'}]
+input text
+雅鲁藏布江干流中下游地区，平均海拔与拉萨差不多，但是特殊的地理位置，让这个地区的气候比拉萨湿润，
+ture label 
+{'address': {'雅鲁藏布江': [[0, 4]], '拉萨': [[18, 19], [43, 44]]}}
+predict label
+[{'start': 1, 'stop': 12, 'word': '鲁藏布江干流中下游地区', 'type': 'address'}]
+input text
+在开拍前数个月特别请来了军事体能训练家，接受了一连串密集的体能训练，针对《波斯王子》
+ture label 
+{'movie': {'《波斯王子》': [[36, 41]]}, 'position': {'军事体能训练家': [[12, 18]]}}
+predict label
+[{'start': 36, 'stop': 42, 'word': '《波斯王子》', 'type': 'movie'}]
+input text
+当前信用卡坏账率为累积坏账率，新增不良难以反映。不过，前述某股份行信用卡总裁吴明表示，
+ture label 
+{'name': {'吴明': [[38, 39]]}, 'position': {'总裁': [[36, 37]]}}
+predict label
+[{'start': 38, 'stop': 40, 'word': '吴明', 'type': 'name'}]
+input text
+当前信用卡坏账率为累积坏账率，新增不良难以反映。不过，前述某股份行信用卡总裁吴明表示，
+ture label 
+{'name': {'吴明': [[38, 39]]}, 'position': {'总裁': [[36, 37]]}}
+predict label
+[{'start': 36, 'stop': 38, 'word': '总裁', 'type': 'position'}]
+input text
+国内某银行信用卡业务管理人士认为，此次visa再遭欧盟的反垄断指控，主要原因还是其对商户的垄断控制。
+ture label 
+{'government': {'欧盟': [[25, 26]]}, 'company': {'visa': [[19, 22]]}}
+predict label
+[{'start': 19, 'stop': 23, 'word': 'visa', 'type': 'company'}]
+input text
+有充裕的流动资金，目前并不需要金管局的协助。他强调，如有需要，当局不会袖手旁观，会全面支持东亚银行，
+ture label 
+{'government': {'金管局': [[15, 17]]}, 'company': {'东亚银行': [[45, 48]]}}
+predict label
+[{'start': 45, 'stop': 49, 'word': '东亚银行', 'type': 'company'}]
+input text
+电子世界争霸战》的导演，也是《电子世界争霸战遗产》的制片人Steven
+ture label 
+{'movie': {'电子世界争霸战》': [[0, 7]], '《电子世界争霸战遗产》': [[14, 24]]}, 'name': {'Steven': [[29, 34]]}, 'position': {'导演': [[9, 10]], '制片人': [[26, 28]]}}
+predict label
+[{'start': 14, 'stop': 25, 'word': '《电子世界争霸战遗产》', 'type': 'game'}]
+input text
+电子世界争霸战》的导演，也是《电子世界争霸战遗产》的制片人Steven
+ture label 
+{'movie': {'电子世界争霸战》': [[0, 7]], '《电子世界争霸战遗产》': [[14, 24]]}, 'name': {'Steven': [[29, 34]]}, 'position': {'导演': [[9, 10]], '制片人': [[26, 28]]}}
+predict label
+[{'start': 1, 'stop': 8, 'word': '子世界争霸战》', 'type': 'movie'}]
+input text
+电子世界争霸战》的导演，也是《电子世界争霸战遗产》的制片人Steven
+ture label 
+{'movie': {'电子世界争霸战》': [[0, 7]], '《电子世界争霸战遗产》': [[14, 24]]}, 'name': {'Steven': [[29, 34]]}, 'position': {'导演': [[9, 10]], '制片人': [[26, 28]]}}
+predict label
+[{'start': 26, 'stop': 29, 'word': '制片人', 'type': 'position'}]
+input text
+那么海渔广场能为所有的业主承担责任，就是最伟大的项目，比如说住在海渔广场里面觉得有不舒服，不方便，
+ture label 
+{'scene': {'海渔广场': [[2, 5], [32, 35]]}}
+predict label
+[{'start': 32, 'stop': 36, 'word': '海渔广场', 'type': 'address'}]
+input text
+那么海渔广场能为所有的业主承担责任，就是最伟大的项目，比如说住在海渔广场里面觉得有不舒服，不方便，
+ture label 
+{'scene': {'海渔广场': [[2, 5], [32, 35]]}}
+predict label
+[{'start': 2, 'stop': 6, 'word': '海渔广场', 'type': 'scene'}]
+input text
+你觉得星际争霸2的欧洲选手有实力和亚洲选手竞争么？在星际争霸1中不太可能。
+ture label 
+{'game': {'星际争霸2': [[3, 7]], '星际争霸1': [[26, 30]]}, 'position': {'选手': [[11, 12], [19, 20]]}}
+predict label
+[{'start': 3, 'stop': 8, 'word': '星际争霸2', 'type': 'game'}, {'start': 26, 'stop': 30, 'word': '星际争霸', 'type': 'game'}]
+input text
+你觉得星际争霸2的欧洲选手有实力和亚洲选手竞争么？在星际争霸1中不太可能。
+ture label 
+{'game': {'星际争霸2': [[3, 7]], '星际争霸1': [[26, 30]]}, 'position': {'选手': [[11, 12], [19, 20]]}}
+predict label
+[{'start': 11, 'stop': 13, 'word': '选手', 'type': 'position'}, {'start': 19, 'stop': 21, 'word': '选手', 'type': 'position'}]
+input text
+为DotA冠军颁奖的嘉宾是来自中华人民共和国新闻出版总署科技与数字出版司副司长宋建新先生，
+ture label 
+{'game': {'DotA': [[1, 4]]}, 'organization': {'中华人民共和国新闻出版总署科技与数字出版司': [[15, 35]]}, 'name': {'宋建新': [[39, 41]]}, 'position': {'副司长': [[36, 38]]}}
+predict label
+[{'start': 39, 'stop': 42, 'word': '宋建新', 'type': 'name'}]
+input text
+为DotA冠军颁奖的嘉宾是来自中华人民共和国新闻出版总署科技与数字出版司副司长宋建新先生，
+ture label 
+{'game': {'DotA': [[1, 4]]}, 'organization': {'中华人民共和国新闻出版总署科技与数字出版司': [[15, 35]]}, 'name': {'宋建新': [[39, 41]]}, 'position': {'副司长': [[36, 38]]}}
+predict label
+[{'start': 15, 'stop': 28, 'word': '中华人民共和国新闻出版总署', 'type': 'government'}]
+input text
+为DotA冠军颁奖的嘉宾是来自中华人民共和国新闻出版总署科技与数字出版司副司长宋建新先生，
+ture label 
+{'game': {'DotA': [[1, 4]]}, 'organization': {'中华人民共和国新闻出版总署科技与数字出版司': [[15, 35]]}, 'name': {'宋建新': [[39, 41]]}, 'position': {'副司长': [[36, 38]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': 'DotA', 'type': 'game'}]
+input text
+为DotA冠军颁奖的嘉宾是来自中华人民共和国新闻出版总署科技与数字出版司副司长宋建新先生，
+ture label 
+{'game': {'DotA': [[1, 4]]}, 'organization': {'中华人民共和国新闻出版总署科技与数字出版司': [[15, 35]]}, 'name': {'宋建新': [[39, 41]]}, 'position': {'副司长': [[36, 38]]}}
+predict label
+[{'start': 36, 'stop': 39, 'word': '副司长', 'type': 'position'}]
+input text
+这个是外部的环境，我们无法改变的，但是，乐成中心在这个地理位置，在这个场合，在这个时机，
+ture label 
+{'address': {'乐成中心': [[20, 23]]}}
+predict label
+[{'start': 20, 'stop': 24, 'word': '乐成中心', 'type': 'company'}]
+input text
+Diesel)主演，这次他也代言了游戏版的《汽车驾驶员》。
+ture label 
+{'game': {'《汽车驾驶员》': [[21, 27]]}, 'name': {'Diesel)': [[0, 6]]}}
+predict label
+[{'start': 21, 'stop': 28, 'word': '《汽车驾驶员》', 'type': 'game'}]
+input text
+《前线任务》系列是1995年发源于超级任天堂的机器人战略游戏，
+ture label 
+{'game': {'《前线任务》': [[0, 5]]}, 'company': {'任天堂': [[19, 21]]}}
+predict label
+[{'start': 19, 'stop': 22, 'word': '任天堂', 'type': 'company'}]
+input text
+《前线任务》系列是1995年发源于超级任天堂的机器人战略游戏，
+ture label 
+{'game': {'《前线任务》': [[0, 5]]}, 'company': {'任天堂': [[19, 21]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': '《前线任务》', 'type': 'game'}]
+input text
+游戏由THQ旗下的KAOSSTUDIOS开发，故事由经典战争电影《现代启示录(
+ture label 
+{'game': {'《现代启示录(': [[32, 38]]}, 'company': {'THQ': [[3, 5]], 'KAOSSTUDIOS': [[9, 19]]}}
+predict label
+[{'start': 3, 'stop': 6, 'word': 'THQ', 'type': 'company'}]
+input text
+热刺对埃弗顿6胜1平3负，不来梅对法兰克6胜2负，战平次数很少；勒沃对拜仁1胜1平8负，
+ture label 
+{'organization': {'热刺': [[0, 1]], '埃弗顿': [[3, 5]], '不来梅': [[13, 15]], '法兰克': [[17, 19]], '勒沃': [[32, 33]], '拜仁': [[35, 36]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '热刺', 'type': 'organization'}, {'start': 3, 'stop': 6, 'word': '埃弗顿', 'type': 'organization'}, {'start': 17, 'stop': 20, 'word': '法兰克', 'type': 'organization'}, {'start': 32, 'stop': 34, 'word': '勒沃', 'type': 'organization'}, {'start': 35, 'stop': 37, 'word': '拜仁', 'type': 'organization'}]
+input text
+多为单人车，根据车况30-50元/天，几大住宿区域都有，比如四川的泸沽湖镇走婚桥岔路口、博树村、
+ture label 
+{'address': {'四川': [[30, 31]], '泸沽湖镇走婚桥岔路口': [[33, 42]], '博树村': [[44, 46]]}}
+predict label
+[{'start': 30, 'stop': 32, 'word': '四川', 'type': 'address'}, {'start': 33, 'stop': 43, 'word': '泸沽湖镇走婚桥岔路口', 'type': 'address'}]
+input text
+多为单人车，根据车况30-50元/天，几大住宿区域都有，比如四川的泸沽湖镇走婚桥岔路口、博树村、
+ture label 
+{'address': {'四川': [[30, 31]], '泸沽湖镇走婚桥岔路口': [[33, 42]], '博树村': [[44, 46]]}}
+predict label
+[{'start': 44, 'stop': 47, 'word': '博树村', 'type': 'scene'}]
+input text
+北美票房综述：《点爱成金》日进斗金（附图）
+ture label 
+{'movie': {'《点爱成金》': [[7, 12]]}}
+predict label
+[{'start': 7, 'stop': 13, 'word': '《点爱成金》', 'type': 'movie'}]
+input text
+昨日，省古典工艺家具协会会长黄福华表示，近几年，仙游县古典工艺家具发展十分迅速，
+ture label 
+{'organization': {'省古典工艺家具协会': [[3, 11]]}, 'name': {'黄福华': [[14, 16]]}, 'position': {'会长': [[12, 13]]}}
+predict label
+[{'start': 3, 'stop': 12, 'word': '省古典工艺家具协会', 'type': 'organization'}]
+input text
+昨日，省古典工艺家具协会会长黄福华表示，近几年，仙游县古典工艺家具发展十分迅速，
+ture label 
+{'organization': {'省古典工艺家具协会': [[3, 11]]}, 'name': {'黄福华': [[14, 16]]}, 'position': {'会长': [[12, 13]]}}
+predict label
+[{'start': 14, 'stop': 17, 'word': '黄福华', 'type': 'name'}]
+input text
+昨日，省古典工艺家具协会会长黄福华表示，近几年，仙游县古典工艺家具发展十分迅速，
+ture label 
+{'organization': {'省古典工艺家具协会': [[3, 11]]}, 'name': {'黄福华': [[14, 16]]}, 'position': {'会长': [[12, 13]]}}
+predict label
+[{'start': 24, 'stop': 27, 'word': '仙游县', 'type': 'address'}]
+input text
+昨日，省古典工艺家具协会会长黄福华表示，近几年，仙游县古典工艺家具发展十分迅速，
+ture label 
+{'organization': {'省古典工艺家具协会': [[3, 11]]}, 'name': {'黄福华': [[14, 16]]}, 'position': {'会长': [[12, 13]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '会长', 'type': 'position'}]
+input text
+就说明中的相关问题记者电话采访了老河口市房产管理局副局长周富强，他表示，摇号严格按照操作程序执行，
+ture label 
+{'government': {'老河口市房产管理局': [[16, 24]]}, 'name': {'周富强': [[28, 30]]}, 'position': {'记者': [[9, 10]], '副局长': [[25, 27]]}}
+predict label
+[{'start': 28, 'stop': 31, 'word': '周富强', 'type': 'name'}]
+input text
+就说明中的相关问题记者电话采访了老河口市房产管理局副局长周富强，他表示，摇号严格按照操作程序执行，
+ture label 
+{'government': {'老河口市房产管理局': [[16, 24]]}, 'name': {'周富强': [[28, 30]]}, 'position': {'记者': [[9, 10]], '副局长': [[25, 27]]}}
+predict label
+[{'start': 17, 'stop': 25, 'word': '河口市房产管理局', 'type': 'government'}]
+input text
+就说明中的相关问题记者电话采访了老河口市房产管理局副局长周富强，他表示，摇号严格按照操作程序执行，
+ture label 
+{'government': {'老河口市房产管理局': [[16, 24]]}, 'name': {'周富强': [[28, 30]]}, 'position': {'记者': [[9, 10]], '副局长': [[25, 27]]}}
+predict label
+[{'start': 9, 'stop': 11, 'word': '记者', 'type': 'position'}, {'start': 25, 'stop': 28, 'word': '副局长', 'type': 'position'}]
+input text
+自国务院扩大内需、刺激经济十大措施出台后，不少银行迅速与铁路、基建等国家重点支持项目签署合作协议。
+ture label 
+{'government': {'国务院': [[1, 3]]}}
+predict label
+[{'start': 1, 'stop': 4, 'word': '国务院', 'type': 'government'}]
+input text
+古崖居、松山国家级风景区、官厅水库这样一个四大景区环抱之中，自然环境得天独厚。第二，
+ture label 
+{'scene': {'古崖居': [[0, 2]], '松山国家级风景区': [[4, 11]], '官厅水库': [[13, 16]]}}
+predict label
+[{'start': 13, 'stop': 17, 'word': '官厅水库', 'type': 'address'}]
+input text
+古崖居、松山国家级风景区、官厅水库这样一个四大景区环抱之中，自然环境得天独厚。第二，
+ture label 
+{'scene': {'古崖居': [[0, 2]], '松山国家级风景区': [[4, 11]], '官厅水库': [[13, 16]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '古崖居', 'type': 'scene'}, {'start': 4, 'stop': 12, 'word': '松山国家级风景区', 'type': 'scene'}]
+input text
+另外值得注意的是，有分析师称，食品价格上涨已经开始向非食品领域传递。
+ture label 
+{'position': {'分析师': [[10, 12]]}}
+predict label
+[{'start': 10, 'stop': 13, 'word': '分析师', 'type': 'position'}]
+input text
+他的手机号被更改，他的信用卡消费欠款1.4万余元，若不是本人，请致电银行客服。
+ture label 
+{'position': {'银行客服': [[34, 37]]}}
+predict label
+[{'start': 36, 'stop': 38, 'word': '客服', 'type': 'position'}]
+input text
+本报讯（记者邢世伟）昨日，国防部新闻事务局称，目前，中国已经与欧盟、
+ture label 
+{'government': {'国防部新闻事务局': [[13, 20]], '欧盟': [[31, 32]]}, 'name': {'邢世伟': [[6, 8]]}, 'position': {'记者': [[4, 5]]}}
+predict label
+[{'start': 6, 'stop': 9, 'word': '邢世伟', 'type': 'name'}]
+input text
+本报讯（记者邢世伟）昨日，国防部新闻事务局称，目前，中国已经与欧盟、
+ture label 
+{'government': {'国防部新闻事务局': [[13, 20]], '欧盟': [[31, 32]]}, 'name': {'邢世伟': [[6, 8]]}, 'position': {'记者': [[4, 5]]}}
+predict label
+[{'start': 13, 'stop': 21, 'word': '国防部新闻事务局', 'type': 'government'}, {'start': 31, 'stop': 33, 'word': '欧盟', 'type': 'government'}]
+input text
+本报讯（记者邢世伟）昨日，国防部新闻事务局称，目前，中国已经与欧盟、
+ture label 
+{'government': {'国防部新闻事务局': [[13, 20]], '欧盟': [[31, 32]]}, 'name': {'邢世伟': [[6, 8]]}, 'position': {'记者': [[4, 5]]}}
+predict label
+[{'start': 4, 'stop': 6, 'word': '记者', 'type': 'position'}]
+input text
+新华财经副总裁陈松兴接受本报记者采访时表示。
+ture label 
+{'name': {'陈松兴': [[7, 9]]}, 'position': {'新华财经副总裁': [[0, 6]], '记者': [[14, 15]]}}
+predict label
+[{'start': 7, 'stop': 10, 'word': '陈松兴', 'type': 'name'}]
+input text
+新华财经副总裁陈松兴接受本报记者采访时表示。
+ture label 
+{'name': {'陈松兴': [[7, 9]]}, 'position': {'新华财经副总裁': [[0, 6]], '记者': [[14, 15]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '新华财经', 'type': 'company'}]
+input text
+新华财经副总裁陈松兴接受本报记者采访时表示。
+ture label 
+{'name': {'陈松兴': [[7, 9]]}, 'position': {'新华财经副总裁': [[0, 6]], '记者': [[14, 15]]}}
+predict label
+[{'start': 4, 'stop': 7, 'word': '副总裁', 'type': 'position'}, {'start': 14, 'stop': 16, 'word': '记者', 'type': 'position'}]
+input text
+许多传统的DOTA类游戏都提供了中立野怪营地，供玩家征讨并获取奖励。而在暴雪DOTA中，
+ture label 
+{'game': {'DOTA': [[5, 8]], 'DOTA中': [[38, 42]]}, 'company': {'暴雪': [[36, 37]]}}
+predict label
+[{'start': 5, 'stop': 9, 'word': 'DOTA', 'type': 'game'}, {'start': 36, 'stop': 42, 'word': '暴雪DOTA', 'type': 'game'}]
+input text
+就是一个频出续作的例子，如今《冰河世纪3》将在2009年7月1日在北美上映，
+ture label 
+{'movie': {'《冰河世纪3》': [[14, 20]]}}
+predict label
+[{'start': 14, 'stop': 21, 'word': '《冰河世纪3》', 'type': 'game'}]
+input text
+汇丰和巴克莱银行不理会首相提出在花红问题上克制的要求，准备于未来数星期发放多达20亿英镑巨额花红，
+ture label 
+{'company': {'汇丰': [[0, 1]], '巴克莱银行': [[3, 7]]}, 'position': {'首相': [[11, 12]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '汇丰', 'type': 'company'}, {'start': 3, 'stop': 8, 'word': '巴克莱银行', 'type': 'company'}]
+input text
+于是作为中文单机游戏总也无法绕开的话题，“仙剑五”
+ture label 
+{'game': {'“仙剑五”': [[20, 24]]}}
+predict label
+[{'start': 21, 'stop': 24, 'word': '仙剑五', 'type': 'movie'}]
+input text
+《仙剑三》海报抢先曝光设计独特(图)
+ture label 
+{'movie': {'《仙剑三》': [[0, 4]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '《仙剑三》', 'type': 'book'}]
+input text
+《三国群英传Ⅶ》简体中文版，将于2009年1月1日正式上市，
+ture label 
+{'game': {'《三国群英传Ⅶ》': [[0, 7]]}}
+predict label
+[{'start': 0, 'stop': 8, 'word': '《三国群英传Ⅶ》', 'type': 'game'}]
+input text
+游戏发售后被评级组织ESRB改评为AO(仅限成人)级，已经售出上百万份的游戏，
+ture label 
+{'organization': {'ESRB': [[10, 13]]}}
+predict label
+[{'start': 10, 'stop': 14, 'word': 'ESRB', 'type': 'government'}]
+input text
+摩顿岛上有唯一的度假村天阁露玛，别以为唯一就没有什么选择，这里提供多达7种住宿，
+ture label 
+{'address': {'天阁露玛': [[11, 14]]}, 'scene': {'摩顿岛': [[0, 2]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '摩顿岛', 'type': 'scene'}]
+input text
+“冰人奥茨”是目前世界上保存最完好、历史最长的木乃伊之一，保存在意大利博尔扎诺考古博物馆，
+ture label 
+{'scene': {'意大利博尔扎诺考古博物馆': [[32, 43]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '冰人', 'type': 'name'}, {'start': 3, 'stop': 5, 'word': '奥茨', 'type': 'name'}]
+input text
+“冰人奥茨”是目前世界上保存最完好、历史最长的木乃伊之一，保存在意大利博尔扎诺考古博物馆，
+ture label 
+{'scene': {'意大利博尔扎诺考古博物馆': [[32, 43]]}}
+predict label
+[{'start': 32, 'stop': 44, 'word': '意大利博尔扎诺考古博物馆', 'type': 'scene'}]
+input text
+昌平区建委和开发商工作人员赶到现场，对墙壁酥脆原因进行分析。北京市住建委则表示，
+ture label 
+{'government': {'昌平区建委': [[0, 4]], '北京市住建委': [[30, 35]]}, 'position': {'开发商': [[6, 8]]}}
+predict label
+[{'start': 30, 'stop': 36, 'word': '北京市住建委', 'type': 'government'}]
+input text
+还记得2008年5月上市的《吸血鬼故事1》吗？这是一款动画风格的冒险游戏，
+ture label 
+{'game': {'《吸血鬼故事1》': [[13, 20]]}}
+predict label
+[{'start': 13, 'stop': 21, 'word': '《吸血鬼故事1》', 'type': 'movie'}]
+input text
+现实：在1981年，苏联军方宣布了新一代自动步枪研制选型计划，
+ture label 
+{'government': {'苏联军方': [[10, 13]]}}
+predict label
+[{'start': 10, 'stop': 14, 'word': '苏联军方', 'type': 'government'}]
+input text
+这条骑行线路应该是北京最好骑，景色最美的一段路了，全程长安街非常宽阔的马路，
+ture label 
+{'address': {'长安街': [[27, 29]], '北京': [[9, 10]]}}
+predict label
+[{'start': 35, 'stop': 37, 'word': '马路', 'type': 'name'}]
+input text
+这条骑行线路应该是北京最好骑，景色最美的一段路了，全程长安街非常宽阔的马路，
+ture label 
+{'address': {'长安街': [[27, 29]], '北京': [[9, 10]]}}
+predict label
+[{'start': 27, 'stop': 30, 'word': '长安街', 'type': 'address'}]
+input text
+六部新片同日开画，其中除了《色欲o先生》（thestoryofrichardo）
+ture label 
+{'movie': {'《色欲o先生》': [[13, 19]], '（thestoryofrichardo）': [[20, 39]]}}
+predict label
+[{'start': 13, 'stop': 20, 'word': '《色欲o先生》', 'type': 'movie'}, {'start': 21, 'stop': 40, 'word': 'thestoryofrichardo）', 'type': 'movie'}]
+input text
+大众软件：你好，Berg先生。很多中国的读者并不清楚执行制作人在开发团队里要做什么，
+ture label 
+{'book': {'大众软件': [[0, 3]]}, 'name': {'Berg': [[8, 11]]}, 'position': {'执行制作人': [[26, 30]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '大众软件', 'type': 'book'}]
+input text
+大众软件：你好，Berg先生。很多中国的读者并不清楚执行制作人在开发团队里要做什么，
+ture label 
+{'book': {'大众软件': [[0, 3]]}, 'name': {'Berg': [[8, 11]]}, 'position': {'执行制作人': [[26, 30]]}}
+predict label
+[{'start': 26, 'stop': 31, 'word': '执行制作人', 'type': 'position'}]
+input text
+有100个综合体，就形成更具复合功能的建筑群体。所以咱们西直门这个地区先带一个头，做成功的话，
+ture label 
+{'address': {'西直门': [[28, 30]]}}
+predict label
+[{'start': 28, 'stop': 31, 'word': '西直门', 'type': 'address'}]
+input text
+当记者提出1万元额度太少，能否提高时？张经理表示，我们代办的信用卡额度都是1万元左右，
+ture label 
+{'position': {'记者': [[1, 2]], '经理': [[20, 21]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '记者', 'type': 'position'}, {'start': 20, 'stop': 22, 'word': '经理', 'type': 'position'}]
+input text
+我们的WAR3底子是韩国远远不如的，韩国SC，中国WAR3的典型电竞突出项目，
+ture label 
+{'game': {'WAR3': [[3, 6], [25, 28]]}}
+predict label
+[{'start': 18, 'stop': 22, 'word': '韩国SC', 'type': 'government'}]
+input text
+我们的WAR3底子是韩国远远不如的，韩国SC，中国WAR3的典型电竞突出项目，
+ture label 
+{'game': {'WAR3': [[3, 6], [25, 28]]}}
+predict label
+[{'start': 3, 'stop': 7, 'word': 'WAR3', 'type': 'game'}, {'start': 25, 'stop': 29, 'word': 'WAR3', 'type': 'game'}]
+input text
+第五届中国人居环境高峰论坛将于金秋八月在美丽富绕的乌审草原举行。届时，中外专家学者将汇聚乌审，
+ture label 
+{'address': {'乌审': [[44, 45]]}, 'position': {'专家': [[37, 38]], '学者': [[39, 40]]}, 'scene': {'乌审草原': [[25, 28]]}}
+predict label
+[{'start': 20, 'stop': 29, 'word': '美丽富绕的乌审草原', 'type': 'address'}, {'start': 42, 'stop': 45, 'word': '汇聚乌', 'type': 'address'}]
+input text
+第五届中国人居环境高峰论坛将于金秋八月在美丽富绕的乌审草原举行。届时，中外专家学者将汇聚乌审，
+ture label 
+{'address': {'乌审': [[44, 45]]}, 'position': {'专家': [[37, 38]], '学者': [[39, 40]]}, 'scene': {'乌审草原': [[25, 28]]}}
+predict label
+[{'start': 37, 'stop': 39, 'word': '专家', 'type': 'position'}]
+input text
+“它不是《辐射3》的续作，只不过是另一款辐射作品，有着不同的世界观及设定。”
+ture label 
+{'game': {'《辐射3》': [[4, 8]]}}
+predict label
+[{'start': 4, 'stop': 9, 'word': '《辐射3》', 'type': 'game'}]
+input text
+乾隆帝御宝交龙钮玉玺以2026万港元拍出，此玺为法国吉美家族旧藏。2007年秋拍此件以760.
+ture label 
+{'name': {'乾隆': [[0, 1]]}}
+predict label
+[{'start': 24, 'stop': 28, 'word': '法国吉美', 'type': 'organization'}]
+input text
+乾隆帝御宝交龙钮玉玺以2026万港元拍出，此玺为法国吉美家族旧藏。2007年秋拍此件以760.
+ture label 
+{'name': {'乾隆': [[0, 1]]}}
+predict label
+[{'start': 3, 'stop': 5, 'word': '御宝', 'type': 'company'}]
+input text
+乾隆帝御宝交龙钮玉玺以2026万港元拍出，此玺为法国吉美家族旧藏。2007年秋拍此件以760.
+ture label 
+{'name': {'乾隆': [[0, 1]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '隆帝', 'type': 'position'}]
+input text
+智、叶真、福缘、刘、仲、文、四”等，考《古籍宋元刊工姓名索引》著录相同者有叶真、福缘二人。
+ture label 
+{'book': {'《古籍宋元刊工姓名索引》': [[19, 30]]}, 'name': {'叶真': [[37, 38]], '福缘': [[40, 41]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '叶真', 'type': 'name'}, {'start': 8, 'stop': 11, 'word': '刘、仲', 'type': 'name'}, {'start': 37, 'stop': 39, 'word': '叶真', 'type': 'name'}]
+input text
+智、叶真、福缘、刘、仲、文、四”等，考《古籍宋元刊工姓名索引》著录相同者有叶真、福缘二人。
+ture label 
+{'book': {'《古籍宋元刊工姓名索引》': [[19, 30]]}, 'name': {'叶真': [[37, 38]], '福缘': [[40, 41]]}}
+predict label
+[{'start': 5, 'stop': 7, 'word': '福缘', 'type': 'company'}, {'start': 40, 'stop': 42, 'word': '福缘', 'type': 'company'}]
+input text
+智、叶真、福缘、刘、仲、文、四”等，考《古籍宋元刊工姓名索引》著录相同者有叶真、福缘二人。
+ture label 
+{'book': {'《古籍宋元刊工姓名索引》': [[19, 30]]}, 'name': {'叶真': [[37, 38]], '福缘': [[40, 41]]}}
+predict label
+[{'start': 19, 'stop': 31, 'word': '《古籍宋元刊工姓名索引》', 'type': 'book'}]
+input text
+两支队伍本季都经历了换帅，球员时代得到普遍认同的佐拉和亚当斯作为主教练依然欠缺经验，对各自球队人员、
+ture label 
+{'name': {'佐拉': [[24, 25]], '亚当斯': [[27, 29]]}, 'position': {'球员': [[13, 14]], '主教练': [[32, 34]]}}
+predict label
+[{'start': 24, 'stop': 26, 'word': '佐拉', 'type': 'name'}, {'start': 27, 'stop': 30, 'word': '亚当斯', 'type': 'name'}]
+input text
+两支队伍本季都经历了换帅，球员时代得到普遍认同的佐拉和亚当斯作为主教练依然欠缺经验，对各自球队人员、
+ture label 
+{'name': {'佐拉': [[24, 25]], '亚当斯': [[27, 29]]}, 'position': {'球员': [[13, 14]], '主教练': [[32, 34]]}}
+predict label
+[{'start': 32, 'stop': 35, 'word': '主教练', 'type': 'position'}]
+input text
+金贸中心2009城市建筑综合体高端财智峰会。
+ture label 
+{'address': {'金贸中心': [[0, 3]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '金贸中心', 'type': 'address'}]
+input text
+麦兜故事》的原著作者谢立文指出“抖抖脚”是“真正代表现今新一代年轻人。麦柄在以前，麦太在未来，
+ture label 
+{'book': {'麦兜故事》': [[0, 4]]}, 'name': {'谢立文': [[10, 12]], '麦柄': [[35, 36]], '麦太': [[41, 42]]}, 'position': {'作者': [[8, 9]]}}
+predict label
+[{'start': 10, 'stop': 13, 'word': '谢立文', 'type': 'name'}]
+input text
+麦兜故事》的原著作者谢立文指出“抖抖脚”是“真正代表现今新一代年轻人。麦柄在以前，麦太在未来，
+ture label 
+{'book': {'麦兜故事》': [[0, 4]]}, 'name': {'谢立文': [[10, 12]], '麦柄': [[35, 36]], '麦太': [[41, 42]]}, 'position': {'作者': [[8, 9]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '麦兜故事》', 'type': 'game'}]
+input text
+麦兜故事》的原著作者谢立文指出“抖抖脚”是“真正代表现今新一代年轻人。麦柄在以前，麦太在未来，
+ture label 
+{'book': {'麦兜故事》': [[0, 4]]}, 'name': {'谢立文': [[10, 12]], '麦柄': [[35, 36]], '麦太': [[41, 42]]}, 'position': {'作者': [[8, 9]]}}
+predict label
+[{'start': 8, 'stop': 10, 'word': '作者', 'type': 'position'}]
+input text
+最终幻想》(FinalFantasy)和《永恒的任务》(EverQuest2)
+ture label 
+{'game': {'最终幻想》': [[0, 4]], '(FinalFantasy)': [[5, 18]], '《永恒的任务》': [[20, 26]], '(EverQuest2)': [[27, 38]]}}
+predict label
+[{'start': 20, 'stop': 27, 'word': '《永恒的任务》', 'type': 'game'}, {'start': 27, 'stop': 38, 'word': '(EverQuest2', 'type': 'game'}]
+input text
+最终幻想》(FinalFantasy)和《永恒的任务》(EverQuest2)
+ture label 
+{'game': {'最终幻想》': [[0, 4]], '(FinalFantasy)': [[5, 18]], '《永恒的任务》': [[20, 26]], '(EverQuest2)': [[27, 38]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '最终幻想》', 'type': 'movie'}, {'start': 6, 'stop': 18, 'word': 'FinalFantasy', 'type': 'movie'}]
+input text
+台阶下两组喷泉寓意深刻右边的象征第勒尼安海，左边的象征亚得里亚海，
+ture label 
+{'scene': {'第勒尼安海': [[16, 20]], '亚得里亚海': [[27, 31]]}}
+predict label
+[{'start': 18, 'stop': 21, 'word': '尼安海', 'type': 'name'}]
+input text
+台阶下两组喷泉寓意深刻右边的象征第勒尼安海，左边的象征亚得里亚海，
+ture label 
+{'scene': {'第勒尼安海': [[16, 20]], '亚得里亚海': [[27, 31]]}}
+predict label
+[{'start': 29, 'stop': 32, 'word': '里亚海', 'type': 'address'}]
+input text
+新浪乐居大客户部主任邢晓利
+ture label 
+{'name': {'邢晓利': [[10, 12]]}, 'company': {'新浪乐居大客户部': [[0, 7]]}, 'position': {'主任': [[8, 9]]}}
+predict label
+[{'start': 10, 'stop': 13, 'word': '邢晓利', 'type': 'name'}]
+input text
+新浪乐居大客户部主任邢晓利
+ture label 
+{'name': {'邢晓利': [[10, 12]]}, 'company': {'新浪乐居大客户部': [[0, 7]]}, 'position': {'主任': [[8, 9]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '乐居', 'type': 'company'}]
+input text
+新浪乐居大客户部主任邢晓利
+ture label 
+{'name': {'邢晓利': [[10, 12]]}, 'company': {'新浪乐居大客户部': [[0, 7]]}, 'position': {'主任': [[8, 9]]}}
+predict label
+[{'start': 5, 'stop': 10, 'word': '客户部主任', 'type': 'position'}]
+input text
+而且每一幅都是自己非常满意的力作。其中一幅《竹舍》，是吴冠中到日本办展时丢失的。
+ture label 
+{'address': {'日本': [[31, 32]]}, 'book': {'《竹舍》': [[21, 24]]}, 'name': {'吴冠中': [[27, 29]]}}
+predict label
+[{'start': 27, 'stop': 30, 'word': '吴冠中', 'type': 'name'}]
+input text
+而且每一幅都是自己非常满意的力作。其中一幅《竹舍》，是吴冠中到日本办展时丢失的。
+ture label 
+{'address': {'日本': [[31, 32]]}, 'book': {'《竹舍》': [[21, 24]]}, 'name': {'吴冠中': [[27, 29]]}}
+predict label
+[{'start': 21, 'stop': 25, 'word': '《竹舍》', 'type': 'book'}]
+input text
+张传波来到广州白云区京溪街某综合市场在远亲陈某处打工，认识了陈某侄女阿霞，两人不久便确定了恋爱关系。
+ture label 
+{'address': {'广州白云区京溪街某综合市场': [[5, 17]]}, 'name': {'张传波': [[0, 2]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '张传波', 'type': 'name'}]
+input text
+张传波来到广州白云区京溪街某综合市场在远亲陈某处打工，认识了陈某侄女阿霞，两人不久便确定了恋爱关系。
+ture label 
+{'address': {'广州白云区京溪街某综合市场': [[5, 17]]}, 'name': {'张传波': [[0, 2]]}}
+predict label
+[{'start': 5, 'stop': 13, 'word': '广州白云区京溪街', 'type': 'address'}]
+input text
+张传波来到广州白云区京溪街某综合市场在远亲陈某处打工，认识了陈某侄女阿霞，两人不久便确定了恋爱关系。
+ture label 
+{'address': {'广州白云区京溪街某综合市场': [[5, 17]]}, 'name': {'张传波': [[0, 2]]}}
+predict label
+[{'start': 32, 'stop': 36, 'word': '侄女阿霞', 'type': 'scene'}]
+input text
+战锤Online》(WarhammerOnline)首席设计师马克·雅各布(Mark
+ture label 
+{'game': {'战锤Online》': [[0, 8]], 'WarhammerOnline': [[10, 24]]}, 'name': {'马克·雅各布': [[31, 36]], 'Mark': [[38, 41]]}, 'position': {'首席设计师': [[26, 30]]}}
+predict label
+[{'start': 31, 'stop': 35, 'word': '马克·雅', 'type': 'name'}]
+input text
+战锤Online》(WarhammerOnline)首席设计师马克·雅各布(Mark
+ture label 
+{'game': {'战锤Online》': [[0, 8]], 'WarhammerOnline': [[10, 24]]}, 'name': {'马克·雅各布': [[31, 36]], 'Mark': [[38, 41]]}, 'position': {'首席设计师': [[26, 30]]}}
+predict label
+[{'start': 26, 'stop': 31, 'word': '首席设计师', 'type': 'position'}]
+input text
+所以我会把重心放在魔兽上面。未来的话再看吧。
+ture label 
+{'game': {'魔兽': [[9, 10]]}}
+predict label
+[{'start': 9, 'stop': 11, 'word': '魔兽', 'type': 'game'}]
+input text
+葡萄牙人奎罗斯的离开，应是曼联夏季极大的损失。c罗倦勤和其他引援仓促，
+ture label 
+{'organization': {'曼联': [[13, 14]]}, 'name': {'奎罗斯': [[4, 6]], 'c罗': [[23, 24]]}}
+predict label
+[{'start': 13, 'stop': 16, 'word': '曼联夏', 'type': 'organization'}]
+input text
+葡萄牙人奎罗斯的离开，应是曼联夏季极大的损失。c罗倦勤和其他引援仓促，
+ture label 
+{'organization': {'曼联': [[13, 14]]}, 'name': {'奎罗斯': [[4, 6]], 'c罗': [[23, 24]]}}
+predict label
+[{'start': 4, 'stop': 7, 'word': '奎罗斯', 'type': 'name'}]
+input text
+《伊苏7》是承袭2003年推出的《伊苏6》的正统续篇新作，
+ture label 
+{'game': {'《伊苏7》': [[0, 4]], '《伊苏6》': [[16, 20]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '《伊苏7》', 'type': 'game'}]
+input text
+《伊苏7》是承袭2003年推出的《伊苏6》的正统续篇新作，
+ture label 
+{'game': {'《伊苏7》': [[0, 4]], '《伊苏6》': [[16, 20]]}}
+predict label
+[{'start': 16, 'stop': 21, 'word': '《伊苏6》', 'type': 'movie'}]
+input text
+8.巴勒莫vsac米兰从目前收到的数据情况分析而言，米兰的客场让人怛忧，但不会有大冷爆出，
+ture label 
+{'organization': {'巴勒莫': [[2, 4]], 'ac米兰': [[7, 10]], '米兰': [[26, 27]]}}
+predict label
+[{'start': 2, 'stop': 5, 'word': '巴勒莫', 'type': 'organization'}, {'start': 7, 'stop': 11, 'word': 'ac米兰', 'type': 'organization'}]
+input text
+相比之下，郭子健导演的《青苔》在票房表现上可以说是在重复着片名所代表的意义，“青苔是很低等的生物，
+ture label 
+{'movie': {'《青苔》': [[11, 14]]}, 'name': {'郭子健': [[5, 7]]}, 'position': {'导演': [[8, 9]]}}
+predict label
+[{'start': 5, 'stop': 8, 'word': '郭子健', 'type': 'name'}]
+input text
+相比之下，郭子健导演的《青苔》在票房表现上可以说是在重复着片名所代表的意义，“青苔是很低等的生物，
+ture label 
+{'movie': {'《青苔》': [[11, 14]]}, 'name': {'郭子健': [[5, 7]]}, 'position': {'导演': [[8, 9]]}}
+predict label
+[{'start': 11, 'stop': 15, 'word': '《青苔》', 'type': 'movie'}]
+input text
+相比之下，郭子健导演的《青苔》在票房表现上可以说是在重复着片名所代表的意义，“青苔是很低等的生物，
+ture label 
+{'movie': {'《青苔》': [[11, 14]]}, 'name': {'郭子健': [[5, 7]]}, 'position': {'导演': [[8, 9]]}}
+predict label
+[{'start': 8, 'stop': 10, 'word': '导演', 'type': 'position'}]
+input text
+小镇中心的美术馆是一个最为典型的代表。可以说，格拉斯小镇处处都凝聚了艺术的魅力，漫步于此，
+ture label 
+{'scene': {'美术馆': [[5, 7]], '格拉斯小镇': [[23, 27]]}}
+predict label
+[{'start': 23, 'stop': 28, 'word': '格拉斯小镇', 'type': 'address'}]
+input text
+小镇中心的美术馆是一个最为典型的代表。可以说，格拉斯小镇处处都凝聚了艺术的魅力，漫步于此，
+ture label 
+{'scene': {'美术馆': [[5, 7]], '格拉斯小镇': [[23, 27]]}}
+predict label
+[{'start': 5, 'stop': 8, 'word': '美术馆', 'type': 'scene'}]
+input text
+这款城市建设策略游戏ANNO系列的最新作《纪元1404》由“工人物语（
+ture label 
+{'game': {'《纪元1404》': [[20, 27]], '工人物语': [[30, 33]], 'ANNO系列': [[10, 15]]}}
+predict label
+[{'start': 20, 'stop': 28, 'word': '《纪元1404》', 'type': 'game'}]
+input text
+针对上周读者提到的事例，《钱袋子》记者进行了专门的走访，请教了部分银行的信用卡专业人士，
+ture label 
+{'book': {'《钱袋子》': [[12, 16]]}, 'position': {'记者': [[17, 18]]}}
+predict label
+[{'start': 12, 'stop': 17, 'word': '《钱袋子》', 'type': 'book'}]
+input text
+针对上周读者提到的事例，《钱袋子》记者进行了专门的走访，请教了部分银行的信用卡专业人士，
+ture label 
+{'book': {'《钱袋子》': [[12, 16]]}, 'position': {'记者': [[17, 18]]}}
+predict label
+[{'start': 17, 'stop': 19, 'word': '记者', 'type': 'position'}]
+input text
+“我觉得能有机会拍《南京！南京！》是我一辈子最大的荣幸，也是实现了最大的梦想，我觉得非常有意义！
+ture label 
+{'movie': {'《南京！南京！》': [[9, 16]]}}
+predict label
+[{'start': 9, 'stop': 17, 'word': '《南京！南京！》', 'type': 'movie'}]
+input text
+住总开发公司常营项目经理孔祥同介绍说，常营经适房c标段共有13栋住宅楼，其中包括2栋廉租房楼，
+ture label 
+{'name': {'孔祥同': [[12, 14]]}, 'position': {'项目经理': [[8, 11]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '孔祥', 'type': 'name'}]
+input text
+住总开发公司常营项目经理孔祥同介绍说，常营经适房c标段共有13栋住宅楼，其中包括2栋廉租房楼，
+ture label 
+{'name': {'孔祥同': [[12, 14]]}, 'position': {'项目经理': [[8, 11]]}}
+predict label
+[{'start': 8, 'stop': 12, 'word': '项目经理', 'type': 'position'}]
+input text
+2009年公告》将以“申请购买限价房时”为准，凡无住宅登记者即可申请购买限价房；
+ture label 
+{'book': {'2009年公告》': [[0, 7]]}}
+predict label
+[{'start': 1, 'stop': 8, 'word': '009年公告》', 'type': 'movie'}]
+input text
+我们怎么样把乐成中心的生活、工作、消费的行为密切的产生互动，所以我们邀请了精品的研究院，
+ture label 
+{'address': {'乐成中心': [[6, 9]]}}
+predict label
+[{'start': 6, 'stop': 10, 'word': '乐成中心', 'type': 'company'}]
+input text
+据香港南华早报周四报导,中国银监会已通知国内银行停止为美国金融机构提供银行间借贷,
+ture label 
+{'government': {'中国银监会': [[12, 16]]}, 'book': {'南华早报': [[3, 6]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '香港', 'type': 'address'}]
+input text
+据香港南华早报周四报导,中国银监会已通知国内银行停止为美国金融机构提供银行间借贷,
+ture label 
+{'government': {'中国银监会': [[12, 16]]}, 'book': {'南华早报': [[3, 6]]}}
+predict label
+[{'start': 12, 'stop': 17, 'word': '中国银监会', 'type': 'government'}]
+input text
+据香港南华早报周四报导,中国银监会已通知国内银行停止为美国金融机构提供银行间借贷,
+ture label 
+{'government': {'中国银监会': [[12, 16]]}, 'book': {'南华早报': [[3, 6]]}}
+predict label
+[{'start': 3, 'stop': 7, 'word': '南华早报', 'type': 'book'}]
+input text
+另外，我们在做证券市场和房地产市场中间的波动曲线。上面这个是房地产国家统计局发布的房地产景气指数，
+ture label 
+{'government': {'房地产国家统计局': [[30, 37]]}}
+predict label
+[{'start': 7, 'stop': 11, 'word': '证券市场', 'type': 'address'}]
+input text
+另外，我们在做证券市场和房地产市场中间的波动曲线。上面这个是房地产国家统计局发布的房地产景气指数，
+ture label 
+{'government': {'房地产国家统计局': [[30, 37]]}}
+predict label
+[{'start': 30, 'stop': 38, 'word': '房地产国家统计局', 'type': 'government'}]
+input text
+玩dota，你会发现线上是人间天堂，经验和钱多玩imba，你会发现线上是人间地狱，
+ture label 
+{'game': {'dota': [[1, 4]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': 'dota', 'type': 'game'}, {'start': 24, 'stop': 28, 'word': 'imba', 'type': 'game'}]
+input text
+又有许许多多雪花,只不过已不是令年这些雪花罢了。《神雕侠侣》花落花开,花开花落,少年子弟江湖老,
+ture label 
+{'book': {'《神雕侠侣》': [[24, 29]]}}
+predict label
+[{'start': 24, 'stop': 30, 'word': '《神雕侠侣》', 'type': 'book'}]
+input text
+又有许许多多雪花,只不过已不是令年这些雪花罢了。《神雕侠侣》花落花开,花开花落,少年子弟江湖老,
+ture label 
+{'book': {'《神雕侠侣》': [[24, 29]]}}
+predict label
+[{'start': 43, 'stop': 46, 'word': '弟江湖', 'type': 'scene'}]
+input text
+作为一名美国殖民舰队的精英战士，你所拥有的除了《异形》中经典的武器，
+ture label 
+{'movie': {'《异形》': [[23, 26]]}, 'government': {'美国殖民舰队': [[4, 9]]}}
+predict label
+[{'start': 4, 'stop': 10, 'word': '美国殖民舰队', 'type': 'government'}]
+input text
+作为一名美国殖民舰队的精英战士，你所拥有的除了《异形》中经典的武器，
+ture label 
+{'movie': {'《异形》': [[23, 26]]}, 'government': {'美国殖民舰队': [[4, 9]]}}
+predict label
+[{'start': 23, 'stop': 27, 'word': '《异形》', 'type': 'movie'}]
+input text
+G联赛线下赛星际2冠军独得15万奖金
+ture label 
+{'game': {'星际2': [[6, 8]]}, 'organization': {'G联赛': [[0, 2]]}}
+predict label
+[{'start': 6, 'stop': 9, 'word': '星际2', 'type': 'game'}]
+input text
+Take-Two称与FTC达成信息披露协议
+ture label 
+{'government': {'FTC': [[10, 12]]}, 'company': {'Take-Two': [[0, 7]]}}
+predict label
+[{'start': 10, 'stop': 14, 'word': 'FTC达', 'type': 'organization'}]
+input text
+2008年3月11日，汤姆-克鲁斯在贝弗利山庄购买了一套3500万美金的别墅，别墅正在修建中。
+ture label 
+{'address': {'贝弗利山庄': [[18, 22]]}, 'name': {'汤姆-克鲁斯': [[11, 16]]}}
+predict label
+[{'start': 11, 'stop': 17, 'word': '汤姆-克鲁斯', 'type': 'name'}]
+input text
+2008年3月11日，汤姆-克鲁斯在贝弗利山庄购买了一套3500万美金的别墅，别墅正在修建中。
+ture label 
+{'address': {'贝弗利山庄': [[18, 22]]}, 'name': {'汤姆-克鲁斯': [[11, 16]]}}
+predict label
+[{'start': 18, 'stop': 23, 'word': '贝弗利山庄', 'type': 'address'}]
+input text
+10月6日，欧盟裁定中国输欧无缝钢管对欧盟产业构成损害威胁，决定征收17.7%至39.2%
+ture label 
+{'organization': {'欧盟': [[6, 7], [19, 20]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '欧盟', 'type': 'organization'}]
+input text
+实际上在当时伊拉克的国防部长已经在战争爆发之前的时候就已经投靠了美军，
+ture label 
+{'address': {'伊拉克': [[6, 8]]}, 'government': {'美军': [[32, 33]]}, 'position': {'国防部长': [[10, 13]]}}
+predict label
+[{'start': 6, 'stop': 13, 'word': '伊拉克的国防部', 'type': 'government'}, {'start': 32, 'stop': 34, 'word': '美军', 'type': 'government'}]
+input text
+随后又被香港佳士得以32.3亿港元的总成交额突破。加之，翰海秋拍总成交额逾19亿元，
+ture label 
+{'company': {'香港佳士': [[4, 7]], '翰海': [[28, 29]]}}
+predict label
+[{'start': 4, 'stop': 9, 'word': '香港佳士得', 'type': 'company'}, {'start': 28, 'stop': 30, 'word': '翰海', 'type': 'company'}]
+input text
+8公顷翡翠公园以及占地22.8公顷的滨河公园。
+ture label 
+{'address': {'翡翠公园': [[3, 6]], '滨河公园': [[18, 21]]}}
+predict label
+[{'start': 18, 'stop': 22, 'word': '滨河公园', 'type': 'scene'}]
+input text
+《末日之战》——以声控系统革新传统的即时战略游戏
+ture label 
+{'game': {'《末日之战》': [[0, 5]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': '《末日之战》', 'type': 'game'}]
+input text
+纳尼亚传奇》是在春节档上映，最终票房超过3000万港元，
+ture label 
+{'movie': {'纳尼亚传奇》': [[0, 5]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': '纳尼亚传奇》', 'type': 'movie'}]
+input text
+玩dota，你会发现平A的伤害微乎其微，控制是王道玩imba，
+ture label 
+{'organization': {'dota': [[1, 4]], 'imba': [[26, 29]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': 'dota', 'type': 'game'}, {'start': 26, 'stop': 30, 'word': 'imba', 'type': 'game'}]
+input text
+朴茨茅近期反弹，两轮下来一胜一平，位居第九。平/半初盘有些低看主队主场优势，
+ture label 
+{'organization': {'朴茨茅': [[0, 2]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '朴茨茅', 'type': 'organization'}]
+input text
+最佳新人等9项大奖。电影《集结号》入围6项，还未在台湾上映的《一半海水一半火焰》，
+ture label 
+{'address': {'台湾': [[25, 26]]}, 'movie': {'《集结号》': [[12, 16]], '《一半海水一半火焰》': [[30, 39]]}, 'position': {'最佳新人': [[0, 3]]}}
+predict label
+[{'start': 25, 'stop': 27, 'word': '台湾', 'type': 'address'}]
+input text
+最佳新人等9项大奖。电影《集结号》入围6项，还未在台湾上映的《一半海水一半火焰》，
+ture label 
+{'address': {'台湾': [[25, 26]]}, 'movie': {'《集结号》': [[12, 16]], '《一半海水一半火焰》': [[30, 39]]}, 'position': {'最佳新人': [[0, 3]]}}
+predict label
+[{'start': 12, 'stop': 17, 'word': '《集结号》', 'type': 'movie'}, {'start': 30, 'stop': 40, 'word': '《一半海水一半火焰》', 'type': 'movie'}]
+input text
+银行应该在系统上做了限制，确保在境外取现金按规定实行。石媛对招行没有这样的技术限制表示疑惑。
+ture label 
+{'name': {'石媛': [[27, 28]]}, 'company': {'招行': [[30, 31]]}}
+predict label
+[{'start': 27, 'stop': 29, 'word': '石媛', 'type': 'name'}]
+input text
+银行应该在系统上做了限制，确保在境外取现金按规定实行。石媛对招行没有这样的技术限制表示疑惑。
+ture label 
+{'name': {'石媛': [[27, 28]]}, 'company': {'招行': [[30, 31]]}}
+predict label
+[{'start': 30, 'stop': 32, 'word': '招行', 'type': 'company'}]
+input text
+对于黑帮游戏有高度兴趣、或是相当喜欢《教父》的玩家，值得来细细品味。
+ture label 
+{'game': {'《教父》': [[18, 21]]}}
+predict label
+[{'start': 18, 'stop': 22, 'word': '《教父》', 'type': 'game'}]
+input text
+不仅是在广州地区，中信银行全国多家分行都可以开展此项交易，点差为10点，最低金额为1000美元。
+ture label 
+{'address': {'广州地区': [[4, 7]]}, 'company': {'中信银行': [[9, 12]]}}
+predict label
+[{'start': 4, 'stop': 6, 'word': '广州', 'type': 'address'}]
+input text
+不仅是在广州地区，中信银行全国多家分行都可以开展此项交易，点差为10点，最低金额为1000美元。
+ture label 
+{'address': {'广州地区': [[4, 7]]}, 'company': {'中信银行': [[9, 12]]}}
+predict label
+[{'start': 9, 'stop': 13, 'word': '中信银行', 'type': 'company'}]
+input text
+北美票房最终突破2亿＄基本成定局，对《机器人瓦力》而言可谓吉兆——
+ture label 
+{'movie': {'《机器人瓦力》': [[18, 24]]}}
+predict label
+[{'start': 18, 'stop': 25, 'word': '《机器人瓦力》', 'type': 'movie'}]
+input text
+在八路军晋察冀军区司令部，晋察冀军区司令员和政委向你交待任务。
+ture label 
+{'government': {'八路军晋察冀军区司令部': [[1, 11]], '晋察冀军区': [[13, 17]]}, 'position': {'司令员': [[18, 20]], '政委': [[22, 23]]}}
+predict label
+[{'start': 1, 'stop': 12, 'word': '八路军晋察冀军区司令部', 'type': 'government'}, {'start': 13, 'stop': 18, 'word': '晋察冀军区', 'type': 'government'}]
+input text
+在八路军晋察冀军区司令部，晋察冀军区司令员和政委向你交待任务。
+ture label 
+{'government': {'八路军晋察冀军区司令部': [[1, 11]], '晋察冀军区': [[13, 17]]}, 'position': {'司令员': [[18, 20]], '政委': [[22, 23]]}}
+predict label
+[{'start': 18, 'stop': 21, 'word': '司令员', 'type': 'position'}, {'start': 22, 'stop': 24, 'word': '政委', 'type': 'position'}]
+input text
+广州市国土房管局中介服务管理所所长史小明表示，在“退二进三”政策中，
+ture label 
+{'government': {'广州市国土房管局': [[0, 7]]}, 'name': {'史小明': [[17, 19]]}, 'position': {'所长': [[15, 16]]}}
+predict label
+[{'start': 17, 'stop': 20, 'word': '史小明', 'type': 'name'}]
+input text
+广州市国土房管局中介服务管理所所长史小明表示，在“退二进三”政策中，
+ture label 
+{'government': {'广州市国土房管局': [[0, 7]]}, 'name': {'史小明': [[17, 19]]}, 'position': {'所长': [[15, 16]]}}
+predict label
+[{'start': 0, 'stop': 15, 'word': '广州市国土房管局中介服务管理所', 'type': 'government'}]
+input text
+广州市国土房管局中介服务管理所所长史小明表示，在“退二进三”政策中，
+ture label 
+{'government': {'广州市国土房管局': [[0, 7]]}, 'name': {'史小明': [[17, 19]]}, 'position': {'所长': [[15, 16]]}}
+predict label
+[{'start': 15, 'stop': 17, 'word': '所长', 'type': 'position'}]
+input text
+每经记者何?发自北京
+ture label 
+{'address': {'北京': [[8, 9]]}, 'company': {'每经': [[0, 1]]}, 'position': {'记者': [[2, 3]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '记者', 'type': 'position'}]
+input text
+亚盘目前普遍开出了曼联客场让半球中水盘面，两队周中都有所消耗，曼城主场强势，曼联发挥依旧稳定，
+ture label 
+{'organization': {'曼联': [[9, 10], [38, 39]], '曼城': [[31, 32]]}}
+predict label
+[{'start': 9, 'stop': 11, 'word': '曼联', 'type': 'organization'}, {'start': 38, 'stop': 40, 'word': '曼联', 'type': 'organization'}]
+input text
+参加培训一位老师说：“以前说关爱学生总是一对一的，现在觉得团体的力量真是很伟大，伟大到不能想象，
+ture label 
+{'position': {'老师': [[6, 7]], '学生': [[16, 17]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '老师', 'type': 'position'}]
+input text
+两周后迎来了当时的盖蒂信托ceo穆尼兹的“辞职”消息。一时间，盖蒂博物馆风云诡谲，
+ture label 
+{'name': {'穆尼兹': [[16, 18]]}, 'company': {'盖蒂信托': [[9, 12]]}, 'position': {'ceo': [[13, 15]]}, 'scene': {'盖蒂博物馆': [[31, 35]]}}
+predict label
+[{'start': 16, 'stop': 19, 'word': '穆尼兹', 'type': 'name'}]
+input text
+两周后迎来了当时的盖蒂信托ceo穆尼兹的“辞职”消息。一时间，盖蒂博物馆风云诡谲，
+ture label 
+{'name': {'穆尼兹': [[16, 18]]}, 'company': {'盖蒂信托': [[9, 12]]}, 'position': {'ceo': [[13, 15]]}, 'scene': {'盖蒂博物馆': [[31, 35]]}}
+predict label
+[{'start': 9, 'stop': 15, 'word': '盖蒂信托ce', 'type': 'company'}]
+input text
+两周后迎来了当时的盖蒂信托ceo穆尼兹的“辞职”消息。一时间，盖蒂博物馆风云诡谲，
+ture label 
+{'name': {'穆尼兹': [[16, 18]]}, 'company': {'盖蒂信托': [[9, 12]]}, 'position': {'ceo': [[13, 15]]}, 'scene': {'盖蒂博物馆': [[31, 35]]}}
+predict label
+[{'start': 31, 'stop': 36, 'word': '盖蒂博物馆', 'type': 'scene'}]
+input text
+比赛将于7月24~26日在韩国首尔贸易大会中心（setec）进行。
+ture label 
+{'address': {'韩国首尔贸易大会中心': [[13, 22]], 'setec': [[24, 28]]}}
+predict label
+[{'start': 13, 'stop': 23, 'word': '韩国首尔贸易大会中心', 'type': 'address'}]
+input text
+莫陆军拿到6分，出线已经是板上钉钉，所以本场比赛他们战意成疑。普斯纳虽然比较陌生，
+ture label 
+{'organization': {'莫陆军': [[0, 2]], '普斯纳': [[31, 33]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '莫陆军', 'type': 'organization'}, {'start': 31, 'stop': 34, 'word': '普斯纳', 'type': 'organization'}]
+input text
+我在这个行当中也混了近10年。前些年加入的所谓“行业协会”、一些地方颁布的所谓“执行标准”，
+ture label 
+{'organization': {'行业协会': [[24, 27]]}}
+predict label
+[{'start': 22, 'stop': 28, 'word': '谓“行业协会', 'type': 'organization'}]
+input text
+为了改善芯片卡受理环境，中国银联正加快传统pos机改造以及新增支持芯片卡的pos机，
+ture label 
+{'company': {'中国银联': [[12, 15]]}}
+predict label
+[{'start': 12, 'stop': 16, 'word': '中国银联', 'type': 'company'}]
+input text
+麦肯锡香港分公司董事倪以理在接受记者采访时表示。
+ture label 
+{'name': {'倪以理': [[10, 12]]}, 'company': {'麦肯锡香港分公司': [[0, 7]]}, 'position': {'董事': [[8, 9]], '记者': [[16, 17]]}}
+predict label
+[{'start': 10, 'stop': 12, 'word': '倪以', 'type': 'name'}]
+input text
+麦肯锡香港分公司董事倪以理在接受记者采访时表示。
+ture label 
+{'name': {'倪以理': [[10, 12]]}, 'company': {'麦肯锡香港分公司': [[0, 7]]}, 'position': {'董事': [[8, 9]], '记者': [[16, 17]]}}
+predict label
+[{'start': 0, 'stop': 8, 'word': '麦肯锡香港分公司', 'type': 'company'}]
+input text
+麦肯锡香港分公司董事倪以理在接受记者采访时表示。
+ture label 
+{'name': {'倪以理': [[10, 12]]}, 'company': {'麦肯锡香港分公司': [[0, 7]]}, 'position': {'董事': [[8, 9]], '记者': [[16, 17]]}}
+predict label
+[{'start': 8, 'stop': 10, 'word': '董事', 'type': 'position'}, {'start': 16, 'stop': 18, 'word': '记者', 'type': 'position'}]
+input text
+美国海军导弹驱逐舰今日访问格鲁吉亚（图）
+ture label 
+{'address': {'格鲁吉亚': [[13, 16]]}, 'government': {'美国海军': [[0, 3]]}}
+predict label
+[{'start': 13, 'stop': 17, 'word': '格鲁吉亚', 'type': 'name'}]
+input text
+美国海军导弹驱逐舰今日访问格鲁吉亚（图）
+ture label 
+{'address': {'格鲁吉亚': [[13, 16]]}, 'government': {'美国海军': [[0, 3]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '美国海军', 'type': 'government'}]
+input text
+Valve公司正式回应说，他们正在进行“社交功能”的内部测试，在DOTA2中，
+ture label 
+{'game': {'DOTA2': [[32, 36]]}, 'company': {'Valve公司': [[0, 6]]}}
+predict label
+[{'start': 0, 'stop': 7, 'word': 'Valve公司', 'type': 'company'}]
+input text
+Valve公司正式回应说，他们正在进行“社交功能”的内部测试，在DOTA2中，
+ture label 
+{'game': {'DOTA2': [[32, 36]]}, 'company': {'Valve公司': [[0, 6]]}}
+predict label
+[{'start': 32, 'stop': 37, 'word': 'DOTA2', 'type': 'game'}]
+input text
+海角七号》中荣获金马奖大奖的作曲功力，在《古剑奇谭》中有七十多首曲子的优异表现。
+ture label 
+{'movie': {'海角七号》': [[0, 4]], '《古剑奇谭》': [[20, 25]]}}
+predict label
+[{'start': 20, 'stop': 26, 'word': '《古剑奇谭》', 'type': 'book'}]
+input text
+布鲁日队vs圣埃蒂安队两队在欧洲三大杯历史上没有交锋战绩。
+ture label 
+{'organization': {'布鲁日队': [[0, 3]], '圣埃蒂安队': [[6, 10]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '布鲁日队', 'type': 'organization'}, {'start': 6, 'stop': 11, 'word': '圣埃蒂安队', 'type': 'organization'}]
+input text
+我知道了星际争霸还可以这么玩，我知道了电子竞技还可以这么精彩。
+ture label 
+{'game': {'星际争霸': [[4, 7]]}}
+predict label
+[{'start': 4, 'stop': 8, 'word': '星际争霸', 'type': 'game'}]
+input text
+另一法国的游戏杂志《Consoles》公布了如下细节：
+ture label 
+{'book': {'《Consoles》': [[9, 18]]}}
+predict label
+[{'start': 9, 'stop': 19, 'word': '《Consoles》', 'type': 'game'}]
+input text
+谁在李家沟呢撒东塬微帮信息交流群00:04【46条】龙行天下:【链接】董家河日噔群昨天【5条】付【
+ture label 
+{'address': {'东塬': [[7, 8]], '董家河': [[35, 37]]}, 'movie': {'龙行天下': [[26, 29]]}, 'scene': {'李家沟': [[2, 4]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '撒东', 'type': 'address'}, {'start': 35, 'stop': 38, 'word': '董家河', 'type': 'address'}]
+input text
+魔兽争霸3项目
+ture label 
+{'game': {'魔兽争霸3': [[0, 4]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '魔兽争霸3', 'type': 'game'}]
+input text
+蓝光云鼎地处丰台区马家堡，紧邻地铁4号线公益西桥站，是未来城市中心换乘站（地铁4号线，10号线，
+ture label 
+{'address': {'丰台区马家堡': [[6, 11]], '蓝光云鼎': [[0, 3]], '公益西桥站': [[20, 24]]}}
+predict label
+[{'start': 0, 'stop': 25, 'word': '蓝光云鼎地处丰台区马家堡，紧邻地铁4号线公益西桥站', 'type': 'address'}]
+input text
+15个大型社区将重点依托新城和轨道交通建设。”上海市规划和国土局详规处处长张玉鑫告诉记者。
+ture label 
+{'government': {'上海市规划和国土局详规处': [[23, 34]]}, 'name': {'张玉鑫': [[37, 39]]}, 'position': {'处长': [[35, 36]], '记者': [[42, 43]]}}
+predict label
+[{'start': 37, 'stop': 40, 'word': '张玉鑫', 'type': 'name'}]
+input text
+15个大型社区将重点依托新城和轨道交通建设。”上海市规划和国土局详规处处长张玉鑫告诉记者。
+ture label 
+{'government': {'上海市规划和国土局详规处': [[23, 34]]}, 'name': {'张玉鑫': [[37, 39]]}, 'position': {'处长': [[35, 36]], '记者': [[42, 43]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '新城', 'type': 'company'}]
+input text
+15个大型社区将重点依托新城和轨道交通建设。”上海市规划和国土局详规处处长张玉鑫告诉记者。
+ture label 
+{'government': {'上海市规划和国土局详规处': [[23, 34]]}, 'name': {'张玉鑫': [[37, 39]]}, 'position': {'处长': [[35, 36]], '记者': [[42, 43]]}}
+predict label
+[{'start': 23, 'stop': 35, 'word': '上海市规划和国土局详规处', 'type': 'government'}]
+input text
+15个大型社区将重点依托新城和轨道交通建设。”上海市规划和国土局详规处处长张玉鑫告诉记者。
+ture label 
+{'government': {'上海市规划和国土局详规处': [[23, 34]]}, 'name': {'张玉鑫': [[37, 39]]}, 'position': {'处长': [[35, 36]], '记者': [[42, 43]]}}
+predict label
+[{'start': 35, 'stop': 37, 'word': '处长', 'type': 'position'}, {'start': 42, 'stop': 44, 'word': '记者', 'type': 'position'}]
+input text
+首先我介绍一下今天的嘉宾，坐在中间的是润泽地产的副总封屹，坐在旁边的这位是新浪乐居的总经理罗军；
+ture label 
+{'name': {'封屹': [[26, 27]], '罗军': [[45, 46]]}, 'company': {'润泽地产': [[19, 22]], '新浪乐居': [[37, 40]]}, 'position': {'副总': [[24, 25]], '总经理': [[42, 44]]}}
+predict label
+[{'start': 26, 'stop': 28, 'word': '封屹', 'type': 'name'}, {'start': 45, 'stop': 47, 'word': '罗军', 'type': 'name'}]
+input text
+首先我介绍一下今天的嘉宾，坐在中间的是润泽地产的副总封屹，坐在旁边的这位是新浪乐居的总经理罗军；
+ture label 
+{'name': {'封屹': [[26, 27]], '罗军': [[45, 46]]}, 'company': {'润泽地产': [[19, 22]], '新浪乐居': [[37, 40]]}, 'position': {'副总': [[24, 25]], '总经理': [[42, 44]]}}
+predict label
+[{'start': 19, 'stop': 23, 'word': '润泽地产', 'type': 'company'}, {'start': 37, 'stop': 41, 'word': '新浪乐居', 'type': 'company'}]
+input text
+首先我介绍一下今天的嘉宾，坐在中间的是润泽地产的副总封屹，坐在旁边的这位是新浪乐居的总经理罗军；
+ture label 
+{'name': {'封屹': [[26, 27]], '罗军': [[45, 46]]}, 'company': {'润泽地产': [[19, 22]], '新浪乐居': [[37, 40]]}, 'position': {'副总': [[24, 25]], '总经理': [[42, 44]]}}
+predict label
+[{'start': 24, 'stop': 26, 'word': '副总', 'type': 'position'}, {'start': 42, 'stop': 45, 'word': '总经理', 'type': 'position'}]
+input text
+玩dota，你会发现推线英雄无人能挡玩imba，
+ture label 
+{'game': {'dota': [[1, 4]], 'imba': [[19, 22]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': 'dota', 'type': 'game'}, {'start': 19, 'stop': 23, 'word': 'imba', 'type': 'game'}]
+input text
+第950章大结局附后记武当宗师在都市连载中武当宗师木士著9小时前【正文】
+ture label 
+{'book': {'武当宗师在都市': [[11, 17]], '武当宗师': [[21, 24]]}, 'name': {'木士': [[25, 26]]}}
+predict label
+[{'start': 10, 'stop': 15, 'word': '记武当宗师', 'type': 'position'}, {'start': 20, 'stop': 25, 'word': '中武当宗师', 'type': 'position'}]
+input text
+刘明康表示，银监会严格实施二套房政策，积极防范房地产金融风险。2007年9月和12月，
+ture label 
+{'government': {'银监会': [[6, 8]]}, 'name': {'刘明康': [[0, 2]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '刘明康', 'type': 'name'}]
+input text
+收购美联银行的交易协议原本可以在本月3日被确定。但美联银行指出，
+ture label 
+{'company': {'美联银行': [[2, 5], [25, 28]]}}
+predict label
+[{'start': 2, 'stop': 6, 'word': '美联银行', 'type': 'company'}, {'start': 25, 'stop': 29, 'word': '美联银行', 'type': 'company'}]
+input text
+本报讯（记者王姝马力（马力博客））北京将利用3年时间基本解决全市约28万户居民的住房困难，
+ture label 
+{'address': {'北京': [[17, 18]]}, 'name': {'王姝': [[6, 7]], '马力': [[8, 9], [11, 12]]}, 'position': {'记者': [[4, 5]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '王姝', 'type': 'name'}, {'start': 8, 'stop': 10, 'word': '马力', 'type': 'name'}]
+input text
+本报讯（记者王姝马力（马力博客））北京将利用3年时间基本解决全市约28万户居民的住房困难，
+ture label 
+{'address': {'北京': [[17, 18]]}, 'name': {'王姝': [[6, 7]], '马力': [[8, 9], [11, 12]]}, 'position': {'记者': [[4, 5]]}}
+predict label
+[{'start': 17, 'stop': 19, 'word': '北京', 'type': 'address'}]
+input text
+本报讯（记者王姝马力（马力博客））北京将利用3年时间基本解决全市约28万户居民的住房困难，
+ture label 
+{'address': {'北京': [[17, 18]]}, 'name': {'王姝': [[6, 7]], '马力': [[8, 9], [11, 12]]}, 'position': {'记者': [[4, 5]]}}
+predict label
+[{'start': 4, 'stop': 6, 'word': '记者', 'type': 'position'}]
+input text
+擎峰公关媒介经理张波
+ture label 
+{'name': {'张波': [[8, 9]], '擎峰': [[0, 1]]}, 'position': {'经理': [[6, 7]]}}
+predict label
+[{'start': 8, 'stop': 10, 'word': '张波', 'type': 'name'}]
+input text
+擎峰公关媒介经理张波
+ture label 
+{'name': {'张波': [[8, 9]], '擎峰': [[0, 1]]}, 'position': {'经理': [[6, 7]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': '擎峰公关媒介', 'type': 'company'}]
+input text
+擎峰公关媒介经理张波
+ture label 
+{'name': {'张波': [[8, 9]], '擎峰': [[0, 1]]}, 'position': {'经理': [[6, 7]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '经理', 'type': 'position'}]
+input text
+虽然西溪湿地早已成为收费的国家公园，蒋村的端午龙舟胜会也成为西溪一景，但对于土生土长的蒋村人而言，
+ture label 
+{'scene': {'西溪湿地': [[2, 5]], '西溪': [[30, 31]], '蒋村': [[18, 19], [43, 44]]}}
+predict label
+[{'start': 18, 'stop': 20, 'word': '蒋村', 'type': 'address'}]
+input text
+虽然西溪湿地早已成为收费的国家公园，蒋村的端午龙舟胜会也成为西溪一景，但对于土生土长的蒋村人而言，
+ture label 
+{'scene': {'西溪湿地': [[2, 5]], '西溪': [[30, 31]], '蒋村': [[18, 19], [43, 44]]}}
+predict label
+[{'start': 13, 'stop': 17, 'word': '国家公园', 'type': 'scene'}]
+input text
+美国军方于美国时间17日推出免费军事射击游戏《美国陆军3（America's
+ture label 
+{'game': {"《美国陆军3（America's": [[22, 37]]}, 'government': {'美国军方': [[0, 3]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '美国军方', 'type': 'government'}]
+input text
+男人好比DOTA坏男人不是拿FB就是追求杀人数好男人只追求胜利。
+ture label 
+{'game': {'DOTA': [[4, 7]]}}
+predict label
+[{'start': 4, 'stop': 8, 'word': 'DOTA', 'type': 'game'}]
+input text
+报道称，印度国防研究与发展组织（drdo）有关人员在当天举行的印度国防研究与发展新闻发布会上称：“
+ture label 
+{'organization': {'印度国防研究与发展组织': [[4, 14]], 'drdo': [[16, 19]]}}
+predict label
+[{'start': 4, 'stop': 15, 'word': '印度国防研究与发展组织', 'type': 'government'}, {'start': 31, 'stop': 42, 'word': '印度国防研究与发展新闻', 'type': 'government'}]
+input text
+cbd迅猛发展使东四环路成为了新的经济发展中心带。东四环成为cbd一级辐射区，四方桥新区也被称为“
+ture label 
+{'address': {'cbd': [[0, 2]], '东四环路': [[8, 11]], '四方桥新区': [[39, 43]]}}
+predict label
+[{'start': 0, 'stop': 12, 'word': 'cbd迅猛发展使东四环路', 'type': 'address'}, {'start': 39, 'stop': 44, 'word': '四方桥新区', 'type': 'address'}]
+input text
+金石开：意甲但凡周中有整轮赛事时，都很少出现冷门。上赛季周中一共进行过4轮比赛，
+ture label 
+{'organization': {'意甲': [[4, 5]]}, 'name': {'金石开': [[0, 2]]}}
+predict label
+[{'start': 4, 'stop': 6, 'word': '意甲', 'type': 'organization'}]
+input text
+金石开：意甲但凡周中有整轮赛事时，都很少出现冷门。上赛季周中一共进行过4轮比赛，
+ture label 
+{'organization': {'意甲': [[4, 5]]}, 'name': {'金石开': [[0, 2]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '金石开', 'type': 'name'}]
+input text
+等，“卫特曼”在短短时间内便摧毁了十辆坦克和二十辆装甲车，更不用说让英军损失了几百名士兵。
+ture label 
+{'government': {'英军': [[34, 35]]}}
+predict label
+[{'start': 3, 'stop': 7, 'word': '卫特曼”', 'type': 'name'}]
+input text
+等，“卫特曼”在短短时间内便摧毁了十辆坦克和二十辆装甲车，更不用说让英军损失了几百名士兵。
+ture label 
+{'government': {'英军': [[34, 35]]}}
+predict label
+[{'start': 34, 'stop': 36, 'word': '英军', 'type': 'government'}]
+input text
+等，“卫特曼”在短短时间内便摧毁了十辆坦克和二十辆装甲车，更不用说让英军损失了几百名士兵。
+ture label 
+{'government': {'英军': [[34, 35]]}}
+predict label
+[{'start': 42, 'stop': 44, 'word': '士兵', 'type': 'position'}]
+input text
+↓《老无所依》（nocountryforoldmen，伊森·科恩、乔·科恩执导）
+ture label 
+{'movie': {'《老无所依》': [[1, 6]], 'nocountryforoldmen': [[8, 25]]}, 'name': {'伊森·科恩': [[27, 31]], '乔·科恩': [[33, 36]]}}
+predict label
+[{'start': 27, 'stop': 32, 'word': '伊森·科恩', 'type': 'name'}, {'start': 33, 'stop': 37, 'word': '乔·科恩', 'type': 'name'}]
+input text
+↓《老无所依》（nocountryforoldmen，伊森·科恩、乔·科恩执导）
+ture label 
+{'movie': {'《老无所依》': [[1, 6]], 'nocountryforoldmen': [[8, 25]]}, 'name': {'伊森·科恩': [[27, 31]], '乔·科恩': [[33, 36]]}}
+predict label
+[{'start': 1, 'stop': 7, 'word': '《老无所依》', 'type': 'movie'}, {'start': 7, 'stop': 26, 'word': '（nocountryforoldmen', 'type': 'movie'}]
+input text
+会上,第六师国土资源局通过研讨制定了第六师国土资源局“民族团结一家亲”活动方案,明确职责任务,
+ture label 
+{'government': {'第六师国土资源局': [[3, 10], [18, 25]]}}
+predict label
+[{'start': 3, 'stop': 11, 'word': '第六师国土资源局', 'type': 'government'}, {'start': 21, 'stop': 26, 'word': '国土资源局', 'type': 'government'}]
+input text
+邹墨远：其实现在市场上流传一句话“城市住宅豪宅化，首次置业郊区化”，其实就是刚才傅主编说的“被豪宅”
+ture label 
+{'name': {'邹墨远': [[0, 2]]}, 'position': {'主编': [[41, 42]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '邹墨远', 'type': 'name'}]
+input text
+邹墨远：其实现在市场上流传一句话“城市住宅豪宅化，首次置业郊区化”，其实就是刚才傅主编说的“被豪宅”
+ture label 
+{'name': {'邹墨远': [[0, 2]]}, 'position': {'主编': [[41, 42]]}}
+predict label
+[{'start': 41, 'stop': 43, 'word': '主编', 'type': 'position'}]
+input text
+，作品最终成交价900万英镑，成为鲁本斯个人作品中成交价第二的作品。作品作于1613-1614年间，
+ture label 
+{'name': {'鲁本斯': [[17, 19]]}}
+predict label
+[{'start': 17, 'stop': 20, 'word': '鲁本斯', 'type': 'name'}]
+input text
+“去年10月24日，我家里收到一张银行的信用卡账单，收件人是我儿子小军。”老刘告诉调解员邬金香，
+ture label 
+{'name': {'邬金香': [[44, 46]]}, 'position': {'调解员': [[41, 43]]}}
+predict label
+[{'start': 44, 'stop': 47, 'word': '邬金香', 'type': 'name'}]
+input text
+“去年10月24日，我家里收到一张银行的信用卡账单，收件人是我儿子小军。”老刘告诉调解员邬金香，
+ture label 
+{'name': {'邬金香': [[44, 46]]}, 'position': {'调解员': [[41, 43]]}}
+predict label
+[{'start': 41, 'stop': 44, 'word': '调解员', 'type': 'position'}]
+input text
+方便的轨道电车上山参观，都让这座高高在上的博物馆没有咄咄逼人的自私感，
+ture label 
+{'scene': {'博物馆': [[21, 23]]}}
+predict label
+[{'start': 21, 'stop': 24, 'word': '博物馆', 'type': 'scene'}]
+input text
+没有大奖就扔掉全部彩票。曹鹏飞说：“总还是有几个小奖的吧”，把票从纸篓里捡起来放回塑料袋，于海走后，
+ture label 
+{'name': {'曹鹏飞': [[12, 14]], '于海': [[45, 46]]}}
+predict label
+[{'start': 12, 'stop': 15, 'word': '曹鹏飞', 'type': 'name'}, {'start': 45, 'stop': 47, 'word': '于海', 'type': 'name'}]
+input text
+他们的王总从外地回来，明天去杭州，这边是艺苑的王总。这几家企业都是中房协推荐的诚信企业，
+ture label 
+{'address': {'杭州': [[14, 15]], '艺苑': [[20, 21]]}}
+predict label
+[{'start': 14, 'stop': 16, 'word': '杭州', 'type': 'address'}, {'start': 20, 'stop': 22, 'word': '艺苑', 'type': 'address'}]
+input text
+人到中年才明白,活…刘书记老婆昨天【语音】胡昨天【链接】农家土特产店昨天农家土特产野味山货燕子:
+ture label 
+{'address': {'农家土特产店': [[28, 33]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '记老', 'type': 'position'}]
+input text
+无论是行业协会还是相关部门都很难监管，这就导致了红木家具既有“蒸蒸日上”的价格，也有“徘徊在谷底”
+ture label 
+{'government': {'相关部门': [[9, 12]]}}
+predict label
+[{'start': 3, 'stop': 7, 'word': '行业协会', 'type': 'organization'}]
+input text
+菽庄花园是台湾富绅林尔嘉的私家花园，是一座江南园林式的花园，出名的原因是花园就建在海边上，以及，
+ture label 
+{'name': {'林尔嘉': [[9, 11]]}, 'scene': {'菽庄花园': [[0, 3]]}}
+predict label
+[{'start': 21, 'stop': 29, 'word': '江南园林式的花园', 'type': 'address'}]
+input text
+菽庄花园是台湾富绅林尔嘉的私家花园，是一座江南园林式的花园，出名的原因是花园就建在海边上，以及，
+ture label 
+{'name': {'林尔嘉': [[9, 11]]}, 'scene': {'菽庄花园': [[0, 3]]}}
+predict label
+[{'start': 5, 'stop': 12, 'word': '台湾富绅林尔嘉', 'type': 'company'}]
+input text
+菽庄花园是台湾富绅林尔嘉的私家花园，是一座江南园林式的花园，出名的原因是花园就建在海边上，以及，
+ture label 
+{'name': {'林尔嘉': [[9, 11]]}, 'scene': {'菽庄花园': [[0, 3]]}}
+predict label
+[{'start': 13, 'stop': 17, 'word': '私家花园', 'type': 'scene'}]
+input text
+客队瓦拉多利德刚刚迎来联赛3连胜，而且击败的三个对手分别是皇马、比利亚雷亚尔和马洛卡，
+ture label 
+{'organization': {'瓦拉多利德': [[2, 6]], '皇马': [[29, 30]], '比利亚雷亚尔': [[32, 37]], '马洛卡': [[39, 41]]}}
+predict label
+[{'start': 2, 'stop': 7, 'word': '瓦拉多利德', 'type': 'organization'}, {'start': 29, 'stop': 31, 'word': '皇马', 'type': 'organization'}, {'start': 32, 'stop': 38, 'word': '比利亚雷亚尔', 'type': 'organization'}, {'start': 39, 'stop': 42, 'word': '马洛卡', 'type': 'organization'}]
+input text
+雪山飞狐》连=《连城记》天=《天龙八部》射=《射雕英雄传》白=《白马啸西风》鹿=《鹿鼎记》笑=《
+ture label 
+{'book': {'雪山飞狐》': [[0, 4]], '《连城记》': [[7, 11]], '《天龙八部》': [[14, 19]], '《射雕英雄传》': [[22, 28]], '《白马啸西风》': [[31, 37]], '《鹿鼎记》': [[40, 44]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '雪山飞狐》', 'type': 'book'}, {'start': 7, 'stop': 12, 'word': '《连城记》', 'type': 'book'}, {'start': 14, 'stop': 20, 'word': '《天龙八部》', 'type': 'book'}, {'start': 22, 'stop': 29, 'word': '《射雕英雄传》', 'type': 'book'}, {'start': 31, 'stop': 38, 'word': '《白马啸西风》', 'type': 'book'}, {'start': 40, 'stop': 45, 'word': '《鹿鼎记》', 'type': 'book'}]
+input text
+就像江苏的这个徐悲鸿研究会，她也是满怀感恩。她写下了这样长的评价：徐研会是范保文教授成立的。
+ture label 
+{'address': {'江苏': [[2, 3]]}, 'name': {'徐悲鸿': [[7, 9]], '范保文': [[37, 39]]}, 'position': {'教授': [[40, 41]]}}
+predict label
+[{'start': 7, 'stop': 10, 'word': '徐悲鸿', 'type': 'name'}]
+input text
+就像江苏的这个徐悲鸿研究会，她也是满怀感恩。她写下了这样长的评价：徐研会是范保文教授成立的。
+ture label 
+{'address': {'江苏': [[2, 3]]}, 'name': {'徐悲鸿': [[7, 9]], '范保文': [[37, 39]]}, 'position': {'教授': [[40, 41]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '江苏', 'type': 'address'}]
+input text
+就像江苏的这个徐悲鸿研究会，她也是满怀感恩。她写下了这样长的评价：徐研会是范保文教授成立的。
+ture label 
+{'address': {'江苏': [[2, 3]]}, 'name': {'徐悲鸿': [[7, 9]], '范保文': [[37, 39]]}, 'position': {'教授': [[40, 41]]}}
+predict label
+[{'start': 40, 'stop': 42, 'word': '教授', 'type': 'position'}]
+input text
+24日凌晨零时，办案民警接到派出所来电，称广州广珠西线高速公路发现一名被遗弃的男性伤者，
+ture label 
+{'address': {'广州广珠西线高速公路': [[21, 30]]}, 'government': {'派出所': [[14, 16]]}, 'position': {'办案民警': [[8, 11]]}}
+predict label
+[{'start': 21, 'stop': 31, 'word': '广州广珠西线高速公路', 'type': 'address'}]
+input text
+24日凌晨零时，办案民警接到派出所来电，称广州广珠西线高速公路发现一名被遗弃的男性伤者，
+ture label 
+{'address': {'广州广珠西线高速公路': [[21, 30]]}, 'government': {'派出所': [[14, 16]]}, 'position': {'办案民警': [[8, 11]]}}
+predict label
+[{'start': 14, 'stop': 17, 'word': '派出所', 'type': 'government'}]
+input text
+24日凌晨零时，办案民警接到派出所来电，称广州广珠西线高速公路发现一名被遗弃的男性伤者，
+ture label 
+{'address': {'广州广珠西线高速公路': [[21, 30]]}, 'government': {'派出所': [[14, 16]]}, 'position': {'办案民警': [[8, 11]]}}
+predict label
+[{'start': 10, 'stop': 12, 'word': '民警', 'type': 'position'}]
+input text
+埃雷拉就接到了电话：“有人买了你的画！”此时埃雷拉已经89岁了，终于卖出了自己人生中的第一幅画。
+ture label 
+{'name': {'埃雷拉': [[0, 2], [22, 24]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '埃雷拉', 'type': 'name'}, {'start': 22, 'stop': 25, 'word': '埃雷拉', 'type': 'name'}]
+input text
+Blizzcon等少数世界级大赛；而如今，更多诸如CF等网游也开始进军WCG，
+ture label 
+{'game': {'CF': [[25, 26]]}, 'organization': {'Blizzcon': [[0, 7]], 'WCG': [[35, 37]]}}
+predict label
+[{'start': 0, 'stop': 8, 'word': 'Blizzcon', 'type': 'organization'}, {'start': 35, 'stop': 38, 'word': 'WCG', 'type': 'organization'}]
+input text
+hkinema》的创刊号上所说的：“电影一直有三种称谓：作为film，作为cinema，
+ture label 
+{'book': {'hkinema》': [[0, 7]]}}
+predict label
+[{'start': 30, 'stop': 34, 'word': 'film', 'type': 'name'}]
+input text
+hkinema》的创刊号上所说的：“电影一直有三种称谓：作为film，作为cinema，
+ture label 
+{'book': {'hkinema》': [[0, 7]]}}
+predict label
+[{'start': 1, 'stop': 8, 'word': 'kinema》', 'type': 'scene'}]
+input text
+2月8日消息，《福布斯》精选出几款游戏，想为电玩游戏历史各个阶段下脚注，
+ture label 
+{'book': {'《福布斯》': [[7, 11]]}}
+predict label
+[{'start': 7, 'stop': 12, 'word': '《福布斯》', 'type': 'game'}]
+input text
+也正因为如此，各银行对u盾的要价都很高。建行为64元，农行为50元，工行为48元，交行为70元，
+ture label 
+{'company': {'建行': [[20, 21]], '农行': [[27, 28]], '工行': [[34, 35]], '交行': [[41, 42]]}}
+predict label
+[{'start': 20, 'stop': 22, 'word': '建行', 'type': 'company'}, {'start': 27, 'stop': 29, 'word': '农行', 'type': 'company'}, {'start': 34, 'stop': 36, 'word': '工行', 'type': 'company'}, {'start': 41, 'stop': 43, 'word': '交行', 'type': 'company'}]
+input text
+在台大综合体育馆登场。
+ture label 
+{'address': {'台大综合体育馆': [[1, 7]]}}
+predict label
+[{'start': 1, 'stop': 8, 'word': '台大综合体育馆', 'type': 'address'}]
+input text
+地址：北京市朝阳区朝外大街吉祥里208号民建中央239室
+ture label 
+{'address': {'北京市朝阳区朝外大街吉祥里208号民建中央239室': [[3, 27]]}}
+predict label
+[{'start': 3, 'stop': 28, 'word': '北京市朝阳区朝外大街吉祥里208号民建中央239室', 'type': 'address'}]
+input text
+长安街cbd核心精装现房长安8号预计09年年底开盘
+ture label 
+{'address': {'长安街': [[0, 2]], '长安8号': [[12, 15]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': '长安街cbd', 'type': 'address'}]
+input text
+而其中几张太平洋地图中，美军与日军的激烈的海岛争夺战给人印象深刻。游戏中，
+ture label 
+{'government': {'美军': [[12, 13]], '日军': [[15, 16]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '美军', 'type': 'government'}, {'start': 15, 'stop': 17, 'word': '日军', 'type': 'government'}]
+input text
+所以传统项目魔兽争霸III按理说也将被踢出WEM。不过由于WEM一直在中国举办，
+ture label 
+{'game': {'魔兽争霸III': [[6, 12]]}, 'address': {'中国': [[35, 36]]}, 'organization': {'WEM': [[21, 23], [29, 31]]}}
+predict label
+[{'start': 21, 'stop': 24, 'word': 'WEM', 'type': 'organization'}, {'start': 29, 'stop': 32, 'word': 'WEM', 'type': 'organization'}]
+input text
+所以传统项目魔兽争霸III按理说也将被踢出WEM。不过由于WEM一直在中国举办，
+ture label 
+{'game': {'魔兽争霸III': [[6, 12]]}, 'address': {'中国': [[35, 36]]}, 'organization': {'WEM': [[21, 23], [29, 31]]}}
+predict label
+[{'start': 35, 'stop': 37, 'word': '中国', 'type': 'address'}]
+input text
+所以传统项目魔兽争霸III按理说也将被踢出WEM。不过由于WEM一直在中国举办，
+ture label 
+{'game': {'魔兽争霸III': [[6, 12]]}, 'address': {'中国': [[35, 36]]}, 'organization': {'WEM': [[21, 23], [29, 31]]}}
+predict label
+[{'start': 6, 'stop': 13, 'word': '魔兽争霸III', 'type': 'game'}]
+input text
+忠实呈现了莫斯科的实际街道与天气变化，让玩家犹如置身莫斯科街头赛场。在《莫斯科街头赛车》
+ture label 
+{'game': {'《莫斯科街头赛车》': [[35, 43]]}, 'address': {'莫斯科': [[5, 7]], '莫斯科街头赛场': [[26, 32]]}}
+predict label
+[{'start': 5, 'stop': 8, 'word': '莫斯科', 'type': 'address'}, {'start': 26, 'stop': 30, 'word': '莫斯科街', 'type': 'address'}, {'start': 36, 'stop': 40, 'word': '莫斯科街', 'type': 'address'}]
+input text
+据报道，光大银行长春分行证实已接到总行的房贷新政细则，即日起执行。
+ture label 
+{'company': {'光大银行长春分行': [[4, 11]]}}
+predict label
+[{'start': 4, 'stop': 12, 'word': '光大银行长春分行', 'type': 'company'}]
+input text
+只是剧情上的关联很少。《仙剑奇侠传5》
+ture label 
+{'game': {'《仙剑奇侠传5》': [[11, 18]]}}
+predict label
+[{'start': 11, 'stop': 19, 'word': '《仙剑奇侠传5》', 'type': 'game'}]
+input text
+今年的惊悚片《保持通话》放弃了好莱坞动作大片如云的暑假档，选择在中秋档开画，并与将在9月底上映的《
+ture label 
+{'movie': {'《保持通话》': [[6, 11]]}}
+predict label
+[{'start': 15, 'stop': 18, 'word': '好莱坞', 'type': 'address'}]
+input text
+今年的惊悚片《保持通话》放弃了好莱坞动作大片如云的暑假档，选择在中秋档开画，并与将在9月底上映的《
+ture label 
+{'movie': {'《保持通话》': [[6, 11]]}}
+predict label
+[{'start': 6, 'stop': 12, 'word': '《保持通话》', 'type': 'movie'}]
+input text
+格瓦拉帮助下率领古巴军队和民兵与入侵的美国雇佣军展开了殊死搏斗，经过72小时的战斗，
+ture label 
+{'government': {'古巴军队': [[8, 11]], '美国雇佣军': [[19, 23]]}, 'name': {'格瓦拉': [[0, 2]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '瓦拉', 'type': 'address'}]
+input text
+格瓦拉帮助下率领古巴军队和民兵与入侵的美国雇佣军展开了殊死搏斗，经过72小时的战斗，
+ture label 
+{'government': {'古巴军队': [[8, 11]], '美国雇佣军': [[19, 23]]}, 'name': {'格瓦拉': [[0, 2]]}}
+predict label
+[{'start': 8, 'stop': 12, 'word': '古巴军队', 'type': 'government'}, {'start': 19, 'stop': 24, 'word': '美国雇佣军', 'type': 'government'}]
+input text
+格瓦拉帮助下率领古巴军队和民兵与入侵的美国雇佣军展开了殊死搏斗，经过72小时的战斗，
+ture label 
+{'government': {'古巴军队': [[8, 11]], '美国雇佣军': [[19, 23]]}, 'name': {'格瓦拉': [[0, 2]]}}
+predict label
+[{'start': 13, 'stop': 15, 'word': '民兵', 'type': 'position'}]
+input text
+首例外资行理财亏损案开庭渣打银行成被告
+ture label 
+{'company': {'渣打银行': [[12, 15]]}}
+predict label
+[{'start': 12, 'stop': 16, 'word': '渣打银行', 'type': 'company'}]
+input text
+去年到今年，中储粮在黑龙江收储的粮食达到1700多万吨，这里面包括大豆、玉米和水稻等。
+ture label 
+{'address': {'黑龙江': [[10, 12]]}, 'company': {'中储粮': [[6, 8]]}}
+predict label
+[{'start': 36, 'stop': 38, 'word': '玉米', 'type': 'name'}]
+input text
+去年到今年，中储粮在黑龙江收储的粮食达到1700多万吨，这里面包括大豆、玉米和水稻等。
+ture label 
+{'address': {'黑龙江': [[10, 12]]}, 'company': {'中储粮': [[6, 8]]}}
+predict label
+[{'start': 6, 'stop': 9, 'word': '中储粮', 'type': 'company'}, {'start': 10, 'stop': 15, 'word': '黑龙江收储', 'type': 'company'}]
+input text
+没有了联赛的负担，莫斯科中央陆军完全可以放开手脚在联盟杯的比赛上展开争夺，
+ture label 
+{'organization': {'莫斯科中央陆军': [[9, 15]], '联盟杯': [[25, 27]]}}
+predict label
+[{'start': 9, 'stop': 16, 'word': '莫斯科中央陆军', 'type': 'organization'}]
+input text
+对盈利也是毫无帮助的。”彭小军透露，截至三季末，深发展信用卡中心人员比去年下降了15%以上，
+ture label 
+{'name': {'彭小军': [[12, 14]]}, 'company': {'深发展信用卡中心': [[24, 31]]}}
+predict label
+[{'start': 12, 'stop': 15, 'word': '彭小军', 'type': 'name'}]
+input text
+对盈利也是毫无帮助的。”彭小军透露，截至三季末，深发展信用卡中心人员比去年下降了15%以上，
+ture label 
+{'name': {'彭小军': [[12, 14]]}, 'company': {'深发展信用卡中心': [[24, 31]]}}
+predict label
+[{'start': 24, 'stop': 32, 'word': '深发展信用卡中心', 'type': 'company'}]
+input text
+scofcom.gov.cn）查询第一批中标单位的具体名单和联系方式。市商务委副主任张新生表示，
+ture label 
+{'government': {'市商务委': [[35, 38]]}, 'name': {'张新生': [[42, 44]]}, 'position': {'副主任': [[39, 41]]}}
+predict label
+[{'start': 42, 'stop': 45, 'word': '张新生', 'type': 'name'}]
+input text
+scofcom.gov.cn）查询第一批中标单位的具体名单和联系方式。市商务委副主任张新生表示，
+ture label 
+{'government': {'市商务委': [[35, 38]]}, 'name': {'张新生': [[42, 44]]}, 'position': {'副主任': [[39, 41]]}}
+predict label
+[{'start': 35, 'stop': 39, 'word': '市商务委', 'type': 'government'}]
+input text
+scofcom.gov.cn）查询第一批中标单位的具体名单和联系方式。市商务委副主任张新生表示，
+ture label 
+{'government': {'市商务委': [[35, 38]]}, 'name': {'张新生': [[42, 44]]}, 'position': {'副主任': [[39, 41]]}}
+predict label
+[{'start': 39, 'stop': 42, 'word': '副主任', 'type': 'position'}]
+input text
+戒》也未能与之匹敌，连周杰伦（听歌）的《不能说的秘密》也一并成为其登顶步伐下的“垫脚石”。
+ture label 
+{'movie': {'《不能说的秘密》': [[19, 26]], '戒》': [[0, 1]]}, 'name': {'周杰伦': [[11, 13]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '杰伦', 'type': 'name'}]
+input text
+戒》也未能与之匹敌，连周杰伦（听歌）的《不能说的秘密》也一并成为其登顶步伐下的“垫脚石”。
+ture label 
+{'movie': {'《不能说的秘密》': [[19, 26]], '戒》': [[0, 1]]}, 'name': {'周杰伦': [[11, 13]]}}
+predict label
+[{'start': 25, 'stop': 27, 'word': '密》', 'type': 'movie'}]
+input text
+而Moon在星际争霸2中发挥不是很理想，对此Infi感觉Moon是哪里出了问题呢？
+ture label 
+{'game': {'星际争霸2': [[6, 10]]}, 'name': {'Moon': [[1, 4], [28, 31]], 'Infi': [[22, 25]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': 'Moon', 'type': 'name'}, {'start': 22, 'stop': 26, 'word': 'Infi', 'type': 'name'}, {'start': 28, 'stop': 32, 'word': 'Moon', 'type': 'name'}]
+input text
+而Moon在星际争霸2中发挥不是很理想，对此Infi感觉Moon是哪里出了问题呢？
+ture label 
+{'game': {'星际争霸2': [[6, 10]]}, 'name': {'Moon': [[1, 4], [28, 31]], 'Infi': [[22, 25]]}}
+predict label
+[{'start': 6, 'stop': 11, 'word': '星际争霸2', 'type': 'game'}]
+input text
+7.维拉vs曼联从目前的数据收集情况分析而言，曼联本场客胜，可能是最能扯出冷门的一场数据了，
+ture label 
+{'organization': {'维拉': [[2, 3]], '曼联': [[6, 7], [23, 24]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '维拉', 'type': 'organization'}, {'start': 6, 'stop': 8, 'word': '曼联', 'type': 'organization'}]
+input text
+不过，《少林少女》里的女演员比较漂亮，适合新生代的观众群，而有几场曲棍球的戏也做的比较好。
+ture label 
+{'movie': {'《少林少女》': [[3, 8]]}, 'position': {'演员': [[12, 13]]}}
+predict label
+[{'start': 3, 'stop': 9, 'word': '《少林少女》', 'type': 'movie'}]
+input text
+不过，《少林少女》里的女演员比较漂亮，适合新生代的观众群，而有几场曲棍球的戏也做的比较好。
+ture label 
+{'movie': {'《少林少女》': [[3, 8]]}, 'position': {'演员': [[12, 13]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '演员', 'type': 'position'}]
+input text
+风扬数据提点：蓝军主场分胜负曼联拜仁继续追赶
+ture label 
+{'organization': {'曼联': [[14, 15]], '拜仁': [[16, 17]]}}
+predict label
+[{'start': 14, 'stop': 16, 'word': '曼联', 'type': 'organization'}, {'start': 16, 'stop': 18, 'word': '拜仁', 'type': 'organization'}]
+input text
+参观完大教堂，可以在老城区里随意走走，吃点东西，如果时间还够，就往犹太会堂、
+ture label 
+{'address': {'老城区': [[10, 12]]}, 'scene': {'大教堂': [[3, 5]], '犹太会堂': [[33, 36]]}}
+predict label
+[{'start': 33, 'stop': 37, 'word': '犹太会堂', 'type': 'scene'}]
+input text
+不过本季欧战斯巴达人主场还没有获胜过，先是输给基辅迪纳摩被淘汰出欧冠，然后又被捷克球队奥斯特拉华（
+ture label 
+{'organization': {'斯巴达人': [[6, 9]], '基辅迪纳摩': [[23, 27]], '奥斯特拉华': [[43, 47]]}}
+predict label
+[{'start': 23, 'stop': 28, 'word': '基辅迪纳摩', 'type': 'organization'}, {'start': 32, 'stop': 34, 'word': '欧冠', 'type': 'organization'}]
+input text
+不过本季欧战斯巴达人主场还没有获胜过，先是输给基辅迪纳摩被淘汰出欧冠，然后又被捷克球队奥斯特拉华（
+ture label 
+{'organization': {'斯巴达人': [[6, 9]], '基辅迪纳摩': [[23, 27]], '奥斯特拉华': [[43, 47]]}}
+predict label
+[{'start': 43, 'stop': 48, 'word': '奥斯特拉华', 'type': 'name'}]
+input text
+的研发。这让许多人不得不怀疑，Eidos蒙特利尔开始研发Eidos“传家宝”《Thief》
+ture label 
+{'game': {'《Thief》': [[38, 44]]}, 'company': {'Eidos': [[15, 19], [28, 32]], '蒙特利尔': [[20, 23]]}}
+predict label
+[{'start': 15, 'stop': 24, 'word': 'Eidos蒙特利尔', 'type': 'company'}, {'start': 28, 'stop': 37, 'word': 'Eidos“传家宝', 'type': 'company'}]
+input text
+的研发。这让许多人不得不怀疑，Eidos蒙特利尔开始研发Eidos“传家宝”《Thief》
+ture label 
+{'game': {'《Thief》': [[38, 44]]}, 'company': {'Eidos': [[15, 19], [28, 32]], '蒙特利尔': [[20, 23]]}}
+predict label
+[{'start': 38, 'stop': 45, 'word': '《Thief》', 'type': 'movie'}]
+input text
+《汉之云》豪华版包装图亮相(图)
+ture label 
+{'game': {'《汉之云》': [[0, 4]]}}
+predict label
+[{'start': 0, 'stop': 5, 'word': '《汉之云》', 'type': 'game'}]
+input text
+《神曲》讲述了14世纪意大利诗人但丁和维吉尔受邀请参观地狱以及天界的故事，
+ture label 
+{'movie': {'《神曲》': [[0, 3]]}, 'name': {'但丁': [[16, 17]], '维吉尔': [[19, 21]]}, 'position': {'诗人': [[14, 15]]}}
+predict label
+[{'start': 17, 'stop': 22, 'word': '丁和维吉尔', 'type': 'name'}]
+input text
+《神曲》讲述了14世纪意大利诗人但丁和维吉尔受邀请参观地狱以及天界的故事，
+ture label 
+{'movie': {'《神曲》': [[0, 3]]}, 'name': {'但丁': [[16, 17]], '维吉尔': [[19, 21]]}, 'position': {'诗人': [[14, 15]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '《神曲》', 'type': 'book'}]
+input text
+*三国人物明信片设定集
+ture label 
+{'book': {'三国人物明信片设定集': [[1, 10]]}}
+predict label
+[{'start': 1, 'stop': 6, 'word': '三国人物明', 'type': 'company'}]
+input text
+宿务的麦克坦岛交通比较方便，安排几天用来考潜水证也不会影响每日课程结束后的观光，当然，
+ture label 
+{'address': {'宿务': [[0, 1]]}, 'scene': {'麦克坦岛': [[3, 6]]}}
+predict label
+[{'start': 3, 'stop': 7, 'word': '麦克坦岛', 'type': 'scene'}]
+input text
+异常差异指数初盘：沙尔克主战防平阿森纳分胜负
+ture label 
+{'organization': {'沙尔克': [[9, 11]], '阿森纳': [[16, 18]]}}
+predict label
+[{'start': 9, 'stop': 12, 'word': '沙尔克', 'type': 'organization'}, {'start': 16, 'stop': 19, 'word': '阿森纳', 'type': 'organization'}]
+input text
+晨报讯（实习生李泽玲记者金融）当绝大多数中资银行已开始实施房贷新政之时，
+ture label 
+{'name': {'李泽玲': [[7, 9]], '金融': [[12, 13]]}, 'position': {'实习生': [[4, 6]], '记者': [[10, 11]]}}
+predict label
+[{'start': 7, 'stop': 10, 'word': '李泽玲', 'type': 'name'}]
+input text
+晨报讯（实习生李泽玲记者金融）当绝大多数中资银行已开始实施房贷新政之时，
+ture label 
+{'name': {'李泽玲': [[7, 9]], '金融': [[12, 13]]}, 'position': {'实习生': [[4, 6]], '记者': [[10, 11]]}}
+predict label
+[{'start': 20, 'stop': 24, 'word': '中资银行', 'type': 'company'}]
+input text
+晨报讯（实习生李泽玲记者金融）当绝大多数中资银行已开始实施房贷新政之时，
+ture label 
+{'name': {'李泽玲': [[7, 9]], '金融': [[12, 13]]}, 'position': {'实习生': [[4, 6]], '记者': [[10, 11]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '晨报', 'type': 'book'}]
+input text
+晨报讯（实习生李泽玲记者金融）当绝大多数中资银行已开始实施房贷新政之时，
+ture label 
+{'name': {'李泽玲': [[7, 9]], '金融': [[12, 13]]}, 'position': {'实习生': [[4, 6]], '记者': [[10, 11]]}}
+predict label
+[{'start': 4, 'stop': 7, 'word': '实习生', 'type': 'position'}, {'start': 10, 'stop': 12, 'word': '记者', 'type': 'position'}]
+input text
+博洛尼亚在米哈伊洛维奇上任后连续两场不败，巴勒莫则遭遇两连败，客战仍是瓶颈。巴勒莫本场有诺塞里诺、
+ture label 
+{'organization': {'博洛尼亚': [[0, 3]], '巴勒莫': [[21, 23], [38, 40]]}, 'name': {'米哈伊洛维奇': [[5, 10]], '诺塞里诺': [[44, 47]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '博洛尼亚', 'type': 'organization'}, {'start': 21, 'stop': 24, 'word': '巴勒莫', 'type': 'organization'}, {'start': 38, 'stop': 41, 'word': '巴勒莫', 'type': 'organization'}]
+input text
+博洛尼亚在米哈伊洛维奇上任后连续两场不败，巴勒莫则遭遇两连败，客战仍是瓶颈。巴勒莫本场有诺塞里诺、
+ture label 
+{'organization': {'博洛尼亚': [[0, 3]], '巴勒莫': [[21, 23], [38, 40]]}, 'name': {'米哈伊洛维奇': [[5, 10]], '诺塞里诺': [[44, 47]]}}
+predict label
+[{'start': 6, 'stop': 11, 'word': '哈伊洛维奇', 'type': 'name'}, {'start': 45, 'stop': 48, 'word': '塞里诺', 'type': 'name'}]
+input text
+润泽地产总经理封屹做客新浪乐居，润泽地产携旗下润泽悦溪、润泽庄园项目与新浪乐居，就“我的城市我的家”
+ture label 
+{'address': {'润泽悦溪': [[23, 26]], '润泽庄园': [[28, 31]]}, 'name': {'封屹': [[7, 8]]}, 'company': {'润泽地产': [[0, 3], [16, 19]], '新浪乐居': [[11, 14], [35, 38]]}, 'position': {'总经理': [[4, 6]]}}
+predict label
+[{'start': 28, 'stop': 31, 'word': '润泽庄', 'type': 'address'}]
+input text
+润泽地产总经理封屹做客新浪乐居，润泽地产携旗下润泽悦溪、润泽庄园项目与新浪乐居，就“我的城市我的家”
+ture label 
+{'address': {'润泽悦溪': [[23, 26]], '润泽庄园': [[28, 31]]}, 'name': {'封屹': [[7, 8]]}, 'company': {'润泽地产': [[0, 3], [16, 19]], '新浪乐居': [[11, 14], [35, 38]]}, 'position': {'总经理': [[4, 6]]}}
+predict label
+[{'start': 1, 'stop': 9, 'word': '泽地产总经理封屹', 'type': 'company'}, {'start': 11, 'stop': 15, 'word': '新浪乐居', 'type': 'company'}, {'start': 16, 'stop': 20, 'word': '润泽地产', 'type': 'company'}, {'start': 20, 'stop': 27, 'word': '携旗下润泽悦溪', 'type': 'company'}, {'start': 37, 'stop': 39, 'word': '乐居', 'type': 'company'}]
+input text
+李明介绍说，对于刚刚进入紫砂圈的收藏爱好者来说，一般应从普通的壶入手。玩现代壶的，
+ture label 
+{'name': {'李明': [[0, 1]]}, 'position': {'收藏爱好者': [[16, 20]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '李明', 'type': 'name'}]
+input text
+Ace），描述德军虎式战车部队的王牌车长“卫特曼”成功阻止英军推进的精彩战役。
+ture label 
+{'government': {'英军': [[29, 30]]}, 'name': {'“卫特曼”': [[20, 24]]}, 'position': {'车长': [[18, 19]]}}
+predict label
+[{'start': 20, 'stop': 25, 'word': '“卫特曼”', 'type': 'name'}]
+input text
+Ace），描述德军虎式战车部队的王牌车长“卫特曼”成功阻止英军推进的精彩战役。
+ture label 
+{'government': {'英军': [[29, 30]]}, 'name': {'“卫特曼”': [[20, 24]]}, 'position': {'车长': [[18, 19]]}}
+predict label
+[{'start': 7, 'stop': 9, 'word': '德军', 'type': 'government'}, {'start': 29, 'stop': 31, 'word': '英军', 'type': 'government'}]
+input text
+Ace），描述德军虎式战车部队的王牌车长“卫特曼”成功阻止英军推进的精彩战役。
+ture label 
+{'government': {'英军': [[29, 30]]}, 'name': {'“卫特曼”': [[20, 24]]}, 'position': {'车长': [[18, 19]]}}
+predict label
+[{'start': 18, 'stop': 20, 'word': '车长', 'type': 'position'}]
+input text
+买下。曾出品《活死人黎明》(DawnoftheDead)和《人类之子》(
+ture label 
+{'movie': {'《活死人黎明》': [[6, 12]], '(DawnoftheDead)': [[13, 27]], '《人类之子》': [[29, 34]]}}
+predict label
+[{'start': 6, 'stop': 13, 'word': '《活死人黎明》', 'type': 'movie'}, {'start': 13, 'stop': 27, 'word': '(DawnoftheDead', 'type': 'movie'}, {'start': 29, 'stop': 35, 'word': '《人类之子》', 'type': 'movie'}]
+input text
+有利于和金融街形成良好的商务联系和互动发展。特别是金泰集团在这个区域的已开发了一些房地产项目，
+ture label 
+{'company': {'金泰集团': [[25, 28]]}}
+predict label
+[{'start': 4, 'stop': 7, 'word': '金融街', 'type': 'address'}]
+input text
+有利于和金融街形成良好的商务联系和互动发展。特别是金泰集团在这个区域的已开发了一些房地产项目，
+ture label 
+{'company': {'金泰集团': [[25, 28]]}}
+predict label
+[{'start': 25, 'stop': 29, 'word': '金泰集团', 'type': 'company'}]
+input text
+西江千户苗寨可谓黔东南州旅行的主要目的地，贵阳到西江车程较远，不建议参加当天往返的一日游，
+ture label 
+{'address': {'黔东南州': [[8, 11]], '贵阳': [[21, 22]]}, 'scene': {'西江千户苗寨': [[0, 5]], '西江': [[24, 25]]}}
+predict label
+[{'start': 21, 'stop': 23, 'word': '贵阳', 'type': 'address'}]
+input text
+西江千户苗寨可谓黔东南州旅行的主要目的地，贵阳到西江车程较远，不建议参加当天往返的一日游，
+ture label 
+{'address': {'黔东南州': [[8, 11]], '贵阳': [[21, 22]]}, 'scene': {'西江千户苗寨': [[0, 5]], '西江': [[24, 25]]}}
+predict label
+[{'start': 8, 'stop': 14, 'word': '黔东南州旅行', 'type': 'company'}]
+input text
+西江千户苗寨可谓黔东南州旅行的主要目的地，贵阳到西江车程较远，不建议参加当天往返的一日游，
+ture label 
+{'address': {'黔东南州': [[8, 11]], '贵阳': [[21, 22]]}, 'scene': {'西江千户苗寨': [[0, 5]], '西江': [[24, 25]]}}
+predict label
+[{'start': 1, 'stop': 6, 'word': '江千户苗寨', 'type': 'scene'}]
+input text
+据一审法院认定的内容，2012年1月9日，雪山公司甲方与泰和友联公司乙方签订《
+ture label 
+{'company': {'雪山公司': [[21, 24]], '泰和友联公司': [[28, 33]]}}
+predict label
+[{'start': 26, 'stop': 29, 'word': '方与泰', 'type': 'name'}]
+input text
+据一审法院认定的内容，2012年1月9日，雪山公司甲方与泰和友联公司乙方签订《
+ture label 
+{'company': {'雪山公司': [[21, 24]], '泰和友联公司': [[28, 33]]}}
+predict label
+[{'start': 21, 'stop': 26, 'word': '雪山公司甲', 'type': 'company'}, {'start': 30, 'stop': 34, 'word': '友联公司', 'type': 'company'}]
+input text
+据一审法院认定的内容，2012年1月9日，雪山公司甲方与泰和友联公司乙方签订《
+ture label 
+{'company': {'雪山公司': [[21, 24]], '泰和友联公司': [[28, 33]]}}
+predict label
+[{'start': 3, 'stop': 5, 'word': '法院', 'type': 'government'}]
+input text
+山东社会科学院经济研究所所长张卫国认为，当泗水砭石只是作为一种工艺品进行流传时，
+ture label 
+{'government': {'山东社会科学院经济研究所': [[0, 11]]}, 'name': {'张卫国': [[14, 16]]}, 'position': {'所长': [[12, 13]]}}
+predict label
+[{'start': 14, 'stop': 17, 'word': '张卫国', 'type': 'name'}]
+input text
+山东社会科学院经济研究所所长张卫国认为，当泗水砭石只是作为一种工艺品进行流传时，
+ture label 
+{'government': {'山东社会科学院经济研究所': [[0, 11]]}, 'name': {'张卫国': [[14, 16]]}, 'position': {'所长': [[12, 13]]}}
+predict label
+[{'start': 0, 'stop': 12, 'word': '山东社会科学院经济研究所', 'type': 'government'}]
+input text
+山东社会科学院经济研究所所长张卫国认为，当泗水砭石只是作为一种工艺品进行流传时，
+ture label 
+{'government': {'山东社会科学院经济研究所': [[0, 11]]}, 'name': {'张卫国': [[14, 16]]}, 'position': {'所长': [[12, 13]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '所长', 'type': 'position'}]
+input text
+山东社会科学院经济研究所所长张卫国认为，当泗水砭石只是作为一种工艺品进行流传时，
+ture label 
+{'government': {'山东社会科学院经济研究所': [[0, 11]]}, 'name': {'张卫国': [[14, 16]]}, 'position': {'所长': [[12, 13]]}}
+predict label
+[{'start': 20, 'stop': 22, 'word': '当泗', 'type': 'scene'}]
+input text
+本报理财维权热线协调中国光大银行沈阳分行后，帮他解决了问题，全额退回了多收的年费680元。
+ture label 
+{'company': {'中国光大银行沈阳分行': [[10, 19]]}}
+predict label
+[{'start': 10, 'stop': 20, 'word': '中国光大银行沈阳分行', 'type': 'company'}]
+input text
+多数人又称这座岛叫“洛克岛”。
+ture label 
+{'scene': {'洛克岛': [[10, 12]]}}
+predict label
+[{'start': 10, 'stop': 14, 'word': '洛克岛”', 'type': 'scene'}]
+input text
+随即装进上衣口袋走出画面。约3分钟的监控录像中，记者未看出银行营业员业务操作上存在漏洞。
+ture label 
+{'position': {'记者': [[24, 25]], '营业员': [[31, 33]]}}
+predict label
+[{'start': 24, 'stop': 26, 'word': '记者', 'type': 'position'}, {'start': 31, 'stop': 34, 'word': '营业员', 'type': 'position'}]
+input text
+WCG组委会当然不会轻易就排除暴雪的游戏，
+ture label 
+{'government': {'WCG组委会': [[0, 5]]}, 'company': {'暴雪': [[15, 16]]}}
+predict label
+[{'start': 0, 'stop': 6, 'word': 'WCG组委会', 'type': 'organization'}]
+input text
+WCG组委会当然不会轻易就排除暴雪的游戏，
+ture label 
+{'government': {'WCG组委会': [[0, 5]]}, 'company': {'暴雪': [[15, 16]]}}
+predict label
+[{'start': 15, 'stop': 17, 'word': '暴雪', 'type': 'company'}]
+input text
+视频：安徽芜湖公园发现男尸曾从事色情服务业
+ture label 
+{'address': {'安徽芜湖公园': [[3, 8]]}}
+predict label
+[{'start': 3, 'stop': 9, 'word': '安徽芜湖公园', 'type': 'address'}]
+input text
+事实也的确如此。每一季，佳士得都会特地为中国市场推出一系列十九世纪的钟表。不足为奇的是，
+ture label 
+{'company': {'佳士': [[12, 13]]}}
+predict label
+[{'start': 12, 'stop': 15, 'word': '佳士得', 'type': 'company'}]
+input text
+你就会想要收藏全套，日本、韩国的收藏家都经历了这个过程，中国可能才刚刚开始。
+ture label 
+{'address': {'日本': [[10, 11]], '韩国': [[13, 14]], '中国': [[28, 29]]}, 'position': {'收藏家': [[16, 18]]}}
+predict label
+[{'start': 10, 'stop': 12, 'word': '日本', 'type': 'address'}, {'start': 28, 'stop': 30, 'word': '中国', 'type': 'address'}]
+input text
+你就会想要收藏全套，日本、韩国的收藏家都经历了这个过程，中国可能才刚刚开始。
+ture label 
+{'address': {'日本': [[10, 11]], '韩国': [[13, 14]], '中国': [[28, 29]]}, 'position': {'收藏家': [[16, 18]]}}
+predict label
+[{'start': 16, 'stop': 19, 'word': '收藏家', 'type': 'position'}]
+input text
+再次找到北京体彩中心，但后者以计算机系统和其他省市不同为由再次拒绝补足奖金。于是，
+ture label 
+{'address': {'北京体彩中心': [[4, 9]]}}
+predict label
+[{'start': 4, 'stop': 10, 'word': '北京体彩中心', 'type': 'address'}]
+input text
+价格一直飙升。据了解，中国特级玉雕大师李博生，耗时两年雕琢的翡翠作品《携子上朝》玉玺，因作品材质“
+ture label 
+{'book': {'《携子上朝》': [[34, 39]]}, 'name': {'李博生': [[19, 21]]}, 'position': {'中国特级玉雕大师': [[11, 18]]}}
+predict label
+[{'start': 19, 'stop': 21, 'word': '李博', 'type': 'name'}]
+input text
+价格一直飙升。据了解，中国特级玉雕大师李博生，耗时两年雕琢的翡翠作品《携子上朝》玉玺，因作品材质“
+ture label 
+{'book': {'《携子上朝》': [[34, 39]]}, 'name': {'李博生': [[19, 21]]}, 'position': {'中国特级玉雕大师': [[11, 18]]}}
+predict label
+[{'start': 34, 'stop': 40, 'word': '《携子上朝》', 'type': 'book'}]
+input text
+价格一直飙升。据了解，中国特级玉雕大师李博生，耗时两年雕琢的翡翠作品《携子上朝》玉玺，因作品材质“
+ture label 
+{'book': {'《携子上朝》': [[34, 39]]}, 'name': {'李博生': [[19, 21]]}, 'position': {'中国特级玉雕大师': [[11, 18]]}}
+predict label
+[{'start': 17, 'stop': 19, 'word': '大师', 'type': 'position'}]
+input text
+楼市成交量萎缩的背景下，民生银行资产质量面临的压力加大。”
+ture label 
+{'company': {'民生银行': [[12, 15]]}}
+predict label
+[{'start': 12, 'stop': 16, 'word': '民生银行', 'type': 'company'}]
+input text
+涛哥”，2010年国内人气最高的DotA解说海涛也在本次游戏春晚尽情耍宝。
+ture label 
+{'game': {'DotA': [[16, 19]]}, 'name': {'海涛': [[22, 23]]}}
+predict label
+[{'start': 22, 'stop': 24, 'word': '海涛', 'type': 'name'}]
+input text
+涛哥”，2010年国内人气最高的DotA解说海涛也在本次游戏春晚尽情耍宝。
+ture label 
+{'game': {'DotA': [[16, 19]]}, 'name': {'海涛': [[22, 23]]}}
+predict label
+[{'start': 16, 'stop': 20, 'word': 'DotA', 'type': 'game'}]
+input text
+采光及大门定位的请示》获得了天柱县政府办公室的批复。吴秋香、
+ture label 
+{'government': {'天柱县政府办公室': [[14, 21]]}, 'book': {'采光及大门定位的请示》': [[0, 10]]}, 'name': {'吴秋香': [[26, 28]]}}
+predict label
+[{'start': 26, 'stop': 29, 'word': '吴秋香', 'type': 'name'}]
+input text
+采光及大门定位的请示》获得了天柱县政府办公室的批复。吴秋香、
+ture label 
+{'government': {'天柱县政府办公室': [[14, 21]]}, 'book': {'采光及大门定位的请示》': [[0, 10]]}, 'name': {'吴秋香': [[26, 28]]}}
+predict label
+[{'start': 14, 'stop': 19, 'word': '天柱县政府', 'type': 'government'}]
+input text
+新浪乐居北京地区客户总监叶晴
+ture label 
+{'address': {'北京地区': [[4, 7]]}, 'name': {'叶晴': [[12, 13]]}, 'company': {'新浪乐居': [[0, 3]]}, 'position': {'客户总监': [[8, 11]]}}
+predict label
+[{'start': 4, 'stop': 6, 'word': '北京', 'type': 'address'}]
+input text
+新浪乐居北京地区客户总监叶晴
+ture label 
+{'address': {'北京地区': [[4, 7]]}, 'name': {'叶晴': [[12, 13]]}, 'company': {'新浪乐居': [[0, 3]]}, 'position': {'客户总监': [[8, 11]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '乐居', 'type': 'company'}]
+input text
+新浪乐居北京地区客户总监叶晴
+ture label 
+{'address': {'北京地区': [[4, 7]]}, 'name': {'叶晴': [[12, 13]]}, 'company': {'新浪乐居': [[0, 3]]}, 'position': {'客户总监': [[8, 11]]}}
+predict label
+[{'start': 8, 'stop': 12, 'word': '客户总监', 'type': 'position'}]
+input text
+很多玩家投入真实的货币购买游戏中的虚拟土地、衣服、房地产、甚至武器。目前，《第二人生》
+ture label 
+{'game': {'《第二人生》': [[37, 42]]}}
+predict label
+[{'start': 37, 'stop': 43, 'word': '《第二人生》', 'type': 'game'}]
+input text
+登别位于北海道的西南部，与北海道著名的工业城市室兰市、
+ture label 
+{'address': {'北海道的西南部': [[4, 10]], '北海道': [[13, 15]], '室兰市': [[23, 25]]}}
+predict label
+[{'start': 4, 'stop': 7, 'word': '北海道', 'type': 'address'}, {'start': 8, 'stop': 11, 'word': '西南部', 'type': 'address'}, {'start': 13, 'stop': 16, 'word': '北海道', 'type': 'address'}, {'start': 19, 'stop': 26, 'word': '工业城市室兰市', 'type': 'address'}]
+input text
+立博凯比值等值排列，snai凯比值顺列排列，toto凯比值顺列排列，权重值市场最小分歧项在主胜位置，
+ture label 
+{'company': {'立博': [[0, 1]], 'snai': [[10, 13]], 'toto': [[22, 25]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '立博', 'type': 'company'}, {'start': 10, 'stop': 14, 'word': 'snai', 'type': 'company'}, {'start': 22, 'stop': 26, 'word': 'toto', 'type': 'company'}]
+input text
+出人意外的是在欧洲逐渐消失的魔兽争霸3项目居然名列第一，超越星际争霸2，CS排名第三，
+ture label 
+{'game': {'魔兽争霸3': [[14, 18]], '星际争霸2': [[30, 34]], 'CS': [[36, 37]]}}
+predict label
+[{'start': 14, 'stop': 19, 'word': '魔兽争霸3', 'type': 'game'}, {'start': 30, 'stop': 35, 'word': '星际争霸2', 'type': 'game'}, {'start': 36, 'stop': 38, 'word': 'CS', 'type': 'game'}]
+input text
+但调整后的同赔率下，英超主队5平1负，战平次数较多。立博同赔率下，英超主队53胜27平16负，
+ture label 
+{'organization': {'英超': [[10, 11], [33, 34]]}, 'company': {'立博': [[26, 27]]}}
+predict label
+[{'start': 10, 'stop': 12, 'word': '英超', 'type': 'organization'}, {'start': 33, 'stop': 35, 'word': '英超', 'type': 'organization'}]
+input text
+但调整后的同赔率下，英超主队5平1负，战平次数较多。立博同赔率下，英超主队53胜27平16负，
+ture label 
+{'organization': {'英超': [[10, 11], [33, 34]]}, 'company': {'立博': [[26, 27]]}}
+predict label
+[{'start': 26, 'stop': 28, 'word': '立博', 'type': 'company'}]
+input text
+“保险行业协会的决议持续实施的可能性不大。”前述邮储银行人士断言。
+ture label 
+{'company': {'邮储银行': [[24, 27]]}}
+predict label
+[{'start': 1, 'stop': 7, 'word': '保险行业协会', 'type': 'organization'}]
+input text
+“保险行业协会的决议持续实施的可能性不大。”前述邮储银行人士断言。
+ture label 
+{'company': {'邮储银行': [[24, 27]]}}
+predict label
+[{'start': 24, 'stop': 28, 'word': '邮储银行', 'type': 'company'}]
+input text
+玩dota，你会发现几乎不可能一波带走，细水长流玩imba，
+ture label 
+{'game': {'dota': [[1, 4]], 'imba': [[25, 28]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': 'dota', 'type': 'game'}]
+input text
+两支升班马在英超前半程的表现都不错，斯托克城主场排名第4，赫尔城则是客场排名第3，
+ture label 
+{'organization': {'英超': [[6, 7]], '斯托克城': [[18, 21]], '赫尔城': [[29, 31]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '英超', 'type': 'organization'}, {'start': 18, 'stop': 22, 'word': '斯托克城', 'type': 'organization'}, {'start': 29, 'stop': 32, 'word': '赫尔城', 'type': 'organization'}]
+input text
+刷卡消费撤单容易惹麻烦，专家提醒——
+ture label 
+{'position': {'专家': [[12, 13]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '专家', 'type': 'position'}]
+input text
+《异形VS铁血战士》人类战队视角视频
+ture label 
+{'movie': {'《异形VS铁血战士》': [[0, 9]]}}
+predict label
+[{'start': 0, 'stop': 10, 'word': '《异形VS铁血战士》', 'type': 'game'}]
+input text
+据韦斯特伍表示，由于当时的学术界多由犹太人把持，也正是因为两次被拒，
+ture label 
+{'name': {'韦斯特伍': [[1, 4]]}}
+predict label
+[{'start': 1, 'stop': 5, 'word': '韦斯特伍', 'type': 'name'}]
+input text
+明年5月，由徐悲鸿研究会推出的“第二届全国徐悲鸿中国画展”奖金达到了52万元之巨。
+ture label 
+{'organization': {'徐悲鸿研究会': [[6, 11]]}, 'name': {'徐悲鸿': [[21, 23]]}}
+predict label
+[{'start': 6, 'stop': 9, 'word': '徐悲鸿', 'type': 'name'}]
+input text
+另外，楼市价格还将因为成交量的下滑仍然有下探空间，这也是大批购房者观望的重要原因。（袁峰乔倩倩）
+ture label 
+{'name': {'袁峰': [[42, 43]], '乔倩倩': [[44, 46]]}}
+predict label
+[{'start': 45, 'stop': 48, 'word': '倩倩）', 'type': 'organization'}]
+input text
+另外，楼市价格还将因为成交量的下滑仍然有下探空间，这也是大批购房者观望的重要原因。（袁峰乔倩倩）
+ture label 
+{'name': {'袁峰': [[42, 43]], '乔倩倩': [[44, 46]]}}
+predict label
+[{'start': 42, 'stop': 45, 'word': '袁峰乔', 'type': 'name'}]
+input text
+在前天晚上时我也录制了第一个WAR3的视频来。
+ture label 
+{'game': {'WAR3': [[14, 17]]}}
+predict label
+[{'start': 14, 'stop': 18, 'word': 'WAR3', 'type': 'game'}]
+input text
+03、桑德兰vs博尔顿
+ture label 
+{'organization': {'桑德兰': [[3, 5]], '博尔顿': [[8, 10]]}}
+predict label
+[{'start': 3, 'stop': 6, 'word': '桑德兰', 'type': 'organization'}, {'start': 8, 'stop': 11, 'word': '博尔顿', 'type': 'organization'}]
+input text
+招行首建小企业信贷中心
+ture label 
+{'company': {'招行': [[0, 1]]}}
+predict label
+[{'start': 0, 'stop': 11, 'word': '招行首建小企业信贷中心', 'type': 'company'}]
+input text
+巧夺天工的制玉工艺以及和田料供应的加大，将玉石雕刻推至顶峰。北京翰海上拍的黄玉御制“天下为本”
+ture label 
+{'company': {'北京翰海': [[30, 33]]}}
+predict label
+[{'start': 30, 'stop': 34, 'word': '北京翰海', 'type': 'company'}]
+input text
+巧夺天工的制玉工艺以及和田料供应的加大，将玉石雕刻推至顶峰。北京翰海上拍的黄玉御制“天下为本”
+ture label 
+{'company': {'北京翰海': [[30, 33]]}}
+predict label
+[{'start': 6, 'stop': 9, 'word': '玉工艺', 'type': 'scene'}]
+input text
+据工行福建省分行营业部信用卡部有关工作人员解释，主要是酒店收银部门出现错误。比如，将单子打错，
+ture label 
+{'company': {'工行福建省分行': [[1, 7]]}}
+predict label
+[{'start': 1, 'stop': 8, 'word': '工行福建省分行', 'type': 'company'}]
+input text
+她也觉得这里很美很有感觉，和建筑师库哈斯都谈过设计的可能性。有的已经签了意向书，但是最后没有敲定。
+ture label 
+{'name': {'库哈斯': [[17, 19]]}, 'position': {'建筑师': [[14, 16]]}}
+predict label
+[{'start': 17, 'stop': 20, 'word': '库哈斯', 'type': 'name'}]
+input text
+她也觉得这里很美很有感觉，和建筑师库哈斯都谈过设计的可能性。有的已经签了意向书，但是最后没有敲定。
+ture label 
+{'name': {'库哈斯': [[17, 19]]}, 'position': {'建筑师': [[14, 16]]}}
+predict label
+[{'start': 14, 'stop': 17, 'word': '建筑师', 'type': 'position'}]
+input text
+04.加拉塔萨雷vs梅塔利斯特
+ture label 
+{'organization': {'加拉塔萨雷': [[3, 7]], '梅塔利斯特': [[10, 14]]}}
+predict label
+[{'start': 3, 'stop': 8, 'word': '加拉塔萨雷', 'type': 'organization'}]
+input text
+目前金山的网络游戏业务已进入丰收期，旗下的两款新游戏《封神榜2》和《剑侠世界》
+ture label 
+{'game': {'《封神榜2》': [[26, 31]], '《剑侠世界》': [[33, 38]]}, 'company': {'金山': [[2, 3]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '金山', 'type': 'address'}]
+input text
+目前金山的网络游戏业务已进入丰收期，旗下的两款新游戏《封神榜2》和《剑侠世界》
+ture label 
+{'game': {'《封神榜2》': [[26, 31]], '《剑侠世界》': [[33, 38]]}, 'company': {'金山': [[2, 3]]}}
+predict label
+[{'start': 26, 'stop': 32, 'word': '《封神榜2》', 'type': 'game'}, {'start': 33, 'stop': 39, 'word': '《剑侠世界》', 'type': 'game'}]
+input text
+33歙县二区星期一10月29日08:41歙县二区晨会总结星期日10月28日22:48
+ture label 
+{'address': {'歙县二区': [[20, 23], [2, 5]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '歙县', 'type': 'address'}, {'start': 20, 'stop': 22, 'word': '歙县', 'type': 'address'}]
+input text
+市住建委副主任冀岩上月曾表示，公共租赁住房的供应对象为中低收入住房困难家庭，包括已通过廉租房、
+ture label 
+{'government': {'市住建委': [[0, 3]]}, 'name': {'冀岩': [[7, 8]]}, 'position': {'副主任': [[4, 6]]}}
+predict label
+[{'start': 7, 'stop': 9, 'word': '冀岩', 'type': 'name'}]
+input text
+市住建委副主任冀岩上月曾表示，公共租赁住房的供应对象为中低收入住房困难家庭，包括已通过廉租房、
+ture label 
+{'government': {'市住建委': [[0, 3]]}, 'name': {'冀岩': [[7, 8]]}, 'position': {'副主任': [[4, 6]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '市住建委', 'type': 'government'}]
+input text
+市住建委副主任冀岩上月曾表示，公共租赁住房的供应对象为中低收入住房困难家庭，包括已通过廉租房、
+ture label 
+{'government': {'市住建委': [[0, 3]]}, 'name': {'冀岩': [[7, 8]]}, 'position': {'副主任': [[4, 6]]}}
+predict label
+[{'start': 4, 'stop': 7, 'word': '副主任', 'type': 'position'}]
+input text
+年轻的建筑师业务工作范围更加国际化，不仅仅在日本有作品，在欧洲、美国，
+ture label 
+{'position': {'建筑师': [[3, 5]]}}
+predict label
+[{'start': 3, 'stop': 6, 'word': '建筑师', 'type': 'position'}]
+input text
+今年年初，电影界的鬼才导演蒂姆·伯顿为我们献上了全新另类影片《爱丽丝梦游仙境》，
+ture label 
+{'movie': {'《爱丽丝梦游仙境》': [[30, 38]]}, 'name': {'蒂姆·伯顿': [[13, 17]]}, 'position': {'导演': [[11, 12]]}}
+predict label
+[{'start': 9, 'stop': 11, 'word': '鬼才', 'type': 'name'}, {'start': 13, 'stop': 18, 'word': '蒂姆·伯顿', 'type': 'name'}]
+input text
+今年年初，电影界的鬼才导演蒂姆·伯顿为我们献上了全新另类影片《爱丽丝梦游仙境》，
+ture label 
+{'movie': {'《爱丽丝梦游仙境》': [[30, 38]]}, 'name': {'蒂姆·伯顿': [[13, 17]]}, 'position': {'导演': [[11, 12]]}}
+predict label
+[{'start': 30, 'stop': 39, 'word': '《爱丽丝梦游仙境》', 'type': 'movie'}]
+input text
+今年年初，电影界的鬼才导演蒂姆·伯顿为我们献上了全新另类影片《爱丽丝梦游仙境》，
+ture label 
+{'movie': {'《爱丽丝梦游仙境》': [[30, 38]]}, 'name': {'蒂姆·伯顿': [[13, 17]]}, 'position': {'导演': [[11, 12]]}}
+predict label
+[{'start': 11, 'stop': 13, 'word': '导演', 'type': 'position'}]
+input text
+更开阔的天地。而来自海南的新面孔、青年作者林森以《海里岸上》取得第三。
+ture label 
+{'address': {'海南': [[10, 11]]}, 'book': {'《海里岸上》': [[24, 29]]}, 'name': {'林森': [[21, 22]]}, 'position': {'青年作者': [[17, 20]]}}
+predict label
+[{'start': 10, 'stop': 12, 'word': '海南', 'type': 'name'}, {'start': 21, 'stop': 23, 'word': '林森', 'type': 'name'}]
+input text
+更开阔的天地。而来自海南的新面孔、青年作者林森以《海里岸上》取得第三。
+ture label 
+{'address': {'海南': [[10, 11]]}, 'book': {'《海里岸上》': [[24, 29]]}, 'name': {'林森': [[21, 22]]}, 'position': {'青年作者': [[17, 20]]}}
+predict label
+[{'start': 24, 'stop': 30, 'word': '《海里岸上》', 'type': 'movie'}]
+input text
+更开阔的天地。而来自海南的新面孔、青年作者林森以《海里岸上》取得第三。
+ture label 
+{'address': {'海南': [[10, 11]]}, 'book': {'《海里岸上》': [[24, 29]]}, 'name': {'林森': [[21, 22]]}, 'position': {'青年作者': [[17, 20]]}}
+predict label
+[{'start': 19, 'stop': 21, 'word': '作者', 'type': 'position'}]
+input text
+集结了中国顶尖的团队与选手，包括DotA、星际II和CS分部。
+ture label 
+{'game': {'DotA': [[16, 19]], '星际II': [[21, 24]], 'CS': [[26, 27]]}}
+predict label
+[{'start': 16, 'stop': 20, 'word': 'DotA', 'type': 'game'}, {'start': 21, 'stop': 25, 'word': '星际II', 'type': 'game'}, {'start': 26, 'stop': 28, 'word': 'CS', 'type': 'game'}]
+input text
+集结了中国顶尖的团队与选手，包括DotA、星际II和CS分部。
+ture label 
+{'game': {'DotA': [[16, 19]], '星际II': [[21, 24]], 'CS': [[26, 27]]}}
+predict label
+[{'start': 11, 'stop': 13, 'word': '选手', 'type': 'position'}]
+input text
+省收藏文化研究会常务理事周野介绍，目前红木家具市场价位从几万至上百万上千万不等，主要是看原料和工艺。
+ture label 
+{'organization': {'省收藏文化研究会': [[0, 7]]}, 'name': {'周野': [[12, 13]]}, 'position': {'常务理事': [[8, 11]]}}
+predict label
+[{'start': 1, 'stop': 12, 'word': '收藏文化研究会常务理事', 'type': 'position'}]
+input text
+香港旺角电脑中心的经销商也确认智冠采取了“月卡收费模式”来发售星际争霸2，并表示：“
+ture label 
+{'game': {'星际争霸2': [[31, 35]]}, 'address': {'香港旺角电脑中心': [[0, 7]]}, 'company': {'智冠': [[15, 16]]}}
+predict label
+[{'start': 31, 'stop': 36, 'word': '星际争霸2', 'type': 'game'}]
+input text
+上季还在主场终结了当时切尔西的连续18轮英超不败的战绩，在斯坦福桥球场也奉献了一场4：4的经典之作。
+ture label 
+{'address': {'斯坦福桥球场': [[29, 34]]}, 'organization': {'切尔西': [[11, 13]], '英超': [[20, 21]]}}
+predict label
+[{'start': 11, 'stop': 14, 'word': '切尔西', 'type': 'organization'}, {'start': 20, 'stop': 22, 'word': '英超', 'type': 'organization'}]
+input text
+上季还在主场终结了当时切尔西的连续18轮英超不败的战绩，在斯坦福桥球场也奉献了一场4：4的经典之作。
+ture label 
+{'address': {'斯坦福桥球场': [[29, 34]]}, 'organization': {'切尔西': [[11, 13]], '英超': [[20, 21]]}}
+predict label
+[{'start': 29, 'stop': 35, 'word': '斯坦福桥球场', 'type': 'address'}]
+input text
+今年要6万分才可以。广发更是停止了积分换礼券的活动。”拥有三四家银行信用卡的上海吴小姐告诉记者。
+ture label 
+{'address': {'上海': [[38, 39]]}, 'company': {'广发': [[10, 11]]}, 'position': {'记者': [[45, 46]]}}
+predict label
+[{'start': 38, 'stop': 41, 'word': '上海吴', 'type': 'address'}]
+input text
+今年要6万分才可以。广发更是停止了积分换礼券的活动。”拥有三四家银行信用卡的上海吴小姐告诉记者。
+ture label 
+{'address': {'上海': [[38, 39]]}, 'company': {'广发': [[10, 11]]}, 'position': {'记者': [[45, 46]]}}
+predict label
+[{'start': 45, 'stop': 47, 'word': '记者', 'type': 'position'}]
+input text
+霍芬海vs比勒菲：霍芬海打弱旅很有心得，基本都能赢球，但比勒菲客场客场4平3负，战平对手的次数不少。
+ture label 
+{'organization': {'霍芬海': [[0, 2], [9, 11]], '比勒菲': [[5, 7], [28, 30]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '霍芬海', 'type': 'organization'}, {'start': 5, 'stop': 8, 'word': '比勒菲', 'type': 'organization'}, {'start': 9, 'stop': 12, 'word': '霍芬海', 'type': 'organization'}, {'start': 28, 'stop': 31, 'word': '比勒菲', 'type': 'organization'}]
+input text
+这些在我们看来更像是笑话的迷信，却在世界上经久不衰。一位美国人调查了驻华盛顿的所有外国使馆的代表，
+ture label 
+{'address': {'华盛顿': [[35, 37]]}, 'position': {'代表': [[46, 47]]}}
+predict label
+[{'start': 35, 'stop': 38, 'word': '华盛顿', 'type': 'organization'}]
+input text
+这些在我们看来更像是笑话的迷信，却在世界上经久不衰。一位美国人调查了驻华盛顿的所有外国使馆的代表，
+ture label 
+{'address': {'华盛顿': [[35, 37]]}, 'position': {'代表': [[46, 47]]}}
+predict label
+[{'start': 42, 'stop': 45, 'word': '国使馆', 'type': 'government'}]
+input text
+小袁聊天时长00:38没乱整在广安这边的重百武胜商场其他建设南路广安市重百武胜商场
+ture label 
+{'address': {'广安': [[15, 16]], '重百武胜商场': [[20, 25]], '广安市重百武胜商场': [[32, 40]]}}
+predict label
+[{'start': 15, 'stop': 17, 'word': '广安', 'type': 'address'}, {'start': 30, 'stop': 35, 'word': '南路广安市', 'type': 'address'}]
+input text
+吴永亮说：“另外，中国邮政集团公司已在全国开设100多家专卖店，形成了营销网络。所以，
+ture label 
+{'name': {'吴永亮': [[0, 2]]}, 'company': {'中国邮政集团公司': [[9, 16]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '吴永亮', 'type': 'name'}]
+input text
+吴永亮说：“另外，中国邮政集团公司已在全国开设100多家专卖店，形成了营销网络。所以，
+ture label 
+{'name': {'吴永亮': [[0, 2]]}, 'company': {'中国邮政集团公司': [[9, 16]]}}
+predict label
+[{'start': 9, 'stop': 17, 'word': '中国邮政集团公司', 'type': 'company'}]
+input text
+天津市宝坻石桥工业园区管理委员会主任王为民
+ture label 
+{'address': {'天津市宝坻石桥工业': [[0, 8]]}, 'organization': {'园区管理委员会': [[9, 15]]}, 'name': {'王为民': [[18, 20]]}, 'position': {'主任': [[16, 17]]}}
+predict label
+[{'start': 18, 'stop': 21, 'word': '王为民', 'type': 'name'}]
+input text
+天津市宝坻石桥工业园区管理委员会主任王为民
+ture label 
+{'address': {'天津市宝坻石桥工业': [[0, 8]]}, 'organization': {'园区管理委员会': [[9, 15]]}, 'name': {'王为民': [[18, 20]]}, 'position': {'主任': [[16, 17]]}}
+predict label
+[{'start': 0, 'stop': 16, 'word': '天津市宝坻石桥工业园区管理委员会', 'type': 'government'}]
+input text
+天津市宝坻石桥工业园区管理委员会主任王为民
+ture label 
+{'address': {'天津市宝坻石桥工业': [[0, 8]]}, 'organization': {'园区管理委员会': [[9, 15]]}, 'name': {'王为民': [[18, 20]]}, 'position': {'主任': [[16, 17]]}}
+predict label
+[{'start': 16, 'stop': 18, 'word': '主任', 'type': 'position'}]
+input text
+种地刨出个青铜器、摔跤磕出个大元宝等有如神助，收藏家的成败大多在于其是否立足于学识基础之上。
+ture label 
+{'position': {'收藏家': [[23, 25]]}}
+predict label
+[{'start': 23, 'stop': 26, 'word': '收藏家', 'type': 'position'}]
+input text
+那么一定是抹茶，京都的抹茶一直名扬海外，市内大大小小的抹茶店星罗棋布，
+ture label 
+{'address': {'京都': [[8, 9]]}}
+predict label
+[{'start': 8, 'stop': 13, 'word': '京都的抹茶', 'type': 'address'}]
+input text
+王涌彬中国房地产及住宅研究会人居环境委员会副主任委员兼秘书长
+ture label 
+{'government': {'中国房地产及住宅研究会人居环境委员': [[3, 19]]}, 'name': {'王涌彬': [[0, 2]]}, 'position': {'秘书长': [[27, 29]], '副主任委员': [[21, 25]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '王涌彬', 'type': 'name'}]
+input text
+王涌彬中国房地产及住宅研究会人居环境委员会副主任委员兼秘书长
+ture label 
+{'government': {'中国房地产及住宅研究会人居环境委员': [[3, 19]]}, 'name': {'王涌彬': [[0, 2]]}, 'position': {'秘书长': [[27, 29]], '副主任委员': [[21, 25]]}}
+predict label
+[{'start': 3, 'stop': 21, 'word': '中国房地产及住宅研究会人居环境委员会', 'type': 'government'}]
+input text
+王涌彬中国房地产及住宅研究会人居环境委员会副主任委员兼秘书长
+ture label 
+{'government': {'中国房地产及住宅研究会人居环境委员': [[3, 19]]}, 'name': {'王涌彬': [[0, 2]]}, 'position': {'秘书长': [[27, 29]], '副主任委员': [[21, 25]]}}
+predict label
+[{'start': 21, 'stop': 24, 'word': '副主任', 'type': 'position'}, {'start': 24, 'stop': 26, 'word': '委员', 'type': 'position'}, {'start': 27, 'stop': 30, 'word': '秘书长', 'type': 'position'}]
+input text
+立博同赔率下，意甲主队9胜11平9负，但上赛季以来，意甲主队3胜5平1负，仍是认为主队不败概率大。
+ture label 
+{'organization': {'意甲': [[7, 8], [26, 27]]}, 'company': {'立博': [[0, 1]]}}
+predict label
+[{'start': 7, 'stop': 9, 'word': '意甲', 'type': 'organization'}, {'start': 26, 'stop': 28, 'word': '意甲', 'type': 'organization'}]
+input text
+立博同赔率下，意甲主队9胜11平9负，但上赛季以来，意甲主队3胜5平1负，仍是认为主队不败概率大。
+ture label 
+{'organization': {'意甲': [[7, 8], [26, 27]]}, 'company': {'立博': [[0, 1]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '立博', 'type': 'company'}]
+input text
+使不同的艺术文化通过索维娅国际艺术村这个平台短暂交会，共同健康的发展。与此同时，
+ture label 
+{'address': {'索维娅国际艺术村': [[10, 17]]}}
+predict label
+[{'start': 10, 'stop': 18, 'word': '索维娅国际艺术村', 'type': 'company'}]
+input text
+鄱阳县彩民张捷（化名）日前向记者投诉称，他电话委托彩票投注站老板帮忙买彩票，
+ture label 
+{'name': {'张捷': [[5, 6]]}, 'position': {'记者': [[14, 15]], '老板': [[30, 31]]}}
+predict label
+[{'start': 5, 'stop': 7, 'word': '张捷', 'type': 'name'}]
+input text
+鄱阳县彩民张捷（化名）日前向记者投诉称，他电话委托彩票投注站老板帮忙买彩票，
+ture label 
+{'name': {'张捷': [[5, 6]]}, 'position': {'记者': [[14, 15]], '老板': [[30, 31]]}}
+predict label
+[{'start': 14, 'stop': 16, 'word': '记者', 'type': 'position'}, {'start': 30, 'stop': 32, 'word': '老板', 'type': 'position'}]
+input text
+决定带着剑僮兰茵一起前往。在赶往邙山之前可学习一下战斗技巧，在城外和仙灵说话，
+ture label 
+{'address': {'邙山': [[16, 17]]}, 'name': {'剑僮兰茵': [[4, 7]]}}
+predict label
+[{'start': 16, 'stop': 18, 'word': '邙山', 'type': 'address'}]
+input text
+奥兰多迪士尼乐园是目前世界上最大的迪士尼乐园，有四大乐园迪士尼神奇王国、迪士尼好莱坞影城、
+ture label 
+{'scene': {'奥兰多迪士尼乐园': [[0, 7]], '迪士尼乐园': [[17, 21]], '迪士尼神奇王国': [[28, 34]], '迪士尼好莱坞影城': [[36, 43]]}}
+predict label
+[{'start': 1, 'stop': 8, 'word': '兰多迪士尼乐园', 'type': 'scene'}, {'start': 17, 'stop': 22, 'word': '迪士尼乐园', 'type': 'scene'}, {'start': 25, 'stop': 35, 'word': '大乐园迪士尼神奇王国', 'type': 'scene'}, {'start': 36, 'stop': 44, 'word': '迪士尼好莱坞影城', 'type': 'scene'}]
+input text
+而南半部是hakipuu山谷，以及拥有800年历史的古代夏威夷鱼塘和神秘岛。
+ture label 
+{'scene': {'hakipuu山谷': [[5, 13]], '夏威夷鱼塘': [[28, 32]], '神秘岛': [[34, 36]]}}
+predict label
+[{'start': 26, 'stop': 33, 'word': '古代夏威夷鱼塘', 'type': 'address'}]
+input text
+而南半部是hakipuu山谷，以及拥有800年历史的古代夏威夷鱼塘和神秘岛。
+ture label 
+{'scene': {'hakipuu山谷': [[5, 13]], '夏威夷鱼塘': [[28, 32]], '神秘岛': [[34, 36]]}}
+predict label
+[{'start': 5, 'stop': 14, 'word': 'hakipuu山谷', 'type': 'scene'}, {'start': 34, 'stop': 37, 'word': '神秘岛', 'type': 'scene'}]
+input text
+但联系到暴雪后来与九城的魔兽纠纷，书中所述的暴雪在商业上的一套，似乎有迹可循，
+ture label 
+{'game': {'魔兽': [[12, 13]]}, 'company': {'暴雪': [[4, 5], [22, 23]], '九城': [[9, 10]]}}
+predict label
+[{'start': 4, 'stop': 6, 'word': '暴雪', 'type': 'company'}, {'start': 9, 'stop': 11, 'word': '九城', 'type': 'company'}, {'start': 22, 'stop': 24, 'word': '暴雪', 'type': 'company'}]
+input text
+但联系到暴雪后来与九城的魔兽纠纷，书中所述的暴雪在商业上的一套，似乎有迹可循，
+ture label 
+{'game': {'魔兽': [[12, 13]]}, 'company': {'暴雪': [[4, 5], [22, 23]], '九城': [[9, 10]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '魔兽', 'type': 'game'}]
+input text
+2008年11月22日，北京的气温陡降到零下4度，但雍和宫星光现场里“beijing
+ture label 
+{'address': {'北京': [[12, 13]]}, 'scene': {'雍和宫': [[26, 28]]}}
+predict label
+[{'start': 12, 'stop': 14, 'word': '北京', 'type': 'address'}]
+input text
+有深圳“断供第一案”之称的漾日湾畔断供案，昨日在深圳市中级人民法院开庭。
+ture label 
+{'address': {'深圳': [[1, 2]], '漾日湾畔': [[13, 16]]}, 'government': {'深圳市中级人民法院': [[24, 32]]}}
+predict label
+[{'start': 1, 'stop': 3, 'word': '深圳', 'type': 'address'}, {'start': 13, 'stop': 17, 'word': '漾日湾畔', 'type': 'address'}]
+input text
+有深圳“断供第一案”之称的漾日湾畔断供案，昨日在深圳市中级人民法院开庭。
+ture label 
+{'address': {'深圳': [[1, 2]], '漾日湾畔': [[13, 16]]}, 'government': {'深圳市中级人民法院': [[24, 32]]}}
+predict label
+[{'start': 24, 'stop': 33, 'word': '深圳市中级人民法院', 'type': 'government'}]
+input text
+张路足彩推荐：米兰状态不佳难胜那不勒主场称雄
+ture label 
+{'organization': {'米兰': [[7, 8]], '那不勒': [[15, 17]]}, 'name': {'张路': [[0, 1]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '足彩', 'type': 'organization'}, {'start': 7, 'stop': 9, 'word': '米兰', 'type': 'organization'}, {'start': 15, 'stop': 18, 'word': '那不勒', 'type': 'organization'}]
+input text
+张路足彩推荐：米兰状态不佳难胜那不勒主场称雄
+ture label 
+{'organization': {'米兰': [[7, 8]], '那不勒': [[15, 17]]}, 'name': {'张路': [[0, 1]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '张路', 'type': 'name'}]
+input text
+时隔几个星期后白俄罗斯魔兽玩家zonTik又带来了第75期的趣味录像包。
+ture label 
+{'game': {'魔兽': [[11, 12]]}, 'name': {'zonTik': [[15, 20]]}}
+predict label
+[{'start': 11, 'stop': 13, 'word': '魔兽', 'type': 'game'}]
+input text
+本报讯（记者马力）《北京市公共租赁住房管理办法（试行）》今起实施，但由于恰逢周末，
+ture label 
+{'book': {'《北京市公共租赁住房管理办法（试行）》': [[9, 27]]}, 'name': {'马力': [[6, 7]]}, 'position': {'记者': [[4, 5]]}}
+predict label
+[{'start': 6, 'stop': 8, 'word': '马力', 'type': 'name'}]
+input text
+本报讯（记者马力）《北京市公共租赁住房管理办法（试行）》今起实施，但由于恰逢周末，
+ture label 
+{'book': {'《北京市公共租赁住房管理办法（试行）》': [[9, 27]]}, 'name': {'马力': [[6, 7]]}, 'position': {'记者': [[4, 5]]}}
+predict label
+[{'start': 9, 'stop': 28, 'word': '《北京市公共租赁住房管理办法（试行）》', 'type': 'book'}]
+input text
+本报讯（记者马力）《北京市公共租赁住房管理办法（试行）》今起实施，但由于恰逢周末，
+ture label 
+{'book': {'《北京市公共租赁住房管理办法（试行）》': [[9, 27]]}, 'name': {'马力': [[6, 7]]}, 'position': {'记者': [[4, 5]]}}
+predict label
+[{'start': 4, 'stop': 6, 'word': '记者', 'type': 'position'}]
+input text
+当年威尼斯的一些著名的场所都会在游戏中出现，比如达芬奇的工作间、圣马可大教堂、
+ture label 
+{'address': {'威尼斯': [[2, 4]]}, 'name': {'达芬奇': [[24, 26]]}, 'scene': {'圣马可大教堂': [[32, 37]]}}
+predict label
+[{'start': 2, 'stop': 5, 'word': '威尼斯', 'type': 'name'}, {'start': 24, 'stop': 27, 'word': '达芬奇', 'type': 'name'}]
+input text
+当年威尼斯的一些著名的场所都会在游戏中出现，比如达芬奇的工作间、圣马可大教堂、
+ture label 
+{'address': {'威尼斯': [[2, 4]]}, 'name': {'达芬奇': [[24, 26]]}, 'scene': {'圣马可大教堂': [[32, 37]]}}
+predict label
+[{'start': 32, 'stop': 38, 'word': '圣马可大教堂', 'type': 'scene'}]
+input text
+以下为《商业周刊》美国商界50强前十名：
+ture label 
+{'book': {'《商业周刊》': [[3, 8]]}}
+predict label
+[{'start': 3, 'stop': 9, 'word': '《商业周刊》', 'type': 'book'}]
+input text
+拉科由原来的攻守平衡的优势变成攻强守弱的整体不平衡。毕尔巴鄂在上轮提前的保级战中2比0轻取奥萨苏纳，
+ture label 
+{'organization': {'拉科': [[0, 1]], '毕尔巴鄂': [[26, 29]], '奥萨苏纳': [[45, 48]]}}
+predict label
+[{'start': 0, 'stop': 2, 'word': '拉科', 'type': 'organization'}, {'start': 26, 'stop': 30, 'word': '毕尔巴鄂', 'type': 'organization'}, {'start': 45, 'stop': 49, 'word': '奥萨苏纳', 'type': 'organization'}]
+input text
+杀破狼》在吸引不少的热评佳评时也被忽略了一些细节问题，而这些问题到了《夺帅》时显得特别的明显。
+ture label 
+{'movie': {'杀破狼》': [[0, 3]], '《夺帅》': [[34, 37]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '狼》', 'type': 'game'}]
+input text
+杀破狼》在吸引不少的热评佳评时也被忽略了一些细节问题，而这些问题到了《夺帅》时显得特别的明显。
+ture label 
+{'movie': {'杀破狼》': [[0, 3]], '《夺帅》': [[34, 37]]}}
+predict label
+[{'start': 34, 'stop': 38, 'word': '《夺帅》', 'type': 'movie'}]
+input text
+2.奥尔堡vs凯尔特人凯尔特人做客占优明显，首先，凯利指数计算结果和凯比值数据中，
+ture label 
+{'organization': {'奥尔堡': [[2, 4]], '凯尔特人': [[7, 10], [11, 14]]}}
+predict label
+[{'start': 2, 'stop': 5, 'word': '奥尔堡', 'type': 'organization'}, {'start': 7, 'stop': 11, 'word': '凯尔特人', 'type': 'organization'}, {'start': 11, 'stop': 15, 'word': '凯尔特人', 'type': 'organization'}]
+input text
+在华中科技大学体育馆内参加盛大的线下总决赛，届时四大赛区的各路高手将齐聚一堂，共襄盛举。
+ture label 
+{'address': {'华中科技大学体育馆': [[1, 9]]}}
+predict label
+[{'start': 1, 'stop': 10, 'word': '华中科技大学体育馆', 'type': 'address'}]
+input text
+在磨合上却是非常的困难。我觉得女生打CS最大误区就是不懂得配合队友，
+ture label 
+{'game': {'CS': [[18, 19]]}}
+predict label
+[{'start': 18, 'stop': 20, 'word': 'CS', 'type': 'game'}]
+input text
+周一得到的最新消息是奥尔堡医务主管博瓦德（henrikbogvad）最终确认，中后卫彼詹普（
+ture label 
+{'name': {'博瓦德': [[17, 19]], 'henrikbogvad': [[21, 32]], '彼詹普': [[42, 44]]}, 'position': {'奥尔堡医务主管': [[10, 16]], '中后卫': [[39, 41]]}}
+predict label
+[{'start': 10, 'stop': 13, 'word': '奥尔堡', 'type': 'organization'}]
+input text
+周一得到的最新消息是奥尔堡医务主管博瓦德（henrikbogvad）最终确认，中后卫彼詹普（
+ture label 
+{'name': {'博瓦德': [[17, 19]], 'henrikbogvad': [[21, 32]], '彼詹普': [[42, 44]]}, 'position': {'奥尔堡医务主管': [[10, 16]], '中后卫': [[39, 41]]}}
+predict label
+[{'start': 17, 'stop': 20, 'word': '博瓦德', 'type': 'name'}, {'start': 21, 'stop': 30, 'word': 'henrikbog', 'type': 'name'}, {'start': 42, 'stop': 45, 'word': '彼詹普', 'type': 'name'}]
+input text
+周一得到的最新消息是奥尔堡医务主管博瓦德（henrikbogvad）最终确认，中后卫彼詹普（
+ture label 
+{'name': {'博瓦德': [[17, 19]], 'henrikbogvad': [[21, 32]], '彼詹普': [[42, 44]]}, 'position': {'奥尔堡医务主管': [[10, 16]], '中后卫': [[39, 41]]}}
+predict label
+[{'start': 13, 'stop': 17, 'word': '医务主管', 'type': 'position'}, {'start': 39, 'stop': 42, 'word': '中后卫', 'type': 'position'}]
+input text
+中国嘉德的陈林林也对未来充满信心：“嘉德是一家历史相对悠久的拍卖公司，见证了中国艺术品市场的发展，
+ture label 
+{'name': {'陈林林': [[5, 7]]}, 'company': {'中国嘉德': [[0, 3]], '嘉德': [[18, 19]]}}
+predict label
+[{'start': 5, 'stop': 8, 'word': '陈林林', 'type': 'name'}, {'start': 18, 'stop': 20, 'word': '嘉德', 'type': 'name'}]
+input text
+中国嘉德的陈林林也对未来充满信心：“嘉德是一家历史相对悠久的拍卖公司，见证了中国艺术品市场的发展，
+ture label 
+{'name': {'陈林林': [[5, 7]]}, 'company': {'中国嘉德': [[0, 3]], '嘉德': [[18, 19]]}}
+predict label
+[{'start': 0, 'stop': 4, 'word': '中国嘉德', 'type': 'company'}]
+input text
+社区位于京良路南侧，距离京石高速约5公里，从京石高速西三环六里桥到京良路出口仅10余公里。
+ture label 
+{'address': {'京良路南侧': [[4, 8]], '京石高速西三环六里桥到京良路出口': [[22, 37]]}}
+predict label
+[{'start': 4, 'stop': 9, 'word': '京良路南侧', 'type': 'address'}, {'start': 22, 'stop': 32, 'word': '京石高速西三环六里桥', 'type': 'address'}, {'start': 33, 'stop': 36, 'word': '京良路', 'type': 'address'}]
+input text
+今日，EAMaxis开发小组一口气公布了四款《孢子》系列新作，它们是《孢子：
+ture label 
+{'game': {'《孢子》': [[22, 25]], '《孢子：': [[34, 37]]}, 'company': {'EAMaxis开发小组': [[3, 13]]}}
+predict label
+[{'start': 3, 'stop': 10, 'word': 'EAMaxis', 'type': 'company'}]
+input text
+今日，EAMaxis开发小组一口气公布了四款《孢子》系列新作，它们是《孢子：
+ture label 
+{'game': {'《孢子》': [[22, 25]], '《孢子：': [[34, 37]]}, 'company': {'EAMaxis开发小组': [[3, 13]]}}
+predict label
+[{'start': 22, 'stop': 26, 'word': '《孢子》', 'type': 'game'}]
+input text
+本期足彩出现了4场包括6分球队的比赛，乌迪内斯、沃尔夫斯堡坐镇主场占据优势，加拉塔萨雷客场出战，
+ture label 
+{'organization': {'足彩': [[2, 3]], '乌迪内斯': [[19, 22]], '沃尔夫斯堡': [[24, 28]], '加拉塔萨雷': [[38, 42]]}}
+predict label
+[{'start': 2, 'stop': 4, 'word': '足彩', 'type': 'organization'}, {'start': 19, 'stop': 23, 'word': '乌迪内斯', 'type': 'organization'}, {'start': 24, 'stop': 29, 'word': '沃尔夫斯堡', 'type': 'organization'}, {'start': 38, 'stop': 43, 'word': '加拉塔萨雷', 'type': 'organization'}]
+input text
+卡帕莱的海底世界保证刷新你对海洋的认知，海龟、尼莫鱼、海星、斑点鱼、海狼，仿如一个海底总动员！
+ture label 
+{'address': {'卡帕莱': [[0, 2]]}}
+predict label
+[{'start': 0, 'stop': 3, 'word': '卡帕莱', 'type': 'name'}, {'start': 20, 'stop': 22, 'word': '海龟', 'type': 'name'}]
+input text
+卡帕莱的海底世界保证刷新你对海洋的认知，海龟、尼莫鱼、海星、斑点鱼、海狼，仿如一个海底总动员！
+ture label 
+{'address': {'卡帕莱': [[0, 2]]}}
+predict label
+[{'start': 23, 'stop': 26, 'word': '尼莫鱼', 'type': 'scene'}]
